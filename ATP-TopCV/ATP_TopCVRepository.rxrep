@@ -1,0 +1,334 @@
+﻿<repository
+id="56555126-6cbc-4f5d-80ab-7c4a19d3f06a"
+name="ATP_TopCVRepository"
+rxversion="9.0">
+	<codegen
+	classname="ATP_TopCVRepository"
+	namespace="ATP_TopCV">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="74fd19c5-ce83-4d38-acf1-09f47b5f1384"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="cce7b1b0-2c7c-4938-8056-7fc99d02680b"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="8b73d748-488c-420e-a292-4530fef3ae3d"
+		isrooted="True"
+		name="ĐăngKyTaiKhoảnNhaTuyểnDụngGoogl"
+		refpath="/form[@title='Đăng ký Tài khoản Nhà tuyển dụng - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="6ca48d20-7be8-4d79-9872-153927147b04"
+			name="Pane"
+			refimgid="3f7f4314-e6af-4a9a-8100-f50ba11761e3"
+			refpath="/form[@title~'^Đăng\ ký\ Tài\ khoản\ Nhà\ tuy']/container/container/container[1]"
+			searchtimeout="30000ms">
+				/form[@title~'^&#272;&#259;ng\ k&#253;\ T&#224;i\ kho&#7843;n\ Nh&#224;\ tuy']/container[@accessiblename~'^&#272;&#259;ng\ k&#253;\ T&#224;i\ kho&#7843;n\ Nh&#224;\ tuy']/container/container[1]
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="6918fcdf-7ae1-462c-b90d-583da9d00466"
+			name="Close"
+			refimgid="815d8a18-71f1-4dd7-ae92-2dbb1f88d0ae"
+			refpath="/form[@title~'^Đăng\ ký\ Tài\ khoản\ Nhà\ tuy']/container/container/container[2]/container[@accessiblename='Infobar Container']/element/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title~'^&#272;&#259;ng\ k&#253;\ T&#224;i\ kho&#7843;n\ Nh&#224;\ tuy']/container[@accessiblename~'^&#272;&#259;ng\ k&#253;\ T&#224;i\ kho&#7843;n\ Nh&#224;\ tuy']//container[@accessiblename='Infobar Container']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="09cf1728-00fb-4422-854a-c6f542c2bdb5"
+			name="ĐăngKyTaiKhoảnNhaTuyểnDụng"
+			refimgid="77b0c6ab-5c54-49f3-9c54-ad59840f8453"
+			refpath="/form[@title~'^Đăng\ ký\ Tài\ khoản\ Nhà\ tuy']/container/container/container[2]/container[1]/tabpagelist/tabpage[@accessiblename~'^Đăng\ ký\ Tài\ khoản\ Nhà\ tuy']"
+			searchtimeout="30000ms">
+				/form[@title~'^&#272;&#259;ng\ k&#253;\ T&#224;i\ kho&#7843;n\ Nh&#224;\ tuy']/container[@accessiblename~'^&#272;&#259;ng\ k&#253;\ T&#224;i\ kho&#7843;n\ Nh&#224;\ tuy']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^&#272;&#259;ng\ k&#253;\ T&#224;i\ kho&#7843;n\ Nh&#224;\ tuy']
+			</item>
+			<basepath>
+				/form[@title~'^&#272;&#259;ng\ k&#253;\ T&#224;i\ kho&#7843;n\ Nh&#224;\ tuy']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="877487b5-3798-4654-8f8b-4321564991cc"
+		isrooted="True"
+		name="ĐăngKyTaiKhoảnNhaTuyểnDụng"
+		refimgid="42d1934d-3b86-4cdd-80c0-78819aa49e32"
+		refpath="/dom[@domain='tuyendung.topcv.vn']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="a2df2c05-3c26-4638-8dac-0946fb041b06"
+			name="HoanTất"
+			refimgid="915d195c-4d91-42c8-8303-4a9780da43b2"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[3]/div/a[@innertext='Hoàn tất']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']//a[@innertext='Ho&#224;n t&#7845;t']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="380835dc-4d72-4161-ac49-4dec28bbe8e6"
+			name="ĐongLại"
+			refimgid="9916176f-f42f-430c-9c28-f45074b6dae6"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'modal-error']/div/div/div[2]/button[@innertext='Đóng lại']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//div[#'modal-error']/div/div/div[2]/button[@innertext='&#272;&#243;ng l&#7841;i']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="158eeb44-16c6-49d9-b7c0-f66e7c757f9b"
+			name="Password"
+			refimgid="91755af1-226c-44fa-9a6f-c3cea62ffa3b"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//input[#'password']"
+			searchtimeout="30000ms">
+				<image
+				guid="03d8436d-2bc2-41b5-972a-01038f1d578f"
+				name="Ma_hoa_password1">
+					iVBORw0KGgoAAAANSUhEUgAAAZgAAAAoCAYAAADDhuyUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAYJJREFUeF7t1zGOgmAUhVE3ScMSXIKN+7BxHVZuwA7WYGJBD4nyxqfM
+dNPIvKnOSW6Cv0LpFzbTNEXXdXG5XMzMzFav7/vItmzy4nq9xjAMZmZmq5dNyReXTdZmHMe43+/x
+eDzMzMw+XrYkm5JteQUmD+Z5DgBYI1uSTfkJTFYHAP5CNkVgAPhzAgNACYEBoITAAFBCYAAoITAA
+lBAYAEoIDAAlBAaAEgIDQAmBAaCEwABQQmAAKLEuMFMfx20bTbuNYz8tR8fYtk2022MsR3E776Nt
+nmf7c9zeJ3HeP+9r2tif3yfVzwLgf60LzO0Uu+effZM79MvR7v35ueUo+sPym2YXp1cD+jh837c7
+vUNR/CwA/pc3GABKrAsMAPxCYAAoITAAlBAYAEoIDAAlBAaAEgIDQAmBAaCEwABQQmAAKCEwAJQQ
+GABKCAwAJQQGgBICA0AJgQGghMAAUOInMF3XxTAMMc/z8hUAfCZbkk3JtmzGcXxdZG3MzMzWLpsy
+jmN8AbRnHiHGSHuSAAAAAElFTkSuQmCC
+				</image>
+				<image
+				guid="d2e1d5b0-4bc5-4607-85c4-e18fd533eade"
+				name="Screenshot1">
+					iVBORw0KGgoAAAANSUhEUgAAAZgAAAAoCAYAAADDhuyUAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGASURBVHhe7de9bcIAEIZhlnTjERiBhj1omIOK
+BejsFSgo3NsS+MKBky4NzqV6HumT4PgpecVmmqboui4ul4uZmdnqZVOyLZt8cL1eYxgGMzOz1cum
+ZFs2WZtxHON+v8fj8TAzM/t42ZJsSrblFZg8zPMcALBGtiSb8hOYrA4A/IVsisAA8OcEBoASAgNA
+CYEBoITAAFBCYAAoITAAlBAYAEoIDAAlBAaAEgIDQAmBAaCEwABQYl1gpj6O2zaadhvHflpOx9i2
+TbTbYyynuJ330TbP2/4ct/clzvvn55o29uf3pfq7APhf6wJzO8Xu+WPf5A79ctq9nz+3nKI/LO9p
+dnF6NaCPw/fndqd3KIq/C4D/5R8MACXWBQYAfiEwAJQQGABKCAwAJQQGgBICA0AJgQGghMAAUEJg
+ACghMACUEBgASggMACUEBoASAgNACYEBoITAAFBCYAAo8ROYrutiGIaY53l5CQA+ky3JpmRbNuM4
+vh5kbczMzNYumzKOY3wBHX8eFfkoAZIAAAAASUVORK5CYII=
+				</image>
+				/dom[@domain='tuyendung.topcv.vn']//input[#'password']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b14d95ce-b80a-4f5f-8d21-6802d3cd4cfc"
+			name="Email"
+			refimgid="d85d6a50-fcf0-40dc-b959-3ab498db8ba7"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//input[#'email']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//input[#'email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="349b6bb7-b3d2-41c4-bd43-d786302862aa"
+			name="PasswordConfirmation"
+			refimgid="5c3cfd9f-7da1-46ab-a2c5-b4c7a1d15fb3"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//input[#'password_confirmation']"
+			searchtimeout="30000ms">
+				<image
+				guid="91911e09-d911-48f4-92a4-21ea0c6a311a"
+				name="Ma_hoa_confirm_password1">
+					iVBORw0KGgoAAAANSUhEUgAAAZgAAAAoCAYAAADDhuyUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAYRJREFUeF7t17GNwkAURVGadOISKIGEPkiog4gGyDw1IBEgUkYC/2XA
+u9kmmE90jvQkM2CHXHlRa41hGOJwOJiZmc1eKSVaWxbt4ng8xvl8NjMzm73WlPbismi1uV6vcbvd
+4n6/m5mZvb3WktaU1pZnYNrBOI4BAHO0lrSm/AWmVQcAPqE1RWAA+DiBASCFwACQQmAASCEwAKQQ
+GABSCAwAKQQGgBQCA0AKgQEghcAAkEJgAEghMACkmBeYWmK77KPrl7EtdTraxrLvol9uYzqK034d
+ffc4W+/j9DqJ/fpxX9fHev86yX4WAN81LzCnXawef/Zd26ZMR6vX58emoyib6TfdKnbPBpTY/N63
+2r1CkfwsAL7LGwwAKeYFBgD+ITAApBAYAFIIDAApBAaAFAIDQAqBASCFwACQQmAASCEwAKQQGABS
+CAwAKQQGgBQCA0AKgQEghcAAkEJgAEjxF5hhGOJyucQ4jtNXAPCe1pLWlFJKLGqtz4tWGzMzs7lr
+Ly611vgBYLEeOQ0hojYAAAAASUVORK5CYII=
+				</image>
+				<image
+				guid="86de77a3-b19e-434c-930d-f9fbd97bb014"
+				name="Ma_hoa_password1">
+					iVBORw0KGgoAAAANSUhEUgAAAZgAAAAoCAYAAADDhuyUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAYJJREFUeF7t1zGOgmAUhVE3ScMSXIKN+7BxHVZuwA7WYGJBD4nyxqfM
+dNPIvKnOSW6Cv0LpFzbTNEXXdXG5XMzMzFav7/vItmzy4nq9xjAMZmZmq5dNyReXTdZmHMe43+/x
+eDzMzMw+XrYkm5JteQUmD+Z5DgBYI1uSTfkJTFYHAP5CNkVgAPhzAgNACYEBoITAAFBCYAAoITAA
+lBAYAEoIDAAlBAaAEgIDQAmBAaCEwABQQmAAKLEuMFMfx20bTbuNYz8tR8fYtk2022MsR3E776Nt
+nmf7c9zeJ3HeP+9r2tif3yfVzwLgf60LzO0Uu+effZM79MvR7v35ueUo+sPym2YXp1cD+jh837c7
+vUNR/CwA/pc3GABKrAsMAPxCYAAoITAAlBAYAEoIDAAlBAaAEgIDQAmBAaCEwABQQmAAKCEwAJQQ
+GABKCAwAJQQGgBICA0AJgQGghMAAUOInMF3XxTAMMc/z8hUAfCZbkk3JtmzGcXxdZG3MzMzWLpsy
+jmN8AbRnHiHGSHuSAAAAAElFTkSuQmCC
+				</image>
+				<image
+				guid="0908f107-966e-4aa5-81b1-4d8a95992540"
+				name="Screenshot1">
+					iVBORw0KGgoAAAANSUhEUgAAAZgAAAAoCAYAAADDhuyUAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFSSURBVHhe7dexbcJQFIZRL+mGETwCo6RhjuxA
+5zcDUgpEy5PAN7nEoksTcyvOkX7JXAb49Ibee8zzHMfj0czMbPNaa5FtGfLjdDrF+Xw2MzPbvGxK
+PlyGrM31eo3b7Rb3+93MzOzfy5ZkU7Itj8DkYVmWAIAtsiXZlGdgsjoA8ArZFIEB4OUEBoASAgNA
+CYEBoITAAFBCYAAoITAAlBAYAEoIDAAlBAaAEgIDQAmBAaCEwABQYltgeovDtItxN8Wh9fV0iGk3
+xm46xHoC4A1tC8zXZ+zHMcbcR1tP+9/fP1tPALwhLxgASmwLDAD8QWAAKCEwAJQQGABKCAwAJQQG
+gBICA0AJgQGghMAAUEJgACghMACUEBgASggMACUEBoASAgNACYEBoITAAFDiGZh5nuNyucSyLOtf
+APA/2ZJsSmstht774yNrY2ZmtnX5cOm9xzf4V4AEAmNfnwAAAABJRU5ErkJggg==
+				</image>
+				/dom[@domain='tuyendung.topcv.vn']//input[#'password_confirmation']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="358715e9-c77f-4eeb-9f30-9cedb5ea4719"
+			name="ĐongLại1"
+			refimgid="d2cbf453-b8c6-4bec-99c2-8ec1edec4532"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'modal-success']/div/div/div[2]/button[@innertext='Đóng lại']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//div[#'modal-success']/div/div/div[2]/button[@innertext='&#272;&#243;ng l&#7841;i']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="6dce7232-bf3e-440a-9b4f-d91c52b59da3"
+			name="ĐaCoLỗiXảyRa"
+			refimgid="4e77e6e1-6f86-4c35-8980-588047fecb95"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'modal-error']/div/div/div[1]/p[@innertext='Đã có lỗi xảy ra']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//div[#'modal-error']/div/div/div[1]/p[@innertext='&#272;&#227; c&#243; l&#7895;i x&#7843;y ra']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="3ae46367-0b84-4e78-98b8-212f309da6ce"
+			name="ModalBody"
+			refimgid="c55b5a69-5aa3-4822-a9d4-4b2cafd48899"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'modal-error']/div/div/div[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//div[#'modal-error']/div/div/div[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="366451d2-50b3-4e9c-9ede-f9d27dc1ef24"
+			name="ModalErrorMessage"
+			refimgid="ca980434-984d-418b-b417-1229ed39e91c"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//p[#'modal-error-message']"
+			searchtimeout="30000ms">
+				<image
+				guid="ae5c64bc-84e1-401e-b96b-5d8dd17bfbcc"
+				name="Screenshot1">
+					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
+AElFTkSuQmCC
+				</image>
+				/dom[@domain='tuyendung.topcv.vn']//p[#'modal-error-message']
+			</item>
+			<basepath>
+				/dom[@domain='tuyendung.topcv.vn']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

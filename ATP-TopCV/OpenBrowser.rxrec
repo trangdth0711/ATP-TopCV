@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b5e2e94e-9907-4650-8099-974d91517512"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="ATP_TopCV">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://tuyendung.topcv.vn/sign-up
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="56555126-6cbc-4f5d-80ab-7c4a19d3f06a"
+	name="ATP_TopCVRepository"
+	relativepath="ATP_TopCVRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ATP_TopCVRepository"
+		namespace="ATP_TopCV">
+		</codegen>
+		<rootfolder
+		id="74fd19c5-ce83-4d38-acf1-09f47b5f1384"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="ATP_TopCV.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="ATP_TopCV.rxtst" />
+    <Element value="Email_null.rxrec" />
+    <Element value="Check_ma_hoa_password.rxrec" />
+    <Element value="Check_ma_hoa_Cofirm_Password.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

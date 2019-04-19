@@ -1,0 +1,14 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{0115362E-0B46-4F4E-8092-B2354C812535}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>b4bc1491-aea3-4b30-8ee9-acb812e15dae</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution ATP-TopCV[ATP-TopCV[]]]&#xD;&#xA;Solution ATP-TopCV\ATP-TopCV\ATP_TopCV.rxtst&#xD;&#xA;Solution ATP-TopCV\Solution Items" />
+  <StartupProject value="{0115362E-0B46-4F4E-8092-B2354C812535}" />
+</Properties>

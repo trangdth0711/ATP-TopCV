@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{0115362E-0B46-4F4E-8092-B2354C812535}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ATP_TopCV</RootNamespace>
+    <AssemblyName>ATP-TopCV</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <RanorexVersion>9.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>ff09057e-41f4-4dc1-ac22-b615c5cb697c</id>
+    </Compile>
+    <Compile Include="ATP_TopCVRepository.cs">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <DependentUpon>ATP_TopCVRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>6f9da314-11ff-43de-8da8-70541a1c0623</id>
+    </Compile>
+    <Compile Include="Check_ma_hoa_Cofirm_Password.cs">
+      <BoundTo>62f96919-6ba9-4fe2-a92a-74529b248e4f</BoundTo>
+      <DependentUpon>Check_ma_hoa_Cofirm_Password.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>071a5559-0931-465d-8b23-431715d3f125</id>
+    </Compile>
+    <Compile Include="Check_ma_hoa_Cofirm_Password.UserCode.cs">
+      <BoundTo>62f96919-6ba9-4fe2-a92a-74529b248e4f</BoundTo>
+      <DependentUpon>Check_ma_hoa_Cofirm_Password.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b9a24971-6ee2-47f3-a465-a1ccfa0bee2c</id>
+    </Compile>
+    <Compile Include="Check_ma_hoa_password.cs">
+      <BoundTo>6c65b146-3f2e-42d3-8426-8de44e1d6a0e</BoundTo>
+      <DependentUpon>Check_ma_hoa_password.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>91398166-4ce7-4b0c-9762-11ce1c76e1d6</id>
+    </Compile>
+    <Compile Include="Check_ma_hoa_password.UserCode.cs">
+      <BoundTo>6c65b146-3f2e-42d3-8426-8de44e1d6a0e</BoundTo>
+      <DependentUpon>Check_ma_hoa_password.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fd4d933b-762f-41b7-b2e0-0ca81113746e</id>
+    </Compile>
+    <Compile Include="Check_strim_space_Password.cs">
+      <BoundTo>b8e7a90e-59c9-40ac-8126-aa4805621d90</BoundTo>
+      <DependentUpon>Check_strim_space_Password.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6251e728-a3ec-49b3-8623-243056d85088</id>
+    </Compile>
+    <Compile Include="Check_strim_space_Password.UserCode.cs">
+      <BoundTo>b8e7a90e-59c9-40ac-8126-aa4805621d90</BoundTo>
+      <DependentUpon>Check_strim_space_Password.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0a3dc1c7-f57e-4969-9079-d33bb6709327</id>
+    </Compile>
+    <Compile Include="Check_trim_space_Email_field.cs">
+      <BoundTo>4fd80b4e-64f4-40a4-9654-93bdfe399efd</BoundTo>
+      <DependentUpon>Check_trim_space_Email_field.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>124e2a56-db69-4577-b95d-eb356901cbb1</id>
+    </Compile>
+    <Compile Include="Check_trim_space_Email_field.UserCode.cs">
+      <BoundTo>4fd80b4e-64f4-40a4-9654-93bdfe399efd</BoundTo>
+      <DependentUpon>Check_trim_space_Email_field.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ea6f06a0-62ea-456f-9909-20aa0d44c11c</id>
+    </Compile>
+    <Compile Include="CloseBrowser.cs">
+      <BoundTo>33314f23-e329-4346-b726-1a3fe7ba17fa</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>447e849b-879a-4539-aa9c-12e281d54e7d</id>
+    </Compile>
+    <Compile Include="CloseBrowser.UserCode.cs">
+      <BoundTo>33314f23-e329-4346-b726-1a3fe7ba17fa</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>881a542c-7901-454c-8bbf-0c7db5d9235e</id>
+    </Compile>
+    <Compile Include="Email_does_exist.cs">
+      <BoundTo>5066ee50-5c48-4723-83a9-a0bbf3b544a3</BoundTo>
+      <DependentUpon>Email_does_exist.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3ac65e39-e4ad-4c10-8d35-c7a226f5a08d</id>
+    </Compile>
+    <Compile Include="Email_does_exist.UserCode.cs">
+      <BoundTo>5066ee50-5c48-4723-83a9-a0bbf3b544a3</BoundTo>
+      <DependentUpon>Email_does_exist.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5d38cca4-4e8c-4e8a-bd96-645ec40539e1</id>
+    </Compile>
+    <Compile Include="Email_invalid.cs">
+      <BoundTo>d2eef3f9-364d-42fe-abe8-34926fc67c7a</BoundTo>
+      <DependentUpon>Email_invalid.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6a55d2a3-6d1b-48c3-94a3-fb36c566207a</id>
+    </Compile>
+    <Compile Include="Email_invalid.UserCode.cs">
+      <BoundTo>d2eef3f9-364d-42fe-abe8-34926fc67c7a</BoundTo>
+      <DependentUpon>Email_invalid.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>23d9e01a-14ad-4835-9962-63e6407d5d34</id>
+    </Compile>
+    <Compile Include="OpenBrowser.cs">
+      <BoundTo>bbfb7f79-a783-407e-8e07-bb5b5311d9ac</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cdd539c2-f0d8-4645-92c0-3c8dceb6a8f4</id>
+    </Compile>
+    <Compile Include="OpenBrowser.UserCode.cs">
+      <BoundTo>bbfb7f79-a783-407e-8e07-bb5b5311d9ac</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b8cfe53d-8e3d-46ac-b1b3-5a7635252730</id>
+    </Compile>
+    <Compile Include="Password_include_space.cs">
+      <BoundTo>f99a6786-299e-4b94-84ed-66c294cbf6ba</BoundTo>
+      <DependentUpon>Password_include_space.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>89837185-4499-4a35-b435-a168676b3f49</id>
+    </Compile>
+    <Compile Include="Password_include_space.UserCode.cs">
+      <BoundTo>f99a6786-299e-4b94-84ed-66c294cbf6ba</BoundTo>
+      <DependentUpon>Password_include_space.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>11b47813-77ec-4324-aa93-f5b3c34e3334</id>
+    </Compile>
+    <Compile Include="Password_invalid.cs">
+      <BoundTo>23193053-5de4-45c8-93f5-371b1e279bb2</BoundTo>
+      <DependentUpon>Password_invalid.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6533fa9a-1baf-4ba5-b1c4-21979ee4aff8</id>
+    </Compile>
+    <Compile Include="Password_invalid.UserCode.cs">
+      <BoundTo>23193053-5de4-45c8-93f5-371b1e279bb2</BoundTo>
+      <DependentUpon>Password_invalid.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f3e4f45e-6636-4acd-91ea-7eae5dc91646</id>
+    </Compile>
+    <Compile Include="Password_Null.cs">
+      <BoundTo>8e312ab8-4361-4468-8535-a01809186ad0</BoundTo>
+      <DependentUpon>Password_Null.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6e62babc-c3a6-4306-b468-925f4c6946c7</id>
+    </Compile>
+    <Compile Include="Password_Null.UserCode.cs">
+      <BoundTo>8e312ab8-4361-4468-8535-a01809186ad0</BoundTo>
+      <DependentUpon>Password_Null.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>95850b52-6001-47f0-bbb4-69d84b3a9dc6</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>652d57d6-c606-442a-a7a8-239a82b59aa7</id>
+    </Compile>
+    <Compile Include="Bo_trong_tat_ca_cac_truong.cs">
+      <BoundTo>01bd9469-2152-48d3-add2-727ede4e2f11</BoundTo>
+      <DependentUpon>Bo_trong_tat_ca_cac_truong.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dc9c1f57-5a4f-4f07-8abb-3da093b56aa3</id>
+    </Compile>
+    <Compile Include="Bo_trong_tat_ca_cac_truong.UserCode.cs">
+      <BoundTo>01bd9469-2152-48d3-add2-727ede4e2f11</BoundTo>
+      <DependentUpon>Bo_trong_tat_ca_cac_truong.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7667008b-6001-407f-abbd-690276a6d9ae</id>
+    </Compile>
+    <Compile Include="Email_null.cs">
+      <BoundTo>bf1f0e2a-ee5d-4e63-8b13-ced00a652b00</BoundTo>
+      <DependentUpon>Email_null.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f5728077-a7b6-4ff5-a65e-4c134455f2bd</id>
+    </Compile>
+    <Compile Include="Email_null.UserCode.cs">
+      <BoundTo>bf1f0e2a-ee5d-4e63-8b13-ced00a652b00</BoundTo>
+      <DependentUpon>Email_null.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d84108f5-e8ca-4de1-9e85-4bbe44f1643e</id>
+    </Compile>
+    <Compile Include="Test_max_length_password.cs">
+      <BoundTo>62eb7f25-c232-4c18-8aa9-c6611a5872b9</BoundTo>
+      <DependentUpon>Test_max_length_password.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2ac4877d-ff11-4a38-be71-58997660dbb8</id>
+    </Compile>
+    <Compile Include="Test_max_length_password.UserCode.cs">
+      <BoundTo>62eb7f25-c232-4c18-8aa9-c6611a5872b9</BoundTo>
+      <DependentUpon>Test_max_length_password.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6195093d-139c-4236-9f34-c19444efac55</id>
+    </Compile>
+    <Compile Include="Test_min_lenght_password.cs">
+      <BoundTo>0f84981d-3540-474e-b3fd-d1e343517738</BoundTo>
+      <DependentUpon>Test_min_lenght_password.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9998bf2f-f1fb-424d-aa48-84ca86c1a9a4</id>
+    </Compile>
+    <Compile Include="Test_min_lenght_password.UserCode.cs">
+      <BoundTo>0f84981d-3540-474e-b3fd-d1e343517738</BoundTo>
+      <DependentUpon>Test_min_lenght_password.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fcaa2eb8-f1f5-489b-b3a3-56e647cde767</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>addafa48-7b27-4fad-9063-82d87b91ea50</id>
+    </None>
+    <None Include="ATP_TopCVRepository.rximg">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <DependentUpon>ATP_TopCVRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>cb23fe1f-ffd3-4edc-a4b8-d24bb1f9ff90</id>
+    </None>
+    <None Include="ATP_TopCVRepository.rxrep">
+      <id>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</id>
+      <repoid>56555126-6cbc-4f5d-80ab-7c4a19d3f06a</repoid>
+      <reporootid>74fd19c5-ce83-4d38-acf1-09f47b5f1384</reporootid>
+    </None>
+    <None Include="Check_ma_hoa_Cofirm_Password.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>62f96919-6ba9-4fe2-a92a-74529b248e4f</id>
+      <recordtableid>2a3fa778-4307-4835-b765-b1343502a14c</recordtableid>
+    </None>
+    <None Include="Check_ma_hoa_password.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>6c65b146-3f2e-42d3-8426-8de44e1d6a0e</id>
+      <recordtableid>2dda5d68-002a-4985-b475-316767b15593</recordtableid>
+    </None>
+    <None Include="Check_strim_space_Password.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>b8e7a90e-59c9-40ac-8126-aa4805621d90</id>
+      <recordtableid>6d99d354-6595-43fb-a9f4-af1c44a86fab</recordtableid>
+    </None>
+    <None Include="Check_trim_space_Email_field.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>4fd80b4e-64f4-40a4-9654-93bdfe399efd</id>
+      <recordtableid>9f3cdf5e-b733-4819-b366-adc76bd0b5f8</recordtableid>
+    </None>
+    <None Include="CloseBrowser.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>33314f23-e329-4346-b726-1a3fe7ba17fa</id>
+      <recordtableid>00174f16-7f85-4497-a605-fe656befc972</recordtableid>
+    </None>
+    <None Include="Email_does_exist.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>5066ee50-5c48-4723-83a9-a0bbf3b544a3</id>
+      <recordtableid>87899224-51cf-44b9-b607-a99d182a1c44</recordtableid>
+    </None>
+    <None Include="Email_invalid.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>d2eef3f9-364d-42fe-abe8-34926fc67c7a</id>
+      <recordtableid>3a0bc50e-e1a7-4af0-a4ca-660d9987933c</recordtableid>
+    </None>
+    <None Include="OpenBrowser.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>bbfb7f79-a783-407e-8e07-bb5b5311d9ac</id>
+      <recordtableid>b5e2e94e-9907-4650-8099-974d91517512</recordtableid>
+    </None>
+    <None Include="Bo_trong_tat_ca_cac_truong.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>01bd9469-2152-48d3-add2-727ede4e2f11</id>
+      <recordtableid>e58dd50e-8cae-4580-97fe-86d405ee9b27</recordtableid>
+    </None>
+    <None Include="Email_null.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>bf1f0e2a-ee5d-4e63-8b13-ced00a652b00</id>
+      <recordtableid>4a37e515-2b1a-4121-9b44-38fab7a6f528</recordtableid>
+    </None>
+    <None Include="Password_include_space.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>f99a6786-299e-4b94-84ed-66c294cbf6ba</id>
+      <recordtableid>edb6e5a4-81fd-4067-b627-8d2cb94f8538</recordtableid>
+    </None>
+    <None Include="Password_invalid.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>23193053-5de4-45c8-93f5-371b1e279bb2</id>
+      <recordtableid>890aad68-a875-4435-804a-9beea8ce5cc0</recordtableid>
+    </None>
+    <None Include="Password_Null.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>8e312ab8-4361-4468-8535-a01809186ad0</id>
+      <recordtableid>e84efb9c-796a-465e-b798-3621b6befb3d</recordtableid>
+    </None>
+    <None Include="Test_max_length_password.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>62eb7f25-c232-4c18-8aa9-c6611a5872b9</id>
+      <recordtableid>55e2d71e-36ed-4c41-a117-f410ea4ba9d9</recordtableid>
+    </None>
+    <None Include="Test_min_lenght_password.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>0f84981d-3540-474e-b3fd-d1e343517738</id>
+      <recordtableid>67faefa9-550e-4aea-bcf8-97ada8efba71</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ATP_TopCV.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>d1a2e30e-2827-48dd-bce2-8104a4554644</id>
+    </Content>
+    <Content Include="ATP_TopCV.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>228fa2c4-a0bb-42d8-af7e-ccbc602e94cd</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

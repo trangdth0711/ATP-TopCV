@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="9.0">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<testmodule
+			id="5ceda111-c656-4e14-a7ed-e7244ab2968f"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="6b62e1f2-a8f2-4d15-b0bb-23505574eb72"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<modulegroupdef
+			id="b4bc1491-aea3-4b30-8ee9-acb812e15dae"
+			name="ModuleGroup">
+			</modulegroupdef>
+			<modulegroups
+			id="cda92058-a28d-4a9b-a339-06c017f77151"
+			name="ATP_TopCV">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="cda92058-a28d-4a9b-a339-06c017f77151"
+			name="ATP_TopCV">
+				<modulegroupdef
+				id="b4bc1491-aea3-4b30-8ee9-acb812e15dae"
+				name="ModuleGroup">
+					<testmodule
+					id="6b62e1f2-a8f2-4d15-b0bb-23505574eb72"
+					name="CloseBrowser">
+					</testmodule>
+					<testmodule
+					id="5ceda111-c656-4e14-a7ed-e7244ab2968f"
+					name="OpenBrowser">
+					</testmodule>
+				</modulegroupdef>
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>
