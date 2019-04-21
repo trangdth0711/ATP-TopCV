@@ -4,8 +4,15 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="Test_trim_space_Ten_cong_ty.rxrec" />
     <Element value="ATP_TopCV.rxtst" />
-    <Element value="Email_null.rxrec" />
+    <Element value="Test_max_length_Ten_cong_ty.rxrec" />
+    <Element value="Test_chon_gia_tri_gioi_tinh.rxrec" />
+    <Element value="Test_gioi_tinh_Null.rxrec" />
+    <Element value="Test_min_length_SDT.rxrec" />
+    <Element value="Test_SDT_invalid.rxrec" />
+    <Element value="Test_ho_ten_chua_ki_tu_so.rxrec" />
+    <Element value="Confirm_PassWord_not_match_Password.rxrec" />
     <Element value="Check_ma_hoa_password.rxrec" />
     <Element value="Check_ma_hoa_Cofirm_Password.rxrec" />
   </Array>

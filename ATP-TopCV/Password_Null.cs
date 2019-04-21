@@ -117,19 +117,25 @@ namespace ATP_TopCV
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất' at 51;8.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTấtInfo, new RecordItemIndex(9));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất.Click("51;8");
-            Delay.Milliseconds(200);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRa'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRaInfo, new RecordItemIndex(10));
-            Validate.Exists(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRaInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=368,Height=20}) on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, new RecordItemIndex(10));
+            Validate.CompareImage(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, ModalErrorMessage_Screenshot1, ModalErrorMessage_Screenshot1_Options);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 210;27.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(11));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại.Click("210;27");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 201;31.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(11));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại.Click("201;31");
             Delay.Milliseconds(200);
             
         }
 
 #region Image Feature Data
+        CompressedImage ModalErrorMessage_Screenshot1
+        { get { return repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo.GetScreenshot1(new Rectangle(0, 0, 368, 20)); } }
+
+        Imaging.FindOptions ModalErrorMessage_Screenshot1_Options
+        { get { return Imaging.FindOptions.Parse("1;None;0,0,368,20;True;10000000;0ms"); } }
+
 #endregion
     }
 #pragma warning restore 0436

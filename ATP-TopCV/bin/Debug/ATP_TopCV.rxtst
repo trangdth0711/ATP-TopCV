@@ -3,16 +3,60 @@
 rxversion="9.0">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testmodule
+			id="0002f5eb-ef97-49ae-b84f-f3d369aa6d57"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="002c7d3e-728a-4ba5-8f4f-509f1b626196"
 			name="setup">
 			</setup>
+			<testmodule
+			id="003570fd-4a79-432f-aed3-16d21293f09c"
+			name="Confirm_PassWord_not_match_Password"
+			ref="b30129d1-32a0-473e-9d0f-e86a98cc547f"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="0041f0e1-7380-4abb-9d24-2a978073d3fd"
 			name="Bo_trong_tat_ca_cac_truong"
 			ref="e58dd50e-8cae-4580-97fe-86d405ee9b27"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="00a91119-cd95-44f2-9a56-c0ae3ae22dc9"
+			name="Test_min_length_ho_ten"
+			ref="1cfe32c7-33af-4847-b59b-5065ccead169"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="00b62731-186e-46b5-9e1c-c88cfe1d5058"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="04238e3a-5809-4de1-a61c-48ff0541f20a"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="042edc15-8b47-400d-8e14-529b4672d0a2"
+			name="TC-15_Kiem_tra_mat_khau_xac_nhan_khong_trung_khop">
+			</testcase>
+			<testmodule
+			id="0463096d-8b8f-4fe2-bff4-6bd1d6ea0b23"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="04b510d4-df47-4ead-b151-3b2a231612f0"
+			name="setup">
+			</setup>
 			<testmodule
 			id="053b76e0-9167-4465-9f82-260a3c402bea"
 			name="Email_invalid"
@@ -35,10 +79,38 @@ rxversion="9.0">
 			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="0981ab29-ec89-4b1b-b119-da24eaa51a59"
+			name="Ten_cong_ty">
+			</smartfoldernode>
 			<teardown
 			id="098e7cd2-d85d-4cac-956d-638cda22fb7b"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="0a44c643-1f28-446a-b847-3bcc06b4215f"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="0a6add07-3398-42fc-bf84-bbd879b08216"
+			name="Test_gioi_tinh_Null"
+			ref="65589ce4-efa8-445c-9bed-20d2e1a2f864"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="0ba99b62-007e-4137-a28c-b0c7a7398718"
+			name="teardown">
+			</teardown>
+			<testcase
+			id="0cf053c6-5967-495c-bf52-fd1281039bc4"
+			name="TC-18_Kiem_tra_min_length_Ho_ten">
+			</testcase>
+			<smartfoldernode
+			id="0d6e4853-4e73-4440-a742-30206afbd2ba"
+			name="Vi_tri_cong_tac">
+			</smartfoldernode>
 			<testmodule
 			id="0dea45aa-0b11-4cc6-9798-6a322a3ebb90"
 			name="Password_invalid"
@@ -53,6 +125,18 @@ rxversion="9.0">
 			id="137f4d97-96c6-4639-b582-6a8a24d2289f"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="139ee85f-d8e2-44be-b3f7-e4e1fb33819d"
+			name="Test_SDT_ca_nhan_null"
+			ref="5ff5219b-49a7-48df-8d9e-25375aa8d7b0"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="13a0c463-347e-4f10-8fc8-ea531b2e8663"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="14fec536-a75a-4407-ae8a-1c248edac090"
 			name="CloseBrowser"
@@ -71,6 +155,12 @@ rxversion="9.0">
 			ref="b5e2e94e-9907-4650-8099-974d91517512"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="15b56d65-f680-4b24-b6af-1c26aed4894d"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="1608e7d9-ed82-4422-b08d-4878220aef1b"
 			name="setup">
@@ -80,9 +170,121 @@ rxversion="9.0">
 			name="Mat_khau">
 			</smartfoldernode>
 			<teardown
+			id="1d8371b6-e5df-4fe9-b8a0-71e971121932"
+			name="teardown">
+			</teardown>
+			<testcase
+			id="1dfd8c19-92e5-404c-812e-fac90a7177ea"
+			name="TC-33_Vi_tri_cong_tac">
+			</testcase>
+			<teardown
 			id="1e8ea01b-a941-453b-bf76-1d2e8269d073"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="1eb01001-0ae7-4d42-9a9a-6d4ffda26717"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="1ee131c4-49f2-4e64-be9c-d3d6d4ce68a7"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="21a1d2db-98cd-47ac-b182-9def6952e5e7"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="22340c1d-8587-4034-a5d2-322a8535c299"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="260c2862-dd1f-4e9c-8a33-c42cd96ab1f5"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="2756848b-4d08-4fea-bab9-56a190c16cc8"
+			name="Check_Ho_va_ten_Null"
+			ref="957a7bcf-39b7-4edd-bb9e-bf49cebab348"
+			type="Recording">
+			</testmodule>
+			<smartfoldernode
+			id="2987c670-e5a4-4da5-b0b2-ae9bc70a3488"
+			name="Gioi_Tinh">
+			</smartfoldernode>
+			<teardown
+			id="2d222d1d-7a8b-4007-b3af-acd9a366cbc1"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="2e71db4a-6f3c-4960-a3c7-a3add51ce506"
+			name="Test_max_length_Ten_cong_ty"
+			ref="d97402f7-40cb-4d16-bf8b-d446cf483e53"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="2e8e5578-aca5-4154-a6fd-d76c6824b8b4"
+			name="TC-19_Kiem_tra_nhap_ho_ten_la_so">
+			</testcase>
+			<testmodule
+			id="2f2f1d72-5cb4-4f40-89d5-0f8588346b2b"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="2ff53530-2a11-4f08-a000-d0d1c035a00d"
+			name="TC-23_Kiem_tra_min_length_SDT">
+			</testcase>
+			<testcase
+			id="31a13112-6463-49f2-8486-267dfaf0a72e"
+			name="TC-32_Kiem_tra_trim_space_Ten_cong_ty">
+			</testcase>
+			<testmodule
+			id="31ae68bd-b857-4a5c-81d1-0e17c18e0b7f"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="32fb640a-7013-42d2-9e35-a356b3acadf0"
+			name="Test_trim_space_SDT"
+			ref="8c1ede25-0745-4cc5-a0f6-063f623d1c6c"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="37250ccd-3dff-4208-a18a-c34d7a456809"
+			name="TC-26_Bo_trong_gioi_tinh">
+			</testcase>
+			<testmodule
+			id="38940e01-1f52-49ee-8cbe-1c65179b4667"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="38d16279-6912-48c0-b9d7-35633c24a6ad"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="38ded969-148b-40ef-8a1b-e37b35253652"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="391336a7-5b57-4ecb-bf17-3f12abdac585"
+			name="TC_20_Kiem_tra_trim_space_ho_ten">
+			</testcase>
 			<teardown
 			id="39f12044-82af-4fe8-b118-2c889e9c22d8"
 			name="teardown">
@@ -93,10 +295,20 @@ rxversion="9.0">
 			ref="b5e2e94e-9907-4650-8099-974d91517512"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="3b010959-9bcb-45ef-9ac7-17d7985f20be"
+			name="Test_Ten_cong_ty_Null"
+			ref="d02c6978-c335-48de-9299-fec9304ba376"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="3f3dbe8d-6241-4f54-afa0-572ba2244779"
 			name="Email">
 			</smartfoldernode>
+			<teardown
+			id="402cb31e-c16a-474b-b5dd-ce503d6d054b"
+			name="teardown">
+			</teardown>
 			<smartfoldernode
 			id="40547b94-fca2-45f8-9ef9-9e18ba5536b3"
 			name="Nhap_lai_mat_khau">
@@ -133,6 +345,10 @@ rxversion="9.0">
 			name="setup">
 			</setup>
 			<teardown
+			id="43a827c4-6258-4ffc-8f52-a3fe4508e606"
+			name="teardown">
+			</teardown>
+			<teardown
 			id="470430b7-83dd-4de8-a026-67dbd90bcca0"
 			name="teardown">
 			</teardown>
@@ -140,20 +356,58 @@ rxversion="9.0">
 			id="474c7cca-02ee-4f84-bcf0-752054a60a76"
 			name="TC-03_Email_sai_dinh_dang">
 			</testcase>
+			<setup
+			id="4a3d1cfd-cc04-4eef-a7fe-d4f53983dd9e"
+			name="setup">
+			</setup>
 			<testmodule
 			id="4e06cd30-b823-4f49-9f41-27231f493e07"
 			name="CloseBrowser"
 			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="4f9b2ac7-3189-4033-b3b5-e35c310fac71"
+			name="setup">
+			</setup>
 			<teardown
 			id="50e32e71-ee12-4a6f-ba03-712c910a379e"
 			name="teardown">
 			</teardown>
 			<testmodule
+			id="5142eeac-16cd-486a-a9da-034bd463e82b"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="516f4c49-b3b2-4f13-bb73-1220062bf804"
 			name="CloseBrowser"
 			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="539d30c4-e8c6-4ab5-b446-6b55c5cd6081"
+			name="setup">
+			</setup>
+			<setup
+			id="53b7aece-2055-476c-83bd-2ff42900e44e"
+			name="setup">
+			</setup>
+			<testmodule
+			id="56e2032e-8e73-4e36-bff8-bd588ff81752"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="58234ca6-dbb5-4e51-9729-8d38f979d29b"
+			name="TC-22_SDT_Sai_dinh_dang">
+			</testcase>
+			<testmodule
+			id="586fca3f-e589-41ab-99ac-438af5cb8f6a"
+			name="Test_ho_ten_chua_ki_tu_so"
+			ref="823e719f-951d-4a40-bb75-3d4db8f0eb54"
 			type="Recording">
 			</testmodule>
 			<smartfoldernode
@@ -188,8 +442,24 @@ rxversion="9.0">
 			ref="b5e2e94e-9907-4650-8099-974d91517512"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="5e7cd9b6-cdbe-46bc-8816-44605ff8f746"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="613311f2-8f84-4dca-aed4-d02e39a9fdfa"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="62ba1965-8fa5-463a-b56b-b6f7c1934b0d"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="64b1c657-d673-4c0b-bb6b-aabae5de4bf2"
 			name="teardown">
 			</teardown>
 			<testsuite
@@ -219,15 +489,57 @@ rxversion="9.0">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="66680c57-ae5f-4bc4-9926-217a0ceea477"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="67e0033d-e69e-4eac-8903-bdb4e607aee2"
+			name="setup">
+			</setup>
+			<testmodule
 			id="6ab6ab25-3521-4fe3-abfc-193012ecb98c"
 			name="Check_strim_space_Password"
 			ref="6d99d354-6595-43fb-a9f4-af1c44a86fab"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="6abeb63f-87df-4769-935a-5caacaeccecb"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="6ccdb6a2-6524-4f14-b58a-5f773f873040"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="6d1df44f-544b-4b05-a667-6e145632c380"
+			name="TC-25_Kiem_tra_Trim_space_khoan_trang_dau_cuoi_SDT">
+			</testcase>
 			<setup
 			id="6ee6eda1-c902-48c0-8c3b-416f15bdc909"
 			name="setup">
 			</setup>
+			<testmodule
+			id="712eeb43-80b5-4e90-bc2e-bc65fad22cf4"
+			name="Test_min_length_SDT"
+			ref="efd5d3ff-f707-4faa-9b1a-e09e0e617c55"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="71eb118f-13c7-4f34-8159-af04f5d7f5cc"
+			name="TC-24_Kiem_tra_max_length_SDT">
+			</testcase>
+			<testmodule
+			id="738dd09c-140c-47c6-9efc-6304af663eb8"
+			name="Test_SDT_invalid"
+			ref="808a8076-04e1-49e0-b2b1-93e00022491c"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="74719de8-2237-4cde-813d-5fd2789b52f9"
 			name="CloseBrowser"
@@ -238,6 +550,10 @@ rxversion="9.0">
 			id="75c4ef09-efa3-45b7-b9d1-44e559bd600e"
 			name="TC-05_Email_Da_ton_tai_co_khoang_trang_dau_cuoi">
 			</testcase>
+			<teardown
+			id="7701d3fb-fcb3-44aa-9a9b-ec1d0a8eaedd"
+			name="teardown">
+			</teardown>
 			<testcase
 			id="7776f49a-d17c-4e24-9520-6d9d50ef7a04"
 			name="TC-10_Check_Mat_khau_khong_hop_le">
@@ -248,6 +564,18 @@ rxversion="9.0">
 			ref="4a37e515-2b1a-4121-9b44-38fab7a6f528"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="79ca79fa-728d-48af-9a2f-aff4123199e2"
+			name="TC-27+28_Kiem_tra_hien_thi_gia_tri_gioi_tinh">
+			</testcase>
+			<setup
+			id="7aa68132-6b3c-43ba-b82e-f709a1134995"
+			name="setup">
+			</setup>
+			<testcase
+			id="7aa9f59c-2061-4527-b26e-a20c012d8ecd"
+			name="TC-16_Kiem_tra_bo_trong_ho_ten">
+			</testcase>
 			<teardown
 			id="7e8aa59d-bda5-44b1-be76-b66efc6d5c62"
 			name="teardown">
@@ -258,16 +586,30 @@ rxversion="9.0">
 			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="8137465d-5fdc-4f6a-b367-d41ea90c6a25"
+			name="setup">
+			</setup>
 			<testcase
 			id="8245ff52-2d5d-4575-bb6c-20a3b10df3b9"
-			name="TC-13_Kiem_tra_ma_hoa_xac_nhan_mat_Khau">
+			name="TC-13_Kiem_tra_ma_hoa_nhap_lai_mat_Khau">
 			</testcase>
+			<testmodule
+			id="8271d83e-7b76-4ff4-a93e-5f38325f17f5"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="8417bae9-3ab0-4035-a628-21bf06c53a7f"
 			name="Password_include_space"
 			ref="edb6e5a4-81fd-4067-b627-8d2cb94f8538"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="849b3121-f24e-4884-83e8-7e4dd8e2de5a"
+			name="setup">
+			</setup>
 			<testmodule
 			id="868c397d-bf31-4965-982e-1090cca8f8d4"
 			name="CloseBrowser"
@@ -275,25 +617,63 @@ rxversion="9.0">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="883bf161-e819-4f5e-8845-1d9123aabf95"
+			name="Test_max_length_SDT"
+			ref="61a3b93e-7231-4f03-849c-7e55d88c3cad"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="893e128b-6429-4c90-9855-9381cc42d100"
+			name="setup">
+			</setup>
+			<testmodule
 			id="8c3bedc3-a512-45fa-8295-73ae63d759b5"
 			name="OpenBrowser"
 			ref="b5e2e94e-9907-4650-8099-974d91517512"
 			type="Recording">
 			</testmodule>
 			<teardown
+			id="8d1c3bd8-6eda-4506-a900-dbc14d00b067"
+			name="teardown">
+			</teardown>
+			<setup
+			id="8dca4270-8d68-4b91-8969-53adc85dc04b"
+			name="setup">
+			</setup>
+			<teardown
 			id="8eae3beb-f5a7-404b-8ca9-8d2744407dd5"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="8f1984c7-09fb-4226-b74a-6ce06f77469d"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="8f430f35-b639-42a7-b662-a8bc5b14c0c3"
 			name="CloseBrowser"
 			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="90020b70-693d-4e3d-92a9-3870267e6f2e"
+			name="teardown">
+			</teardown>
 			<setup
 			id="916519db-6dfc-4d4a-8f96-02578b569ab4"
 			name="setup">
 			</setup>
+			<testmodule
+			id="9255efad-741b-4cfc-973d-b820c713b591"
+			name="Test_trim_space_Ten_cong_ty"
+			ref="ab6a9c1b-e56f-4ef4-922c-44b21f4b9356"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="95a3def6-1f4d-47e9-a86f-bbf04ff5aacb"
+			name="TC-34+35+36+37+38+39_Kiem_tra_chon_gia_tri_Vi_tri_cong_tac">
+			</testcase>
 			<testmodule
 			id="985b6403-9270-4f20-ae91-4b323b6489ab"
 			name="OpenBrowser"
@@ -301,17 +681,99 @@ rxversion="9.0">
 			type="Recording">
 			</testmodule>
 			<setup
+			id="994bafc2-2361-4013-a8b7-6a1daf3291f8"
+			name="setup">
+			</setup>
+			<testmodule
+			id="9a5beb75-c5bd-4293-920f-772d0ec9bbb8"
+			name="Test_hien_thi_gia_tri_Vi_tri_cong_tac"
+			ref="e350892b-7e54-4ccf-ba2c-0262e482f4a4"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="9b6654a0-fb63-4d66-b8e2-6a60dff8b902"
+			name="teardown">
+			</teardown>
+			<setup
 			id="9d5dba34-ef40-43ba-a0e6-2d5f34382238"
 			name="setup">
 			</setup>
+			<testmodule
+			id="9dd79574-9afa-4b8b-ac2d-d987c3353ded"
+			name="Test_chon_gia_tri_gioi_tinh"
+			ref="f3b97046-bfd1-4e0a-b3fb-a1d8e626f31d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="9e074239-3d5b-4458-8532-668d8dcd4e87"
+			name="Test_Vi_tri_cong_tac_Null"
+			ref="fe0861db-b033-40db-a2d6-a60704f2c882"
+			type="Recording">
+			</testmodule>
+			<smartfoldernode
+			id="9e588718-dfe6-4008-bd9c-3db9789b1138"
+			name="Dia_diem_lam_viec">
+			</smartfoldernode>
 			<testcase
 			id="9f2a5e8e-b8ac-4e09-a4fc-604f91d83f2e"
 			name="TC-06_Kiem_tra_ma_hoa_mat_khau">
 			</testcase>
+			<testmodule
+			id="a43d9c6c-3cf7-45aa-be58-4e8d1d210a48"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="a472cc0c-8163-417f-97ca-87fc817b5fd6"
 			name="TC-09_Test_Max_Length">
 			</testcase>
+			<teardown
+			id="a7899548-e744-456d-9a04-5a16f399ec55"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="a8a70185-b21b-4deb-be05-6e2c71214ca4"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="aaff1bae-544c-4de2-bdd5-fbea14f7273a"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="acf55073-bf47-4bbd-a347-2b68edb735f8"
+			name="Test_max_length_ho_ten"
+			ref="0d65e250-6edd-4e74-9d62-558e05390fd1"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="ad1852b1-c33a-4afe-a3d9-918a6ed92e75"
+			name="TC-14_Kiem_tra_bo_trong_mat_khau">
+			</testcase>
+			<testmodule
+			id="ad99e54d-afa7-4c8c-afda-ea04794db21f"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="add975af-9f06-472c-a21e-1e7c513a6ded"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="adda52b4-5af7-419b-8b71-27667f3f055a"
+			name="Test_trim_space_Ho_ten"
+			ref="9189931c-c2e9-49f5-9b0a-daf0fdc99bc4"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="ae81df57-7af8-4a30-98e3-bbac3a21e0de"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="b2b8c7a8-8da5-4331-bbca-d6371aaeb0a5"
 			name="CloseBrowser"
@@ -322,16 +784,56 @@ rxversion="9.0">
 			id="b73f6de1-2df5-48b3-a6a7-d4fdc503f379"
 			name="setup">
 			</setup>
+			<testcase
+			id="b7ad91da-3c0b-4a23-b380-0159ef59408b"
+			name="TC-17_Kiem_tra_min_length_ho_ten">
+			</testcase>
 			<teardown
 			id="b8ec1ffb-8438-4fb2-8631-2ba917150520"
 			name="teardown">
 			</teardown>
+			<setup
+			id="bbef5973-f7aa-4aea-a107-6bf45c2173a7"
+			name="setup">
+			</setup>
+			<setup
+			id="bded2112-3c91-44ea-aa25-b06136b3f767"
+			name="setup">
+			</setup>
+			<setup
+			id="be0cd083-c2f1-473d-8d0a-16649cca7fc7"
+			name="setup">
+			</setup>
+			<testmodule
+			id="bfe60ad4-6529-4fc6-b736-2d220284bb8d"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="c112ab1a-4a7c-4a11-840b-11ee13932b51"
 			name="CloseBrowser"
 			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="c1d5cc8b-50c2-4103-9cdc-ce6d5f29b6e0"
+			name="teardown">
+			</teardown>
+			<setup
+			id="c38bbdd1-3c37-479d-b0d0-dac63acf88f6"
+			name="setup">
+			</setup>
+			<testmodule
+			id="c75ff72e-b45e-495a-9212-db62d4d06ccb"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="c88cd592-d939-446f-896b-4134c20bc56b"
+			name="teardown">
+			</teardown>
 			<teardown
 			id="c9bbcacc-077b-4d2e-a7bb-b12bf9306c5e"
 			name="teardown">
@@ -340,14 +842,90 @@ rxversion="9.0">
 			id="ca1faf24-f438-4957-91fc-92e5ed77474d"
 			name="setup">
 			</setup>
+			<testmodule
+			id="cb45c99e-7431-41eb-9dbc-a3f446974d93"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="cbfaf338-6def-410b-800c-66803ab2ddf1"
+			name="teardown">
+			</teardown>
+			<setup
+			id="cd532c0a-acbf-4187-98da-a9b4d7dfa7d1"
+			name="setup">
+			</setup>
+			<testcase
+			id="cdc13f6f-0c0b-4d6f-add9-646d78eac73b"
+			name="TC-30_Kiem_tra_min_length_Ten_cong_ty">
+			</testcase>
 			<testcase
 			id="ce72312a-a5ce-49fd-b56a-08e1693459da"
 			name="TC-11_Check_Mat_khau_chua_khoang_trang">
 			</testcase>
+			<testmodule
+			id="ceb0e234-e858-4d86-a7a7-0a384284297d"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="d045d084-8322-4888-b2be-181bfbe1daca"
+			name="setup">
+			</setup>
+			<testcase
+			id="d0d18d37-af18-4042-9d1b-9d669bc8e1e5"
+			name="TC-29_Kiem_tra_bo_trong_Ten_cong_ty">
+			</testcase>
+			<testmodule
+			id="d10b8384-e8dd-4264-b645-660e1c4b8276"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="d1937a49-8041-4617-868f-3f3c81639d4a"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="d25ea5ef-2ca2-4606-9832-c3db6062eb6a"
+			name="Confirm_PassWord_Null"
+			ref="e5aceb6d-890d-4708-99fd-1b3015ff0d3f"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="d26b2ee3-ac7e-4b29-b90a-e59b180b69fd"
 			name="TC-08_Test_Min_Length">
 			</testcase>
+			<testmodule
+			id="d67516f9-9d0b-4527-a57f-7ae40173d607"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="d7d564cb-434a-4ab7-b9a2-2dd35a0a35d8"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="d9b540b8-0b8a-4edc-88cc-0af8f116ec1b"
+			name="TC-31_Kiem_tra_max_length_ten_cong_ty">
+			</testcase>
+			<testmodule
+			id="dc1eda7d-511a-400c-9683-ea673bceceec"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="dca1790b-2146-4cc3-9ce3-c026be8c265a"
+			name="setup">
+			</setup>
 			<testmodule
 			id="df0fa48a-99c1-4f94-aaa1-d56a75ae7d02"
 			name="OpenBrowser"
@@ -358,10 +936,20 @@ rxversion="9.0">
 			id="e08e0d49-783a-4f05-8fe1-f61189e6a27f"
 			name="setup">
 			</setup>
+			<teardown
+			id="e0beb9fc-a29e-4020-81b2-7826fe274bb9"
+			name="teardown">
+			</teardown>
 			<setup
 			id="e213d39b-d477-4816-acbd-89baab08bd71"
 			name="setup">
 			</setup>
+			<testmodule
+			id="e7dcf40a-010a-4d79-81b3-f099410da590"
+			name="Test_min_length_Ten_cong_ty"
+			ref="c8bdef12-f487-4fb6-9873-968e6273fc9d"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="e8484ed9-6d59-44e3-b61a-44c6ebd980eb"
 			name="setup">
@@ -370,10 +958,20 @@ rxversion="9.0">
 			id="e8cd072f-61b7-4b13-8fe9-9c87c178439c"
 			name="TC-12_Check_trim_space">
 			</testcase>
+			<teardown
+			id="e9b780b1-6eea-40a5-ab83-133e5b61d990"
+			name="teardown">
+			</teardown>
 			<testcase
 			id="ec0ee408-14c2-4afc-8809-b1e2c63077de"
 			name="TC-04_Email_da_ton_tai">
 			</testcase>
+			<testmodule
+			id="ec4c443a-a7e3-4858-b6ee-20ec821bede6"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="ef165cba-9a08-4be4-b4dd-c589787aac13"
 			name="TC-02_Bo_trong_Email">
@@ -401,11 +999,21 @@ rxversion="9.0">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="f441a351-69da-48d4-8fad-17fe36116360"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="f5ee060a-8b9c-4b48-9704-3cc2b64312a8"
 			name="Test_max_length_password"
 			ref="55e2d71e-36ed-4c41-a117-f410ea4ba9d9"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="f77efb96-d78e-4ebf-ab6a-7bdc45e908ef"
+			name="setup">
+			</setup>
 			<testmodule
 			id="f8152032-ac60-4678-bfa7-1661c336e84f"
 			name="OpenBrowser"
@@ -418,6 +1026,10 @@ rxversion="9.0">
 			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="fab63947-ef26-4402-81f6-ed84ca4ff9af"
+			name="Ho_va_ten">
+			</smartfoldernode>
 			<testmodule
 			id="fc41aab8-f85a-4cd9-a77b-694f61d17f34"
 			name="OpenBrowser"
@@ -434,6 +1046,18 @@ rxversion="9.0">
 			ref="9f3cdf5e-b733-4819-b366-adc76bd0b5f8"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="fe785c05-b474-4dd2-9b01-399a26395647"
+			name="So_dien_thoai_ca_nhan">
+			</smartfoldernode>
+			<testcase
+			id="ff8ed5b4-4998-4b75-9915-2256295c7e82"
+			name="TC-21_Bo_trong_SDT_ca_nhan">
+			</testcase>
+			<teardown
+			id="fffd73ee-85b9-464b-965f-41b001c660a0"
+			name="teardown">
+			</teardown>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -746,7 +1370,7 @@ rxversion="9.0">
 						name="Nhap_lai_mat_khau">
 							<testcase
 							id="8245ff52-2d5d-4575-bb6c-20a3b10df3b9"
-							name="TC-13_Kiem_tra_ma_hoa_xac_nhan_mat_Khau">
+							name="TC-13_Kiem_tra_ma_hoa_nhap_lai_mat_Khau">
 								<setup
 								id="e08e0d49-783a-4f05-8fe1-f61189e6a27f"
 								name="setup">
@@ -768,6 +1392,510 @@ rxversion="9.0">
 									</testmodule>
 								</teardown>
 							</testcase>
+							<testcase
+							id="ad1852b1-c33a-4afe-a3d9-918a6ed92e75"
+							name="TC-14_Kiem_tra_bo_trong_mat_khau">
+								<setup
+								id="cd532c0a-acbf-4187-98da-a9b4d7dfa7d1"
+								name="setup">
+									<testmodule
+									id="5142eeac-16cd-486a-a9da-034bd463e82b"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="d25ea5ef-2ca2-4606-9832-c3db6062eb6a"
+								name="Confirm_PassWord_Null">
+								</testmodule>
+								<teardown
+								id="a7899548-e744-456d-9a04-5a16f399ec55"
+								name="teardown">
+									<testmodule
+									id="13a0c463-347e-4f10-8fc8-ea531b2e8663"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="042edc15-8b47-400d-8e14-529b4672d0a2"
+							name="TC-15_Kiem_tra_mat_khau_xac_nhan_khong_trung_khop">
+								<setup
+								id="994bafc2-2361-4013-a8b7-6a1daf3291f8"
+								name="setup">
+									<testmodule
+									id="d1937a49-8041-4617-868f-3f3c81639d4a"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="003570fd-4a79-432f-aed3-16d21293f09c"
+								name="Confirm_PassWord_not_match_Password">
+								</testmodule>
+								<teardown
+								id="aaff1bae-544c-4de2-bdd5-fbea14f7273a"
+								name="teardown">
+									<testmodule
+									id="260c2862-dd1f-4e9c-8a33-c42cd96ab1f5"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+						</smartfoldernode>
+						<smartfoldernode
+						id="fab63947-ef26-4402-81f6-ed84ca4ff9af"
+						name="Ho_va_ten">
+							<testcase
+							id="7aa9f59c-2061-4527-b26e-a20c012d8ecd"
+							name="TC-16_Kiem_tra_bo_trong_ho_ten">
+								<setup
+								id="c38bbdd1-3c37-479d-b0d0-dac63acf88f6"
+								name="setup">
+									<testmodule
+									id="0463096d-8b8f-4fe2-bff4-6bd1d6ea0b23"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="2756848b-4d08-4fea-bab9-56a190c16cc8"
+								name="Check_Ho_va_ten_Null">
+								</testmodule>
+								<teardown
+								id="0ba99b62-007e-4137-a28c-b0c7a7398718"
+								name="teardown">
+									<testmodule
+									id="f441a351-69da-48d4-8fad-17fe36116360"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="b7ad91da-3c0b-4a23-b380-0159ef59408b"
+							name="TC-17_Kiem_tra_min_length_ho_ten">
+								<setup
+								id="53b7aece-2055-476c-83bd-2ff42900e44e"
+								name="setup">
+									<testmodule
+									id="6abeb63f-87df-4769-935a-5caacaeccecb"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="00a91119-cd95-44f2-9a56-c0ae3ae22dc9"
+								name="Test_min_length_ho_ten">
+								</testmodule>
+								<teardown
+								id="43a827c4-6258-4ffc-8f52-a3fe4508e606"
+								name="teardown">
+									<testmodule
+									id="dc1eda7d-511a-400c-9683-ea673bceceec"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="0cf053c6-5967-495c-bf52-fd1281039bc4"
+							name="TC-18_Kiem_tra_min_length_Ho_ten">
+								<setup
+								id="04b510d4-df47-4ead-b151-3b2a231612f0"
+								name="setup">
+									<testmodule
+									id="0a44c643-1f28-446a-b847-3bcc06b4215f"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="acf55073-bf47-4bbd-a347-2b68edb735f8"
+								name="Test_max_length_ho_ten">
+								</testmodule>
+								<teardown
+								id="2d222d1d-7a8b-4007-b3af-acd9a366cbc1"
+								name="teardown">
+									<testmodule
+									id="a8a70185-b21b-4deb-be05-6e2c71214ca4"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="2e8e5578-aca5-4154-a6fd-d76c6824b8b4"
+							name="TC-19_Kiem_tra_nhap_ho_ten_la_so">
+								<setup
+								id="539d30c4-e8c6-4ab5-b446-6b55c5cd6081"
+								name="setup">
+									<testmodule
+									id="66680c57-ae5f-4bc4-9926-217a0ceea477"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="586fca3f-e589-41ab-99ac-438af5cb8f6a"
+								name="Test_ho_ten_chua_ki_tu_so">
+								</testmodule>
+								<teardown
+								id="c1d5cc8b-50c2-4103-9cdc-ce6d5f29b6e0"
+								name="teardown">
+									<testmodule
+									id="6ccdb6a2-6524-4f14-b58a-5f773f873040"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="391336a7-5b57-4ecb-bf17-3f12abdac585"
+							name="TC_20_Kiem_tra_trim_space_ho_ten">
+								<setup
+								id="dca1790b-2146-4cc3-9ce3-c026be8c265a"
+								name="setup">
+									<testmodule
+									id="ad99e54d-afa7-4c8c-afda-ea04794db21f"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="adda52b4-5af7-419b-8b71-27667f3f055a"
+								name="Test_trim_space_Ho_ten">
+								</testmodule>
+								<teardown
+								id="7701d3fb-fcb3-44aa-9a9b-ec1d0a8eaedd"
+								name="teardown">
+									<testmodule
+									id="d7d564cb-434a-4ab7-b9a2-2dd35a0a35d8"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+						</smartfoldernode>
+						<smartfoldernode
+						id="fe785c05-b474-4dd2-9b01-399a26395647"
+						name="So_dien_thoai_ca_nhan">
+							<testcase
+							id="ff8ed5b4-4998-4b75-9915-2256295c7e82"
+							name="TC-21_Bo_trong_SDT_ca_nhan">
+								<setup
+								id="893e128b-6429-4c90-9855-9381cc42d100"
+								name="setup">
+									<testmodule
+									id="1eb01001-0ae7-4d42-9a9a-6d4ffda26717"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="139ee85f-d8e2-44be-b3f7-e4e1fb33819d"
+								name="Test_SDT_ca_nhan_null">
+								</testmodule>
+								<teardown
+								id="90020b70-693d-4e3d-92a9-3870267e6f2e"
+								name="teardown">
+									<testmodule
+									id="a43d9c6c-3cf7-45aa-be58-4e8d1d210a48"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="58234ca6-dbb5-4e51-9729-8d38f979d29b"
+							name="TC-22_SDT_Sai_dinh_dang">
+								<setup
+								id="4f9b2ac7-3189-4033-b3b5-e35c310fac71"
+								name="setup">
+									<testmodule
+									id="2f2f1d72-5cb4-4f40-89d5-0f8588346b2b"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="738dd09c-140c-47c6-9efc-6304af663eb8"
+								name="Test_SDT_invalid">
+								</testmodule>
+								<teardown
+								id="21a1d2db-98cd-47ac-b182-9def6952e5e7"
+								name="teardown">
+									<testmodule
+									id="ceb0e234-e858-4d86-a7a7-0a384284297d"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="2ff53530-2a11-4f08-a000-d0d1c035a00d"
+							name="TC-23_Kiem_tra_min_length_SDT">
+								<setup
+								id="67e0033d-e69e-4eac-8903-bdb4e607aee2"
+								name="setup">
+									<testmodule
+									id="d10b8384-e8dd-4264-b645-660e1c4b8276"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="712eeb43-80b5-4e90-bc2e-bc65fad22cf4"
+								name="Test_min_length_SDT">
+								</testmodule>
+								<teardown
+								id="fffd73ee-85b9-464b-965f-41b001c660a0"
+								name="teardown">
+									<testmodule
+									id="bfe60ad4-6529-4fc6-b736-2d220284bb8d"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="71eb118f-13c7-4f34-8159-af04f5d7f5cc"
+							name="TC-24_Kiem_tra_max_length_SDT">
+								<setup
+								id="bded2112-3c91-44ea-aa25-b06136b3f767"
+								name="setup">
+									<testmodule
+									id="62ba1965-8fa5-463a-b56b-b6f7c1934b0d"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="883bf161-e819-4f5e-8845-1d9123aabf95"
+								name="Test_max_length_SDT">
+								</testmodule>
+								<teardown
+								id="64b1c657-d673-4c0b-bb6b-aabae5de4bf2"
+								name="teardown">
+									<testmodule
+									id="ae81df57-7af8-4a30-98e3-bbac3a21e0de"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="6d1df44f-544b-4b05-a667-6e145632c380"
+							name="TC-25_Kiem_tra_Trim_space_khoan_trang_dau_cuoi_SDT">
+								<setup
+								id="bbef5973-f7aa-4aea-a107-6bf45c2173a7"
+								name="setup">
+									<testmodule
+									id="22340c1d-8587-4034-a5d2-322a8535c299"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="32fb640a-7013-42d2-9e35-a356b3acadf0"
+								name="Test_trim_space_SDT">
+								</testmodule>
+								<teardown
+								id="add975af-9f06-472c-a21e-1e7c513a6ded"
+								name="teardown">
+									<testmodule
+									id="15b56d65-f680-4b24-b6af-1c26aed4894d"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+						</smartfoldernode>
+						<smartfoldernode
+						id="2987c670-e5a4-4da5-b0b2-ae9bc70a3488"
+						name="Gioi_Tinh">
+							<testcase
+							id="37250ccd-3dff-4208-a18a-c34d7a456809"
+							name="TC-26_Bo_trong_gioi_tinh">
+								<setup
+								id="be0cd083-c2f1-473d-8d0a-16649cca7fc7"
+								name="setup">
+									<testmodule
+									id="0002f5eb-ef97-49ae-b84f-f3d369aa6d57"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="0a6add07-3398-42fc-bf84-bbd879b08216"
+								name="Test_gioi_tinh_Null">
+								</testmodule>
+								<teardown
+								id="c88cd592-d939-446f-896b-4134c20bc56b"
+								name="teardown">
+									<testmodule
+									id="cb45c99e-7431-41eb-9dbc-a3f446974d93"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="79ca79fa-728d-48af-9a2f-aff4123199e2"
+							name="TC-27+28_Kiem_tra_hien_thi_gia_tri_gioi_tinh">
+								<setup
+								id="8dca4270-8d68-4b91-8969-53adc85dc04b"
+								name="setup">
+									<testmodule
+									id="5e7cd9b6-cdbe-46bc-8816-44605ff8f746"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="9dd79574-9afa-4b8b-ac2d-d987c3353ded"
+								name="Test_chon_gia_tri_gioi_tinh">
+								</testmodule>
+								<teardown
+								id="8d1c3bd8-6eda-4506-a900-dbc14d00b067"
+								name="teardown">
+									<testmodule
+									id="1ee131c4-49f2-4e64-be9c-d3d6d4ce68a7"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+						</smartfoldernode>
+						<smartfoldernode
+						id="0981ab29-ec89-4b1b-b119-da24eaa51a59"
+						name="Ten_cong_ty">
+							<testcase
+							id="d0d18d37-af18-4042-9d1b-9d669bc8e1e5"
+							name="TC-29_Kiem_tra_bo_trong_Ten_cong_ty">
+								<setup
+								id="849b3121-f24e-4884-83e8-7e4dd8e2de5a"
+								name="setup">
+									<testmodule
+									id="38ded969-148b-40ef-8a1b-e37b35253652"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="3b010959-9bcb-45ef-9ac7-17d7985f20be"
+								name="Test_Ten_cong_ty_Null">
+								</testmodule>
+								<teardown
+								id="cbfaf338-6def-410b-800c-66803ab2ddf1"
+								name="teardown">
+									<testmodule
+									id="38940e01-1f52-49ee-8cbe-1c65179b4667"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="cdc13f6f-0c0b-4d6f-add9-646d78eac73b"
+							name="TC-30_Kiem_tra_min_length_Ten_cong_ty">
+								<setup
+								id="f77efb96-d78e-4ebf-ab6a-7bdc45e908ef"
+								name="setup">
+									<testmodule
+									id="d67516f9-9d0b-4527-a57f-7ae40173d607"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="e7dcf40a-010a-4d79-81b3-f099410da590"
+								name="Test_min_length_Ten_cong_ty">
+								</testmodule>
+								<teardown
+								id="1d8371b6-e5df-4fe9-b8a0-71e971121932"
+								name="teardown">
+									<testmodule
+									id="c75ff72e-b45e-495a-9212-db62d4d06ccb"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="d9b540b8-0b8a-4edc-88cc-0af8f116ec1b"
+							name="TC-31_Kiem_tra_max_length_ten_cong_ty">
+								<setup
+								id="7aa68132-6b3c-43ba-b82e-f709a1134995"
+								name="setup">
+									<testmodule
+									id="38d16279-6912-48c0-b9d7-35633c24a6ad"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="2e71db4a-6f3c-4960-a3c7-a3add51ce506"
+								name="Test_max_length_Ten_cong_ty">
+								</testmodule>
+								<teardown
+								id="402cb31e-c16a-474b-b5dd-ce503d6d054b"
+								name="teardown">
+									<testmodule
+									id="ec4c443a-a7e3-4858-b6ee-20ec821bede6"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="31a13112-6463-49f2-8486-267dfaf0a72e"
+							name="TC-32_Kiem_tra_trim_space_Ten_cong_ty">
+								<setup
+								id="d045d084-8322-4888-b2be-181bfbe1daca"
+								name="setup">
+									<testmodule
+									id="00b62731-186e-46b5-9e1c-c88cfe1d5058"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="9255efad-741b-4cfc-973d-b820c713b591"
+								name="Test_trim_space_Ten_cong_ty">
+								</testmodule>
+								<teardown
+								id="e0beb9fc-a29e-4020-81b2-7826fe274bb9"
+								name="teardown">
+									<testmodule
+									id="04238e3a-5809-4de1-a61c-48ff0541f20a"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+						</smartfoldernode>
+						<smartfoldernode
+						id="0d6e4853-4e73-4440-a742-30206afbd2ba"
+						name="Vi_tri_cong_tac">
+							<testcase
+							id="1dfd8c19-92e5-404c-812e-fac90a7177ea"
+							name="TC-33_Vi_tri_cong_tac">
+								<setup
+								id="4a3d1cfd-cc04-4eef-a7fe-d4f53983dd9e"
+								name="setup">
+									<testmodule
+									id="8271d83e-7b76-4ff4-a93e-5f38325f17f5"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="9e074239-3d5b-4458-8532-668d8dcd4e87"
+								name="Test_Vi_tri_cong_tac_Null">
+								</testmodule>
+								<teardown
+								id="e9b780b1-6eea-40a5-ab83-133e5b61d990"
+								name="teardown">
+									<testmodule
+									id="56e2032e-8e73-4e36-bff8-bd588ff81752"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="95a3def6-1f4d-47e9-a86f-bbf04ff5aacb"
+							name="TC-34+35+36+37+38+39_Kiem_tra_chon_gia_tri_Vi_tri_cong_tac">
+								<setup
+								id="8137465d-5fdc-4f6a-b367-d41ea90c6a25"
+								name="setup">
+									<testmodule
+									id="31ae68bd-b857-4a5c-81d1-0e17c18e0b7f"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="9a5beb75-c5bd-4293-920f-772d0ec9bbb8"
+								name="Test_hien_thi_gia_tri_Vi_tri_cong_tac">
+								</testmodule>
+								<teardown
+								id="9b6654a0-fb63-4d66-b8e2-6a60dff8b902"
+								name="teardown">
+									<testmodule
+									id="8f1984c7-09fb-4226-b74a-6ce06f77469d"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+						</smartfoldernode>
+						<smartfoldernode
+						id="9e588718-dfe6-4008-bd9c-3db9789b1138"
+						name="Dia_diem_lam_viec">
 						</smartfoldernode>
 					</smartfoldernode>
 				</testcase>
@@ -781,58 +1909,37 @@ rxversion="9.0">
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="106ee241-8ea9-4534-9551-2a68ba0057b9">
+			id="0981ab29-ec89-4b1b-b119-da24eaa51a59">
 			</testcontainer>
 			<testcontainer
-			id="1cf7c09b-57b1-4571-88f0-237ecf7f17e4">
+			id="0d6e4853-4e73-4440-a742-30206afbd2ba">
 			</testcontainer>
 			<testcontainer
-			id="3f3dbe8d-6241-4f54-afa0-572ba2244779">
+			id="1dfd8c19-92e5-404c-812e-fac90a7177ea">
 			</testcontainer>
 			<testcontainer
-			id="40547b94-fca2-45f8-9ef9-9e18ba5536b3">
+			id="31a13112-6463-49f2-8486-267dfaf0a72e">
 			</testcontainer>
 			<testcontainer
 			id="40e20b2c-7f5b-45ad-b55e-b5e8a1072f23">
 			</testcontainer>
 			<testcontainer
-			id="474c7cca-02ee-4f84-bcf0-752054a60a76">
-			</testcontainer>
-			<testcontainer
 			id="5974fe44-6b69-4bac-b899-4d8fdb65c752">
 			</testcontainer>
 			<testcontainer
-			id="75c4ef09-efa3-45b7-b9d1-44e559bd600e">
+			id="95a3def6-1f4d-47e9-a86f-bbf04ff5aacb">
 			</testcontainer>
 			<testcontainer
-			id="7776f49a-d17c-4e24-9520-6d9d50ef7a04">
+			id="9e588718-dfe6-4008-bd9c-3db9789b1138">
 			</testcontainer>
 			<testcontainer
-			id="8245ff52-2d5d-4575-bb6c-20a3b10df3b9">
+			id="cdc13f6f-0c0b-4d6f-add9-646d78eac73b">
 			</testcontainer>
 			<testcontainer
-			id="9f2a5e8e-b8ac-4e09-a4fc-604f91d83f2e">
+			id="d0d18d37-af18-4042-9d1b-9d669bc8e1e5">
 			</testcontainer>
 			<testcontainer
-			id="a472cc0c-8163-417f-97ca-87fc817b5fd6">
-			</testcontainer>
-			<testcontainer
-			id="ce72312a-a5ce-49fd-b56a-08e1693459da">
-			</testcontainer>
-			<testcontainer
-			id="d26b2ee3-ac7e-4b29-b90a-e59b180b69fd">
-			</testcontainer>
-			<testcontainer
-			id="e8cd072f-61b7-4b13-8fe9-9c87c178439c">
-			</testcontainer>
-			<testcontainer
-			id="ec0ee408-14c2-4afc-8809-b1e2c63077de">
-			</testcontainer>
-			<testcontainer
-			id="ef165cba-9a08-4be4-b4dd-c589787aac13">
-			</testcontainer>
-			<testcontainer
-			id="f13b2769-fc12-4c03-8708-aa5021f1435c">
+			id="d9b540b8-0b8a-4edc-88cc-0af8f116ec1b">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

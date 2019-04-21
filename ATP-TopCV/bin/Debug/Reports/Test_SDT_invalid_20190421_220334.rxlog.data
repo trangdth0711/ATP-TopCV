@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9e22f75e3be3510"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Trang Meo"
+		rxversion="9.0.1.0"
+		host="DESKTOP-Q1CC1KM"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1024x768"
+		timestamp="4/21/2019 10:03:37 PM"
+		timestampiso="2019-04-21T15:03:37"
+		endtime="4/21/2019 10:03:48 PM"
+		timeoutfactor="1"
+		module="Test_SDT_invalid">
+		<detail>
+			Test_SDT_invalid
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.022"
+			timeRelativeToTestModuleStartTime="00:06.023"
+			timeWallClock="22:03:43"
+			time="00:06.022"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Phone' at 276;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'phone']"
+				itempath=".//input[#'phone']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Phone"
+				id="21ddb8a6eb664ef0999963f8b1114fd1"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_SDT_invalid.cs"
+				codeline="82"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.115"
+			timeRelativeToTestModuleStartTime="00:09.116"
+			timeWallClock="22:03:46"
+			time="00:09.115"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'abcdef!@#$%^&amp;*()' with focus on '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Phone'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'phone']"
+				itempath=".//input[#'phone']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Phone"
+				id="21ddb8a6eb664ef0999963f8b1114fd1"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_SDT_invalid.cs"
+				codeline="86"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

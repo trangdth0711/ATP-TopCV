@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f2b5c1f2a082d5d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Trang Meo"
+		rxversion="9.0.1.0"
+		host="DESKTOP-Q1CC1KM"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1024x768"
+		timestamp="4/21/2019 9:57:24 PM"
+		timestampiso="2019-04-21T14:57:24"
+		endtime="4/21/2019 9:57:33 PM"
+		timeoutfactor="1"
+		module="Test_SDT_invalid">
+		<detail>
+			Test_SDT_invalid
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.924"
+			timeRelativeToTestModuleStartTime="00:04.925"
+			timeWallClock="21:57:29"
+			time="00:04.924"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.HoanT&#7845;t' at 42;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']//a[@innertext='Hoàn tất']"
+				itempath=".//div[#'personal-info']//a[@innertext='Hoàn tất']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất"
+				id="a2df2c053c2646388dac0946fb041b06"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_SDT_invalid.cs"
+				codeline="82"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.422"
+			timeRelativeToTestModuleStartTime="00:07.423"
+			timeWallClock="21:57:31"
+			time="00:07.422"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeContains (InnerText&gt;'&#272;i&#7879;n tho&#7841;i c&#225; nh&#226;n phai la so.') on item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.ModalErrorMessage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//p[#'modal-error-message']"
+				itempath=".//p[#'modal-error-message']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage"
+				id="366451d250b34e9c9edef9d27dc1ef24"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_SDT_invalid.cs"
+				codeline="87"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.708"
+			timeRelativeToTestModuleStartTime="00:07.709"
+			timeWallClock="21:57:32"
+			time="00:07.708"
+			level="Failure"
+			category="Validation"
+			errimg="images_Test_SDT_e67b8188\Test_SDT_e67b8188_2d32513d_trace.jpg"
+			errthumb="images_Test_SDT_e67b8188\Test_SDT_e67b8188_2d32513d_trace_thumb.jpg">
+			<message>
+				Attribute 'InnerText' of element for item 'ATP_TopCVRepository.&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.ModalErrorMessage' does not contain the specified value (actual='Gi&#7899;i t&#237;nh kh&#244;ng &#273;&#432;&#7907;c &#273;&#7875; tr&#7889;ng.', expected='&#272;i&#7879;n tho&#7841;i c&#225; nh&#226;n phai la so.').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//p[#'modal-error-message']"
+				itempath=".//p[#'modal-error-message']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage"
+				id="366451d250b34e9c9edef9d27dc1ef24"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_SDT_invalid.cs"
+				codeline="88"
+				loglvl="Failure"
+				itemindex="13">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.808"
+			timeRelativeToTestModuleStartTime="00:07.810"
+			timeWallClock="21:57:32"
+			time="00:07.808"
+			level="Info"
+			category="Mouse"
+			errimg="images_Test_SDT_e67b8188\Test_SDT_e67b8188_1e8a52a2_trace.jpg"
+			errthumb="images_Test_SDT_e67b8188\Test_SDT_e67b8188_1e8a52a2_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.&#272;ongL&#7841;i' at 181;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//div[#'modal-error']/div/div/div[2]/button[@innertext='Đóng lại']"
+				itempath=".//div[#'modal-error']/div/div/div[2]/button[@innertext='Đóng lại']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại"
+				id="380835dc4d724161ac494dec28bbe8e6"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_SDT_invalid.cs"
+				codeline="92"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.818"
+			timeRelativeToTestModuleStartTime="00:08.819"
+			timeWallClock="21:57:33"
+			time="00:08.818"
+			level="Error"
+			category="Module"
+			errimg="images_Test_SDT_e67b8188\Test_SDT_e67b8188_24620157_trace.jpg"
+			errthumb="images_Test_SDT_e67b8188\Test_SDT_e67b8188_24620157_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

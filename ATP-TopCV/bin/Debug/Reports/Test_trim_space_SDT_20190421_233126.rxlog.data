@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1cfe63eaacd14dec"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Trang Meo"
+		rxversion="9.0.1.0"
+		host="DESKTOP-Q1CC1KM"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1024x768"
+		timestamp="4/21/2019 11:31:29 PM"
+		timestampiso="2019-04-21T16:31:29"
+		endtime="4/21/2019 11:32:03 PM"
+		timeoutfactor="1"
+		module="Test_trim_space_SDT">
+		<detail>
+			Test_trim_space_SDT
+		</detail>
+		<errormessage>
+			Attribute 'InnerText' of element for item 'ATP_TopCVRepository.&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.ModalErrorMessage' does not contain the specified value (actual='Email c&#225; nh&#226;n kh&#244;ng h&#7907;p l&#7879;.', expected='&#272;i&#7879;n tho&#7841;i c&#225; nh&#226;n t&#7915; 9-12 k&#253; t&#7921;.').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.947"
+			timeRelativeToTestModuleStartTime="00:16.948"
+			timeWallClock="23:31:46"
+			time="00:16.947"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Email' at 234;36.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'email']"
+				itempath=".//input[#'email']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email"
+				id="b14d95ceb80a4f5f8d216802d3cd4cfc"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.628"
+			timeRelativeToTestModuleStartTime="00:19.629"
+			timeWallClock="23:31:48"
+			time="00:19.628"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'trang1{LShiftKey down}@{LShiftKey up}gmail.com' with focus on '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Email'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'email']"
+				itempath=".//input[#'email']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email"
+				id="b14d95ceb80a4f5f8d216802d3cd4cfc"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.804"
+			timeRelativeToTestModuleStartTime="00:21.805"
+			timeWallClock="23:31:50"
+			time="00:21.804"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Password' at 87;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'password']"
+				itempath=".//input[#'password']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Password"
+				id="158eeb4416c649d9b7c0f66e7c757f9b"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.923"
+			timeRelativeToTestModuleStartTime="00:22.924"
+			timeWallClock="23:31:52"
+			time="00:22.923"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.&#272;ongL&#7841;i1' at 177;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//div[#'modal-success']/div/div/div[2]/button[@innertext='Đóng lại']"
+				itempath=".//div[#'modal-success']/div/div/div[2]/button[@innertext='Đóng lại']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại1"
+				id="358715e9c77f4eeb9f309cedb5ea4719"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.159"
+			timeRelativeToTestModuleStartTime="00:23.160"
+			timeWallClock="23:31:52"
+			time="00:23.159"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="95"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.858"
+			timeRelativeToTestModuleStartTime="00:23.859"
+			timeWallClock="23:31:53"
+			time="00:23.858"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Password' at 87;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'password']"
+				itempath=".//input[#'password']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Password"
+				id="158eeb4416c649d9b7c0f66e7c757f9b"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.906"
+			timeRelativeToTestModuleStartTime="00:24.907"
+			timeWallClock="23:31:54"
+			time="00:24.906"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Trang{LShiftKey down}{@ down}{LShiftKey up}123' with focus on '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'password']"
+				itempath=".//input[#'password']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Password"
+				id="158eeb4416c649d9b7c0f66e7c757f9b"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.219"
+			timeRelativeToTestModuleStartTime="00:26.220"
+			timeWallClock="23:31:55"
+			time="00:26.219"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.PasswordConfirmation' at 97;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'password_confirmation']"
+				itempath=".//input[#'password_confirmation']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordConfirmation"
+				id="349b6bb7b3d241c4bd43d786302862aa"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.217"
+			timeRelativeToTestModuleStartTime="00:27.218"
+			timeWallClock="23:31:56"
+			time="00:27.217"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Trang{LShiftKey down}{@ down}{LShiftKey up}123' with focus on '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.PasswordConfirmation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'password_confirmation']"
+				itempath=".//input[#'password_confirmation']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordConfirmation"
+				id="349b6bb7b3d241c4bd43d786302862aa"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.530"
+			timeRelativeToTestModuleStartTime="00:28.531"
+			timeWallClock="23:31:57"
+			time="00:28.530"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Huyen Trang' with focus on '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Fullname'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'fullname']"
+				itempath=".//input[#'fullname']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Fullname"
+				id="5f4c2c9e82c24a649c5171af32f45ac5"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.376"
+			timeRelativeToTestModuleStartTime="00:30.377"
+			timeWallClock="23:31:59"
+			time="00:30.376"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Phone' at 276;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'phone']"
+				itempath=".//input[#'phone']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Phone"
+				id="21ddb8a6eb664ef0999963f8b1114fd1"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.382"
+			timeRelativeToTestModuleStartTime="00:31.383"
+			timeWallClock="23:32:00"
+			time="00:31.382"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence ' 1234567 ' with focus on '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Phone'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'phone']"
+				itempath=".//input[#'phone']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Phone"
+				id="21ddb8a6eb664ef0999963f8b1114fd1"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.821"
+			timeRelativeToTestModuleStartTime="00:32.822"
+			timeWallClock="23:32:02"
+			time="00:32.821"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.HoanT&#7845;t' at 42;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']//a[@innertext='Hoàn tất']"
+				itempath=".//div[#'personal-info']//a[@innertext='Hoàn tất']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất"
+				id="a2df2c053c2646388dac0946fb041b06"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.562"
+			timeRelativeToTestModuleStartTime="00:33.563"
+			timeWallClock="23:32:02"
+			time="00:33.562"
+			level="Info"
+			category="Validation"
+			errimg="images_Test_tri_9ce43f8e\Test_tri_9ce43f8e_a171376c_trace.jpg"
+			errthumb="images_Test_tri_9ce43f8e\Test_tri_9ce43f8e_a171376c_trace_thumb.jpg">
+			<message>
+				Validating AttributeContains (InnerText&gt;'&#272;i&#7879;n tho&#7841;i c&#225; nh&#226;n t&#7915; 9-12 k&#253; t&#7921;.') on item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.ModalErrorMessage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//p[#'modal-error-message']"
+				itempath=".//p[#'modal-error-message']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage"
+				id="366451d250b34e9c9edef9d27dc1ef24"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="130"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.806"
+			timeRelativeToTestModuleStartTime="00:33.807"
+			timeWallClock="23:32:02"
+			time="00:33.806"
+			level="Failure"
+			category="Validation"
+			errimg="images_Test_tri_9ce43f8e\Test_tri_9ce43f8e_079b9b4e_trace.jpg"
+			errthumb="images_Test_tri_9ce43f8e\Test_tri_9ce43f8e_079b9b4e_trace_thumb.jpg">
+			<message>
+				Attribute 'InnerText' of element for item 'ATP_TopCVRepository.&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.ModalErrorMessage' does not contain the specified value (actual='Email c&#225; nh&#226;n kh&#244;ng h&#7907;p l&#7879;.', expected='&#272;i&#7879;n tho&#7841;i c&#225; nh&#226;n t&#7915; 9-12 k&#253; t&#7921;.').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//p[#'modal-error-message']"
+				itempath=".//p[#'modal-error-message']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage"
+				id="366451d250b34e9c9edef9d27dc1ef24"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="131"
+				loglvl="Failure"
+				itemindex="12">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.823"
+			timeRelativeToTestModuleStartTime="00:33.824"
+			timeWallClock="23:32:03"
+			time="00:33.823"
+			level="Error"
+			category="Module"
+			errimg="images_Test_tri_9ce43f8e\Test_tri_9ce43f8e_079b9b4e_trace.jpg"
+			errthumb="images_Test_tri_9ce43f8e\Test_tri_9ce43f8e_079b9b4e_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'InnerText' of element for item 'ATP_TopCVRepository.&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.ModalErrorMessage' does not contain the specified value (actual='Email c&#225; nh&#226;n kh&#244;ng h&#7907;p l&#7879;.', expected='&#272;i&#7879;n tho&#7841;i c&#225; nh&#226;n t&#7915; 9-12 k&#253; t&#7921;.').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, String value, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass40_0.&lt;Execute>g__attCompare|0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeContainsInternal(IElement element, String name, String value, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeContainsInternal(RepoItemInfo itemInfo, String name, String value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value)&#13;&#10;   at ATP_TopCV.Test_trim_space_SDT.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs:line 131&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Test_trim_space_SDT.cs"
+				codeline="131"
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//p[#'modal-error-message']"
+				itempath=".//p[#'modal-error-message']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage"
+				id="366451d250b34e9c9edef9d27dc1ef24"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="12">
+			</metainfo>
+		</item>
+	</activity>
+</report>

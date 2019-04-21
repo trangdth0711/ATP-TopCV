@@ -126,6 +126,18 @@
       <RepositoryCode>true</RepositoryCode>
       <id>6f9da314-11ff-43de-8da8-70541a1c0623</id>
     </Compile>
+    <Compile Include="Check_Ho_va_ten_Null.cs">
+      <BoundTo>89a34107-996a-41fb-b4bd-9260463376a8</BoundTo>
+      <DependentUpon>Check_Ho_va_ten_Null.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0ee52fc4-a4d9-47be-affa-66511fd9e270</id>
+    </Compile>
+    <Compile Include="Check_Ho_va_ten_Null.UserCode.cs">
+      <BoundTo>89a34107-996a-41fb-b4bd-9260463376a8</BoundTo>
+      <DependentUpon>Check_Ho_va_ten_Null.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eb75942a-541d-4daa-b7d3-7a34d92f2e8a</id>
+    </Compile>
     <Compile Include="Check_ma_hoa_Cofirm_Password.cs">
       <BoundTo>62f96919-6ba9-4fe2-a92a-74529b248e4f</BoundTo>
       <DependentUpon>Check_ma_hoa_Cofirm_Password.rxrec</DependentUpon>
@@ -185,6 +197,30 @@
       <DependentUpon>CloseBrowser.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>881a542c-7901-454c-8bbf-0c7db5d9235e</id>
+    </Compile>
+    <Compile Include="Confirm_PassWord_not_match_Password.cs">
+      <BoundTo>a9962060-2836-4776-9515-bbd7cb4de2e5</BoundTo>
+      <DependentUpon>Confirm_PassWord_not_match_Password.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7cc510e8-fd7e-4fa5-b27d-d925975352f9</id>
+    </Compile>
+    <Compile Include="Confirm_PassWord_not_match_Password.UserCode.cs">
+      <BoundTo>a9962060-2836-4776-9515-bbd7cb4de2e5</BoundTo>
+      <DependentUpon>Confirm_PassWord_not_match_Password.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e6bd5915-3f91-4330-ae2c-0b0eef5f227d</id>
+    </Compile>
+    <Compile Include="Confirm_PassWord_Null.cs">
+      <BoundTo>14734243-4383-427d-809e-2592585d61a7</BoundTo>
+      <DependentUpon>Confirm_PassWord_Null.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8f49ff4b-a753-49d7-a723-06252027342e</id>
+    </Compile>
+    <Compile Include="Confirm_PassWord_Null.UserCode.cs">
+      <BoundTo>14734243-4383-427d-809e-2592585d61a7</BoundTo>
+      <DependentUpon>Confirm_PassWord_Null.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9d3d1bcd-60da-4689-a0f8-d7962229b14d</id>
     </Compile>
     <Compile Include="Email_does_exist.cs">
       <BoundTo>5066ee50-5c48-4723-83a9-a0bbf3b544a3</BoundTo>
@@ -285,6 +321,66 @@
       <UserCode>true</UserCode>
       <id>d84108f5-e8ca-4de1-9e85-4bbe44f1643e</id>
     </Compile>
+    <Compile Include="Test_chon_gia_tri_gioi_tinh.cs">
+      <BoundTo>aaa04484-9f39-4534-a10c-080bb6a3d773</BoundTo>
+      <DependentUpon>Test_chon_gia_tri_gioi_tinh.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2ebb9ba7-6d68-4c61-b72e-090dd9a8be9c</id>
+    </Compile>
+    <Compile Include="Test_chon_gia_tri_gioi_tinh.UserCode.cs">
+      <BoundTo>aaa04484-9f39-4534-a10c-080bb6a3d773</BoundTo>
+      <DependentUpon>Test_chon_gia_tri_gioi_tinh.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>182c1d90-663e-4129-9fa6-f67bf7d296de</id>
+    </Compile>
+    <Compile Include="Test_gioi_tinh_Null.cs">
+      <BoundTo>c68bb0d8-f550-4946-92ac-d9bc5095d4d7</BoundTo>
+      <DependentUpon>Test_gioi_tinh_Null.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ffc69315-9a56-4e7a-99e0-2162cac033eb</id>
+    </Compile>
+    <Compile Include="Test_gioi_tinh_Null.UserCode.cs">
+      <BoundTo>c68bb0d8-f550-4946-92ac-d9bc5095d4d7</BoundTo>
+      <DependentUpon>Test_gioi_tinh_Null.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2cf4db3b-756c-4c00-91e9-a06097796dbc</id>
+    </Compile>
+    <Compile Include="Test_hien_thi_gia_tri_Vi_tri_cong_tac.cs">
+      <BoundTo>372d2306-f9ba-4b92-9c4c-062acfa1675a</BoundTo>
+      <DependentUpon>Test_hien_thi_gia_tri_Vi_tri_cong_tac.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2f8c7d88-3e80-4811-ba30-eff038eea369</id>
+    </Compile>
+    <Compile Include="Test_hien_thi_gia_tri_Vi_tri_cong_tac.UserCode.cs">
+      <BoundTo>372d2306-f9ba-4b92-9c4c-062acfa1675a</BoundTo>
+      <DependentUpon>Test_hien_thi_gia_tri_Vi_tri_cong_tac.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9464858b-a6bd-4728-ab7c-e10bc81b5aa9</id>
+    </Compile>
+    <Compile Include="Test_ho_ten_chua_ki_tu_so.cs">
+      <BoundTo>5a3ff15a-4033-4b88-8c08-a81436dd3fcc</BoundTo>
+      <DependentUpon>Test_ho_ten_chua_ki_tu_so.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>254f0060-4bfc-4828-afd6-c0481dbad7c9</id>
+    </Compile>
+    <Compile Include="Test_ho_ten_chua_ki_tu_so.UserCode.cs">
+      <BoundTo>5a3ff15a-4033-4b88-8c08-a81436dd3fcc</BoundTo>
+      <DependentUpon>Test_ho_ten_chua_ki_tu_so.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>96cc0b77-ed06-418a-9c6a-3e2a3001b039</id>
+    </Compile>
+    <Compile Include="Test_max_length_ho_ten.cs">
+      <BoundTo>3ff81de6-0496-44ce-93eb-869d7a869eae</BoundTo>
+      <DependentUpon>Test_max_length_ho_ten.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9ef080ec-beb8-422e-af5a-d4e53f241cd4</id>
+    </Compile>
+    <Compile Include="Test_max_length_ho_ten.UserCode.cs">
+      <BoundTo>3ff81de6-0496-44ce-93eb-869d7a869eae</BoundTo>
+      <DependentUpon>Test_max_length_ho_ten.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>59197ad4-0ad3-49c7-a180-180910187d34</id>
+    </Compile>
     <Compile Include="Test_max_length_password.cs">
       <BoundTo>62eb7f25-c232-4c18-8aa9-c6611a5872b9</BoundTo>
       <DependentUpon>Test_max_length_password.rxrec</DependentUpon>
@@ -297,6 +393,30 @@
       <UserCode>true</UserCode>
       <id>6195093d-139c-4236-9f34-c19444efac55</id>
     </Compile>
+    <Compile Include="Test_max_length_SDT.cs">
+      <BoundTo>61e2c1a7-ddab-41e0-aea7-3eddeb9e0690</BoundTo>
+      <DependentUpon>Test_max_length_SDT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>379c41c7-dd73-4487-b4c2-ccbf660656cd</id>
+    </Compile>
+    <Compile Include="Test_max_length_SDT.UserCode.cs">
+      <BoundTo>61e2c1a7-ddab-41e0-aea7-3eddeb9e0690</BoundTo>
+      <DependentUpon>Test_max_length_SDT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>757dfcf8-77c5-4f5c-9c0b-c830b0f706fb</id>
+    </Compile>
+    <Compile Include="Test_max_length_Ten_cong_ty.cs">
+      <BoundTo>22fbe875-64f1-45ea-9234-2db49b452d46</BoundTo>
+      <DependentUpon>Test_max_length_Ten_cong_ty.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eaa427c9-fd71-4b07-bd8e-b4f8859f7dbc</id>
+    </Compile>
+    <Compile Include="Test_max_length_Ten_cong_ty.UserCode.cs">
+      <BoundTo>22fbe875-64f1-45ea-9234-2db49b452d46</BoundTo>
+      <DependentUpon>Test_max_length_Ten_cong_ty.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3b997a35-2f2c-4bb4-9df1-1a331e2b4be8</id>
+    </Compile>
     <Compile Include="Test_min_lenght_password.cs">
       <BoundTo>0f84981d-3540-474e-b3fd-d1e343517738</BoundTo>
       <DependentUpon>Test_min_lenght_password.rxrec</DependentUpon>
@@ -308,6 +428,126 @@
       <DependentUpon>Test_min_lenght_password.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>fcaa2eb8-f1f5-489b-b3a3-56e647cde767</id>
+    </Compile>
+    <Compile Include="Test_min_length_ho_ten.cs">
+      <BoundTo>e8fc9cd8-71c1-4b2c-8fb2-f0267e8c9c4b</BoundTo>
+      <DependentUpon>Test_min_length_ho_ten.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ffbb4525-254b-4590-b2ab-7b210126ac0f</id>
+    </Compile>
+    <Compile Include="Test_min_length_ho_ten.UserCode.cs">
+      <BoundTo>e8fc9cd8-71c1-4b2c-8fb2-f0267e8c9c4b</BoundTo>
+      <DependentUpon>Test_min_length_ho_ten.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>240eca80-4827-4064-a067-b7c8838d801e</id>
+    </Compile>
+    <Compile Include="Test_min_length_SDT.cs">
+      <BoundTo>9a4bbb97-8314-4327-b349-6711a9dfb81b</BoundTo>
+      <DependentUpon>Test_min_length_SDT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aeed6fa8-b112-4a93-9775-f9996896507c</id>
+    </Compile>
+    <Compile Include="Test_min_length_SDT.UserCode.cs">
+      <BoundTo>9a4bbb97-8314-4327-b349-6711a9dfb81b</BoundTo>
+      <DependentUpon>Test_min_length_SDT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d84ca884-4d0d-440a-b26f-679001605333</id>
+    </Compile>
+    <Compile Include="Test_min_length_Ten_cong_ty.cs">
+      <BoundTo>4a2bd48a-8835-4d31-9bdb-be241195ef7e</BoundTo>
+      <DependentUpon>Test_min_length_Ten_cong_ty.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>73022d71-1e4d-44e2-9bc2-1df18aa28656</id>
+    </Compile>
+    <Compile Include="Test_min_length_Ten_cong_ty.UserCode.cs">
+      <BoundTo>4a2bd48a-8835-4d31-9bdb-be241195ef7e</BoundTo>
+      <DependentUpon>Test_min_length_Ten_cong_ty.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>46a15c3d-0bc4-4640-b00d-ab1e1fc1610b</id>
+    </Compile>
+    <Compile Include="Test_SDT_ca_nhan_null.cs">
+      <BoundTo>e98dbea2-8f92-490f-a5ed-bd5ef2dabc11</BoundTo>
+      <DependentUpon>Test_SDT_ca_nhan_null.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c7f962c9-e6ea-4948-8f2f-f818cdb5c771</id>
+    </Compile>
+    <Compile Include="Test_SDT_ca_nhan_null.UserCode.cs">
+      <BoundTo>e98dbea2-8f92-490f-a5ed-bd5ef2dabc11</BoundTo>
+      <DependentUpon>Test_SDT_ca_nhan_null.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>92d4ffb6-7241-4dfb-ac9c-49ad2edb6231</id>
+    </Compile>
+    <Compile Include="Test_SDT_invalid.cs">
+      <BoundTo>4bb9fd88-b1c2-44df-8d30-94b5aaeb0d2c</BoundTo>
+      <DependentUpon>Test_SDT_invalid.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a14c4754-c53f-41db-bfef-e2572667b36f</id>
+    </Compile>
+    <Compile Include="Test_SDT_invalid.UserCode.cs">
+      <BoundTo>4bb9fd88-b1c2-44df-8d30-94b5aaeb0d2c</BoundTo>
+      <DependentUpon>Test_SDT_invalid.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f6cff4cf-0f87-42bd-b245-a2bc862409ea</id>
+    </Compile>
+    <Compile Include="Test_Ten_cong_ty_Null.cs">
+      <BoundTo>5216816f-dfdd-4939-a960-b80798170bde</BoundTo>
+      <DependentUpon>Test_Ten_cong_ty_Null.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>96e4857d-9d04-4787-a550-007794038ea5</id>
+    </Compile>
+    <Compile Include="Test_Ten_cong_ty_Null.UserCode.cs">
+      <BoundTo>5216816f-dfdd-4939-a960-b80798170bde</BoundTo>
+      <DependentUpon>Test_Ten_cong_ty_Null.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d9fec537-a66c-4a90-a6e1-c6b61b6de22c</id>
+    </Compile>
+    <Compile Include="Test_trim_space_Ho_ten.cs">
+      <BoundTo>e013bdac-8dab-4f6c-bd71-cef1ff2a54bc</BoundTo>
+      <DependentUpon>Test_trim_space_Ho_ten.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>965db725-1452-4a0c-bd07-85df04b4b35d</id>
+    </Compile>
+    <Compile Include="Test_trim_space_Ho_ten.UserCode.cs">
+      <BoundTo>e013bdac-8dab-4f6c-bd71-cef1ff2a54bc</BoundTo>
+      <DependentUpon>Test_trim_space_Ho_ten.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3b3e5b2e-f0f3-45a4-935c-f0f8de92f843</id>
+    </Compile>
+    <Compile Include="Test_trim_space_SDT.cs">
+      <BoundTo>085849e2-b211-4464-b5de-267f097ff7d8</BoundTo>
+      <DependentUpon>Test_trim_space_SDT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>120d412f-1aac-4b03-98a9-771187666fca</id>
+    </Compile>
+    <Compile Include="Test_trim_space_SDT.UserCode.cs">
+      <BoundTo>085849e2-b211-4464-b5de-267f097ff7d8</BoundTo>
+      <DependentUpon>Test_trim_space_SDT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3df34408-d018-443c-adfb-8895646c17d8</id>
+    </Compile>
+    <Compile Include="Test_trim_space_Ten_cong_ty.cs">
+      <BoundTo>18dd6003-9345-4f7f-ab6e-7cf91e85570e</BoundTo>
+      <DependentUpon>Test_trim_space_Ten_cong_ty.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>91ec19e2-b9fb-4ddd-8581-c11a91f5d929</id>
+    </Compile>
+    <Compile Include="Test_trim_space_Ten_cong_ty.UserCode.cs">
+      <BoundTo>18dd6003-9345-4f7f-ab6e-7cf91e85570e</BoundTo>
+      <DependentUpon>Test_trim_space_Ten_cong_ty.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>33590c76-4d18-4ccc-82b2-f2569a38405f</id>
+    </Compile>
+    <Compile Include="Test_Vi_tri_cong_tac_Null.cs">
+      <BoundTo>51090cde-f84b-4ede-9aa9-0b98e856c77e</BoundTo>
+      <DependentUpon>Test_Vi_tri_cong_tac_Null.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e3b1e5b5-d196-4b00-acb7-9cce9e271d75</id>
+    </Compile>
+    <Compile Include="Test_Vi_tri_cong_tac_Null.UserCode.cs">
+      <BoundTo>51090cde-f84b-4ede-9aa9-0b98e856c77e</BoundTo>
+      <DependentUpon>Test_Vi_tri_cong_tac_Null.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e3394a3d-9374-4ec8-a7e3-d7d3b59cbb41</id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -324,6 +564,11 @@
       <id>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</id>
       <repoid>56555126-6cbc-4f5d-80ab-7c4a19d3f06a</repoid>
       <reporootid>74fd19c5-ce83-4d38-acf1-09f47b5f1384</reporootid>
+    </None>
+    <None Include="Check_Ho_va_ten_Null.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>89a34107-996a-41fb-b4bd-9260463376a8</id>
+      <recordtableid>957a7bcf-39b7-4edd-bb9e-bf49cebab348</recordtableid>
     </None>
     <None Include="Check_ma_hoa_Cofirm_Password.rxrec">
       <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
@@ -349,6 +594,16 @@
       <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
       <id>33314f23-e329-4346-b726-1a3fe7ba17fa</id>
       <recordtableid>00174f16-7f85-4497-a605-fe656befc972</recordtableid>
+    </None>
+    <None Include="Confirm_PassWord_not_match_Password.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>a9962060-2836-4776-9515-bbd7cb4de2e5</id>
+      <recordtableid>b30129d1-32a0-473e-9d0f-e86a98cc547f</recordtableid>
+    </None>
+    <None Include="Confirm_PassWord_Null.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>14734243-4383-427d-809e-2592585d61a7</id>
+      <recordtableid>e5aceb6d-890d-4708-99fd-1b3015ff0d3f</recordtableid>
     </None>
     <None Include="Email_does_exist.rxrec">
       <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
@@ -390,15 +645,100 @@
       <id>8e312ab8-4361-4468-8535-a01809186ad0</id>
       <recordtableid>e84efb9c-796a-465e-b798-3621b6befb3d</recordtableid>
     </None>
+    <None Include="Test_chon_gia_tri_gioi_tinh.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>aaa04484-9f39-4534-a10c-080bb6a3d773</id>
+      <recordtableid>f3b97046-bfd1-4e0a-b3fb-a1d8e626f31d</recordtableid>
+    </None>
+    <None Include="Test_gioi_tinh_Null.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>c68bb0d8-f550-4946-92ac-d9bc5095d4d7</id>
+      <recordtableid>65589ce4-efa8-445c-9bed-20d2e1a2f864</recordtableid>
+    </None>
+    <None Include="Test_hien_thi_gia_tri_Vi_tri_cong_tac.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>372d2306-f9ba-4b92-9c4c-062acfa1675a</id>
+      <recordtableid>e350892b-7e54-4ccf-ba2c-0262e482f4a4</recordtableid>
+    </None>
+    <None Include="Test_ho_ten_chua_ki_tu_so.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>5a3ff15a-4033-4b88-8c08-a81436dd3fcc</id>
+      <recordtableid>823e719f-951d-4a40-bb75-3d4db8f0eb54</recordtableid>
+    </None>
+    <None Include="Test_max_length_ho_ten.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>3ff81de6-0496-44ce-93eb-869d7a869eae</id>
+      <recordtableid>0d65e250-6edd-4e74-9d62-558e05390fd1</recordtableid>
+    </None>
     <None Include="Test_max_length_password.rxrec">
       <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
       <id>62eb7f25-c232-4c18-8aa9-c6611a5872b9</id>
       <recordtableid>55e2d71e-36ed-4c41-a117-f410ea4ba9d9</recordtableid>
     </None>
+    <None Include="Test_max_length_SDT.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>61e2c1a7-ddab-41e0-aea7-3eddeb9e0690</id>
+      <recordtableid>61a3b93e-7231-4f03-849c-7e55d88c3cad</recordtableid>
+    </None>
+    <None Include="Test_max_length_Ten_cong_ty.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>22fbe875-64f1-45ea-9234-2db49b452d46</id>
+      <recordtableid>d97402f7-40cb-4d16-bf8b-d446cf483e53</recordtableid>
+    </None>
     <None Include="Test_min_lenght_password.rxrec">
       <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
       <id>0f84981d-3540-474e-b3fd-d1e343517738</id>
       <recordtableid>67faefa9-550e-4aea-bcf8-97ada8efba71</recordtableid>
+    </None>
+    <None Include="Test_min_length_ho_ten.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>e8fc9cd8-71c1-4b2c-8fb2-f0267e8c9c4b</id>
+      <recordtableid>1cfe32c7-33af-4847-b59b-5065ccead169</recordtableid>
+    </None>
+    <None Include="Test_min_length_SDT.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>9a4bbb97-8314-4327-b349-6711a9dfb81b</id>
+      <recordtableid>efd5d3ff-f707-4faa-9b1a-e09e0e617c55</recordtableid>
+    </None>
+    <None Include="Test_min_length_Ten_cong_ty.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>4a2bd48a-8835-4d31-9bdb-be241195ef7e</id>
+      <recordtableid>c8bdef12-f487-4fb6-9873-968e6273fc9d</recordtableid>
+    </None>
+    <None Include="Test_SDT_ca_nhan_null.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>e98dbea2-8f92-490f-a5ed-bd5ef2dabc11</id>
+      <recordtableid>5ff5219b-49a7-48df-8d9e-25375aa8d7b0</recordtableid>
+    </None>
+    <None Include="Test_SDT_invalid.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>4bb9fd88-b1c2-44df-8d30-94b5aaeb0d2c</id>
+      <recordtableid>808a8076-04e1-49e0-b2b1-93e00022491c</recordtableid>
+    </None>
+    <None Include="Test_Ten_cong_ty_Null.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>5216816f-dfdd-4939-a960-b80798170bde</id>
+      <recordtableid>d02c6978-c335-48de-9299-fec9304ba376</recordtableid>
+    </None>
+    <None Include="Test_trim_space_Ho_ten.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>e013bdac-8dab-4f6c-bd71-cef1ff2a54bc</id>
+      <recordtableid>9189931c-c2e9-49f5-9b0a-daf0fdc99bc4</recordtableid>
+    </None>
+    <None Include="Test_trim_space_SDT.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>085849e2-b211-4464-b5de-267f097ff7d8</id>
+      <recordtableid>8c1ede25-0745-4cc5-a0f6-063f623d1c6c</recordtableid>
+    </None>
+    <None Include="Test_trim_space_Ten_cong_ty.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>18dd6003-9345-4f7f-ab6e-7cf91e85570e</id>
+      <recordtableid>ab6a9c1b-e56f-4ef4-922c-44b21f4b9356</recordtableid>
+    </None>
+    <None Include="Test_Vi_tri_cong_tac_Null.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>51090cde-f84b-4ede-9aa9-0b98e856c77e</id>
+      <recordtableid>fe0861db-b033-40db-a2d6-a60704f2c882</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

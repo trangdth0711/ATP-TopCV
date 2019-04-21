@@ -224,6 +224,76 @@
             The ModalErrorMessage item info.
             </summary>
         </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Fullname">
+            <summary>
+            The Fullname item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.FullnameInfo">
+            <summary>
+            The Fullname item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalContent">
+            <summary>
+            The ModalContent item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalContentInfo">
+            <summary>
+            The ModalContent item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Phone">
+            <summary>
+            The Phone item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.PhoneInfo">
+            <summary>
+            The Phone item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.TempCompanyName">
+            <summary>
+            The TempCompanyName item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.TempCompanyNameInfo">
+            <summary>
+            The TempCompanyName item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.SomeBTag">
+            <summary>
+            The SomeBTag item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.SomeBTagInfo">
+            <summary>
+            The SomeBTag item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Select2SelectionArrow">
+            <summary>
+            The Select2SelectionArrow item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Select2SelectionArrowInfo">
+            <summary>
+            The Select2SelectionArrow item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ColMd9">
+            <summary>
+            The ColMd9 folder.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Select2GenderResults">
+            <summary>
+            The Select2GenderResults folder.
+            </summary>
+        </member>
         <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.PasswordInfoClass">
             <summary>
             The PasswordInfoClass folder.
@@ -309,6 +379,29 @@
             <param name="cropRect">The bounds of the sub-image to return.</param>
             <returns>The cropped image.</returns>
         </member>
+        <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalBodyInfoClass">
+            <summary>
+            The ModalBodyInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalBodyInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ModalBodyInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalBodyInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalBodyInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
         <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalErrorMessageInfoClass">
             <summary>
             The ModalErrorMessageInfoClass folder.
@@ -318,6 +411,19 @@
             <summary>
             ModalErrorMessageInfoClass class constructor.
             </summary>
+        </member>
+        <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalErrorMessageInfoClass.GetLoi_ho_ten1">
+            <summary>
+            Gets the Loi_ho_ten1 item image.
+            </summary>
+            <returns>The Loi_ho_ten1 image.</returns>
+        </member>
+        <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalErrorMessageInfoClass.GetLoi_ho_ten1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Loi_ho_ten1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
         </member>
         <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalErrorMessageInfoClass.GetScreenshot1">
             <summary>
@@ -331,6 +437,268 @@
             </summary>
             <param name="cropRect">The bounds of the sub-image to return.</param>
             <returns>The cropped image.</returns>
+        </member>
+        <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalContentInfoClass">
+            <summary>
+            The ModalContentInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalContentInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ModalContentInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalContentInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ModalContentInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder">
+            <summary>
+            The ColMd9Folder folder.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ColMd9  folder.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.SomeBTag">
+            <summary>
+            The SomeBTag item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.SomeBTagInfo">
+            <summary>
+            The SomeBTag item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.SpanTagNam">
+            <summary>
+            The SpanTagNam item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.SpanTagNamInfo">
+            <summary>
+            The SpanTagNam item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.SpanTagNữ">
+            <summary>
+            The SpanTagNữ item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.SpanTagNữInfo">
+            <summary>
+            The SpanTagNữ item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.Select2SelectionArrow">
+            <summary>
+            The Select2SelectionArrow item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.Select2SelectionArrowInfo">
+            <summary>
+            The Select2SelectionArrow item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.SpanTagChọnGiớiTinh">
+            <summary>
+            The SpanTagChọnGiớiTinh item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.SpanTagChọnGiớiTinhInfo">
+            <summary>
+            The SpanTagChọnGiớiTinh item info.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder">
+            <summary>
+            The Select2GenderResultsFolder folder.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Select2GenderResults  folder.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagChọnGiớiTinh">
+            <summary>
+            The LiTagChọnGiớiTinh item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagChọnGiớiTinhInfo">
+            <summary>
+            The LiTagChọnGiớiTinh item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagNam">
+            <summary>
+            The LiTagNam item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagNamInfo">
+            <summary>
+            The LiTagNam item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagNữ">
+            <summary>
+            The LiTagNữ item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagNữInfo">
+            <summary>
+            The LiTagNữ item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.NhanVien">
+            <summary>
+            The NhanVien item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.NhanVienInfo">
+            <summary>
+            The NhanVien item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.TrưởngNhom">
+            <summary>
+            The TrưởngNhom item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.TrưởngNhomInfo">
+            <summary>
+            The TrưởngNhom item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.PhoPhong">
+            <summary>
+            The PhoPhong item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.PhoPhongInfo">
+            <summary>
+            The PhoPhong item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.TrưởngPhong">
+            <summary>
+            The TrưởngPhong item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.TrưởngPhongInfo">
+            <summary>
+            The TrưởngPhong item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.PhoGiamĐốc">
+            <summary>
+            The PhoGiamĐốc item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.PhoGiamĐốcInfo">
+            <summary>
+            The PhoGiamĐốc item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.GiamĐốc">
+            <summary>
+            The GiamĐốc item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.GiamĐốcInfo">
+            <summary>
+            The GiamĐốc item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.TổngGiamĐốc">
+            <summary>
+            The TổngGiamĐốc item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.TổngGiamĐốcInfo">
+            <summary>
+            The TổngGiamĐốc item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagChọnVịTriCongTac">
+            <summary>
+            The LiTagChọnVịTriCongTac item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagChọnVịTriCongTacInfo">
+            <summary>
+            The LiTagChọnVịTriCongTac item info.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Check_Ho_va_ten_Null">
+             <summary>
+            The Check_Ho_va_ten_Null recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Check_Ho_va_ten_Null.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Check_Ho_va_ten_Null.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Check_Ho_va_ten_Null.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Check_Ho_va_ten_Null.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Check_Ho_va_ten_Null.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Check_Ho_va_ten_Null.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Check_Ho_va_ten_Null.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
         </member>
         <member name="T:ATP_TopCV.Check_ma_hoa_Cofirm_Password">
              <summary>
@@ -523,6 +891,84 @@
             </summary>
         </member>
         <member name="P:ATP_TopCV.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Confirm_PassWord_not_match_Password">
+             <summary>
+            The Confirm_PassWord_not_match_Password recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Confirm_PassWord_not_match_Password.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Confirm_PassWord_not_match_Password.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Confirm_PassWord_not_match_Password.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Confirm_PassWord_not_match_Password.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Confirm_PassWord_not_match_Password.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Confirm_PassWord_not_match_Password.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Confirm_PassWord_not_match_Password.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Confirm_PassWord_Null">
+             <summary>
+            The Confirm_PassWord_Null recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Confirm_PassWord_Null.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Confirm_PassWord_Null.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Confirm_PassWord_Null.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Confirm_PassWord_Null.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Confirm_PassWord_Null.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Confirm_PassWord_Null.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Confirm_PassWord_Null.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
@@ -839,6 +1285,201 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="T:ATP_TopCV.Test_chon_gia_tri_gioi_tinh">
+             <summary>
+            The Test_chon_gia_tri_gioi_tinh recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_chon_gia_tri_gioi_tinh.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_chon_gia_tri_gioi_tinh.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_chon_gia_tri_gioi_tinh.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_chon_gia_tri_gioi_tinh.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_chon_gia_tri_gioi_tinh.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_chon_gia_tri_gioi_tinh.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_chon_gia_tri_gioi_tinh.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_gioi_tinh_Null">
+             <summary>
+            The Test_gioi_tinh_Null recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_gioi_tinh_Null.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_gioi_tinh_Null.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_gioi_tinh_Null.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_gioi_tinh_Null.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_gioi_tinh_Null.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_gioi_tinh_Null.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_gioi_tinh_Null.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_hien_thi_gia_tri_Vi_tri_cong_tac">
+             <summary>
+            The Test_hien_thi_gia_tri_Vi_tri_cong_tac recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_hien_thi_gia_tri_Vi_tri_cong_tac.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_hien_thi_gia_tri_Vi_tri_cong_tac.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_hien_thi_gia_tri_Vi_tri_cong_tac.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_hien_thi_gia_tri_Vi_tri_cong_tac.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_hien_thi_gia_tri_Vi_tri_cong_tac.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_hien_thi_gia_tri_Vi_tri_cong_tac.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_hien_thi_gia_tri_Vi_tri_cong_tac.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_ho_ten_chua_ki_tu_so">
+             <summary>
+            The Test_ho_ten_chua_ki_tu_so recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_ho_ten_chua_ki_tu_so.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_ho_ten_chua_ki_tu_so.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_ho_ten_chua_ki_tu_so.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_ho_ten_chua_ki_tu_so.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_ho_ten_chua_ki_tu_so.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_ho_ten_chua_ki_tu_so.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_ho_ten_chua_ki_tu_so.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_max_length_ho_ten">
+             <summary>
+            The Test_max_length_ho_ten recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_max_length_ho_ten.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_max_length_ho_ten.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_max_length_ho_ten.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_max_length_ho_ten.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_max_length_ho_ten.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_max_length_ho_ten.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_max_length_ho_ten.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:ATP_TopCV.Test_max_length_password">
              <summary>
             The Test_max_length_password recording.
@@ -878,6 +1519,84 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="T:ATP_TopCV.Test_max_length_SDT">
+             <summary>
+            The Test_max_length_SDT recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_max_length_SDT.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_max_length_SDT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_max_length_SDT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_max_length_SDT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_max_length_SDT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_max_length_SDT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_max_length_SDT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_max_length_Ten_cong_ty">
+             <summary>
+            The Test_max_length_Ten_cong_ty recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_max_length_Ten_cong_ty.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_max_length_Ten_cong_ty.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_max_length_Ten_cong_ty.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_max_length_Ten_cong_ty.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_max_length_Ten_cong_ty.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_max_length_Ten_cong_ty.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_max_length_Ten_cong_ty.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:ATP_TopCV.Test_min_lenght_password">
              <summary>
             The Test_min_lenght_password recording.
@@ -913,6 +1632,396 @@
             </summary>
         </member>
         <member name="P:ATP_TopCV.Test_min_lenght_password.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_min_length_ho_ten">
+             <summary>
+            The Test_min_length_ho_ten recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_min_length_ho_ten.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_min_length_ho_ten.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_min_length_ho_ten.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_min_length_ho_ten.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_min_length_ho_ten.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_min_length_ho_ten.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_min_length_ho_ten.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_min_length_SDT">
+             <summary>
+            The Test_min_length_SDT recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_min_length_SDT.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_min_length_SDT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_min_length_SDT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_min_length_SDT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_min_length_SDT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_min_length_SDT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_min_length_SDT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_min_length_Ten_cong_ty">
+             <summary>
+            The Test_min_length_Ten_cong_ty recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_min_length_Ten_cong_ty.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_min_length_Ten_cong_ty.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_min_length_Ten_cong_ty.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_min_length_Ten_cong_ty.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_min_length_Ten_cong_ty.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_min_length_Ten_cong_ty.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_min_length_Ten_cong_ty.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_SDT_ca_nhan_null">
+             <summary>
+            The Test_SDT_ca_nhan_null recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_SDT_ca_nhan_null.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_SDT_ca_nhan_null.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_SDT_ca_nhan_null.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_SDT_ca_nhan_null.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_SDT_ca_nhan_null.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_SDT_ca_nhan_null.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_SDT_ca_nhan_null.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_SDT_invalid">
+             <summary>
+            The Test_SDT_invalid recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_SDT_invalid.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_SDT_invalid.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_SDT_invalid.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_SDT_invalid.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_SDT_invalid.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_SDT_invalid.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_SDT_invalid.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_Ten_cong_ty_Null">
+             <summary>
+            The Test_Ten_cong_ty_Null recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_Ten_cong_ty_Null.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_Ten_cong_ty_Null.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_Ten_cong_ty_Null.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_Ten_cong_ty_Null.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_Ten_cong_ty_Null.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_Ten_cong_ty_Null.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_Ten_cong_ty_Null.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_trim_space_Ho_ten">
+             <summary>
+            The Test_trim_space_Ho_ten recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_trim_space_Ho_ten.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_trim_space_Ho_ten.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_trim_space_Ho_ten.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_trim_space_Ho_ten.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_trim_space_Ho_ten.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_trim_space_Ho_ten.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_trim_space_Ho_ten.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_trim_space_SDT">
+             <summary>
+            The Test_trim_space_SDT recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_trim_space_SDT.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_trim_space_SDT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_trim_space_SDT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_trim_space_SDT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_trim_space_SDT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_trim_space_SDT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_trim_space_SDT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_trim_space_Ten_cong_ty">
+             <summary>
+            The Test_trim_space_Ten_cong_ty recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_trim_space_Ten_cong_ty.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_trim_space_Ten_cong_ty.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_trim_space_Ten_cong_ty.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_trim_space_Ten_cong_ty.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_trim_space_Ten_cong_ty.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_trim_space_Ten_cong_ty.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_trim_space_Ten_cong_ty.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Test_Vi_tri_cong_tac_Null">
+             <summary>
+            The Test_Vi_tri_cong_tac_Null recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Test_Vi_tri_cong_tac_Null.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_Vi_tri_cong_tac_Null.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_Vi_tri_cong_tac_Null.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Test_Vi_tri_cong_tac_Null.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Test_Vi_tri_cong_tac_Null.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Test_Vi_tri_cong_tac_Null.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Test_Vi_tri_cong_tac_Null.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
