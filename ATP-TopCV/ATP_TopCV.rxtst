@@ -9,6 +9,10 @@ rxversion="9.0">
 			ref="b5e2e94e-9907-4650-8099-974d91517512"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="00256c2c-6cb3-4eb4-b035-b377d50aaedf"
+			name="teardown">
+			</teardown>
 			<setup
 			id="002c7d3e-728a-4ba5-8f4f-509f1b626196"
 			name="setup">
@@ -149,6 +153,10 @@ rxversion="9.0">
 			ref="b5e2e94e-9907-4650-8099-974d91517512"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="151a28e8-cd63-438a-95b3-17c49bce42bf"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="154a0ecd-cfdb-4508-9313-c745830eb678"
 			name="OpenBrowser"
@@ -163,6 +171,10 @@ rxversion="9.0">
 			</testmodule>
 			<setup
 			id="1608e7d9-ed82-4422-b08d-4878220aef1b"
+			name="setup">
+			</setup>
+			<setup
+			id="18ba5319-19c2-4905-9050-98620bc6f979"
 			name="setup">
 			</setup>
 			<smartfoldernode
@@ -361,6 +373,13 @@ rxversion="9.0">
 			name="setup">
 			</setup>
 			<testmodule
+			enabled="False"
+			id="4bccc8a0-fb4a-4f50-8a9b-3663aa5a0b4e"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="4e06cd30-b823-4f49-9f41-27231f493e07"
 			name="CloseBrowser"
 			ref="00174f16-7f85-4497-a605-fe656befc972"
@@ -386,6 +405,10 @@ rxversion="9.0">
 			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="537186b2-e8ae-496e-9ec4-110b303f6db7"
+			name="TC-41_">
+			</testcase>
 			<setup
 			id="539d30c4-e8c6-4ab5-b446-6b55c5cd6081"
 			name="setup">
@@ -516,6 +539,10 @@ rxversion="9.0">
 			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="6cf8cc4d-ee23-412d-a7e4-4d4ea76a5086"
+			name="setup">
+			</setup>
 			<testcase
 			id="6d1df44f-544b-4b05-a667-6e145632c380"
 			name="TC-25_Kiem_tra_Trim_space_khoan_trang_dau_cuoi_SDT">
@@ -622,6 +649,12 @@ rxversion="9.0">
 			ref="61a3b93e-7231-4f03-849c-7e55d88c3cad"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="892de70f-aa20-4b92-a182-c0c77627f6e6"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="893e128b-6429-4c90-9855-9381cc42d100"
 			name="setup">
@@ -654,6 +687,12 @@ rxversion="9.0">
 			id="8f430f35-b639-42a7-b662-a8bc5b14c0c3"
 			name="CloseBrowser"
 			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="8fada96e-e29a-4a9c-b153-aa999b3a79fb"
+			name="Bo_Trong_Tinh_TP_va_Quan_Huyen"
+			ref="27259ae0-8849-4222-ae3e-4c8b37cd147e"
 			type="Recording">
 			</testmodule>
 			<teardown
@@ -728,6 +767,12 @@ rxversion="9.0">
 			id="a472cc0c-8163-417f-97ca-87fc817b5fd6"
 			name="TC-09_Test_Max_Length">
 			</testcase>
+			<testmodule
+			id="a60244f5-438e-4178-b376-39b49030ee5e"
+			name="Recording1"
+			ref="30d640bf-d7b3-4e87-b479-86c1155f81e8"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="a7899548-e744-456d-9a04-5a16f399ec55"
 			name="teardown">
@@ -742,6 +787,12 @@ rxversion="9.0">
 			id="aaff1bae-544c-4de2-bdd5-fbea14f7273a"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="ab09f417-480a-4140-8cae-b6738c4caf58"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="acf55073-bf47-4bbd-a347-2b68edb735f8"
 			name="Test_max_length_ho_ten"
@@ -917,6 +968,12 @@ rxversion="9.0">
 			name="TC-31_Kiem_tra_max_length_ten_cong_ty">
 			</testcase>
 			<testmodule
+			id="dbc863c2-4fbf-4389-ad2a-076b4f8b46b4"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="dc1eda7d-511a-400c-9683-ea673bceceec"
 			name="CloseBrowser"
 			ref="00174f16-7f85-4497-a605-fe656befc972"
@@ -962,6 +1019,10 @@ rxversion="9.0">
 			id="e9b780b1-6eea-40a5-ab83-133e5b61d990"
 			name="teardown">
 			</teardown>
+			<testcase
+			id="ebbecb14-339b-4d0d-bcfc-8a288bdcb9cd"
+			name="TC-40_Bo_trong_Tinh_TP+Quan_Huyen">
+			</testcase>
 			<testcase
 			id="ec0ee408-14c2-4afc-8809-b1e2c63077de"
 			name="TC-04_Email_da_ton_tai">
@@ -1896,6 +1957,54 @@ rxversion="9.0">
 						<smartfoldernode
 						id="9e588718-dfe6-4008-bd9c-3db9789b1138"
 						name="Dia_diem_lam_viec">
+							<testcase
+							id="ebbecb14-339b-4d0d-bcfc-8a288bdcb9cd"
+							name="TC-40_Bo_trong_Tinh_TP+Quan_Huyen">
+								<setup
+								id="6cf8cc4d-ee23-412d-a7e4-4d4ea76a5086"
+								name="setup">
+									<testmodule
+									id="892de70f-aa20-4b92-a182-c0c77627f6e6"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="8fada96e-e29a-4a9c-b153-aa999b3a79fb"
+								name="Bo_Trong_Tinh_TP_va_Quan_Huyen">
+								</testmodule>
+								<teardown
+								id="151a28e8-cd63-438a-95b3-17c49bce42bf"
+								name="teardown">
+									<testmodule
+									id="dbc863c2-4fbf-4389-ad2a-076b4f8b46b4"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="537186b2-e8ae-496e-9ec4-110b303f6db7"
+							name="TC-41_">
+								<setup
+								id="18ba5319-19c2-4905-9050-98620bc6f979"
+								name="setup">
+									<testmodule
+									id="ab09f417-480a-4140-8cae-b6738c4caf58"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="a60244f5-438e-4178-b376-39b49030ee5e"
+								name="Recording1">
+								</testmodule>
+								<teardown
+								id="00256c2c-6cb3-4eb4-b035-b377d50aaedf"
+								name="teardown">
+									<testmodule
+									id="4bccc8a0-fb4a-4f50-8a9b-3663aa5a0b4e"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
 						</smartfoldernode>
 					</smartfoldernode>
 				</testcase>
@@ -1909,37 +2018,16 @@ rxversion="9.0">
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="0981ab29-ec89-4b1b-b119-da24eaa51a59">
-			</testcontainer>
-			<testcontainer
-			id="0d6e4853-4e73-4440-a742-30206afbd2ba">
-			</testcontainer>
-			<testcontainer
-			id="1dfd8c19-92e5-404c-812e-fac90a7177ea">
-			</testcontainer>
-			<testcontainer
-			id="31a13112-6463-49f2-8486-267dfaf0a72e">
-			</testcontainer>
-			<testcontainer
 			id="40e20b2c-7f5b-45ad-b55e-b5e8a1072f23">
+			</testcontainer>
+			<testcontainer
+			id="537186b2-e8ae-496e-9ec4-110b303f6db7">
 			</testcontainer>
 			<testcontainer
 			id="5974fe44-6b69-4bac-b899-4d8fdb65c752">
 			</testcontainer>
 			<testcontainer
-			id="95a3def6-1f4d-47e9-a86f-bbf04ff5aacb">
-			</testcontainer>
-			<testcontainer
 			id="9e588718-dfe6-4008-bd9c-3db9789b1138">
-			</testcontainer>
-			<testcontainer
-			id="cdc13f6f-0c0b-4d6f-add9-646d78eac73b">
-			</testcontainer>
-			<testcontainer
-			id="d0d18d37-af18-4042-9d1b-9d669bc8e1e5">
-			</testcontainer>
-			<testcontainer
-			id="d9b540b8-0b8a-4edc-88cc-0af8f116ec1b">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

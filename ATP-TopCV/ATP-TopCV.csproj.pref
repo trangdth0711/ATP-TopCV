@@ -4,8 +4,15 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="Test_trim_space_Ten_cong_ty.rxrec" />
+    <Element value="Password_invalid.rxrec" />
+    <Element value="OpenBrowser.rxrec" />
+    <Element value="Bo_trong_tat_ca_cac_truong.rxrec" />
     <Element value="ATP_TopCV.rxtst" />
+    <Element value="Recording1.rxrec" />
+    <Element value="Bo_Trong_Tinh_TP_va_Quan_Huyen.rxrec" />
+    <Element value="Test_Vi_tri_cong_tac_Null.rxrec" />
+    <Element value="Test_hien_thi_gia_tri_Vi_tri_cong_tac.rxrec" />
+    <Element value="Test_trim_space_Ten_cong_ty.rxrec" />
     <Element value="Test_max_length_Ten_cong_ty.rxrec" />
     <Element value="Test_chon_gia_tri_gioi_tinh.rxrec" />
     <Element value="Test_gioi_tinh_Null.rxrec" />
@@ -13,7 +20,6 @@
     <Element value="Test_SDT_invalid.rxrec" />
     <Element value="Test_ho_ten_chua_ki_tu_so.rxrec" />
     <Element value="Confirm_PassWord_not_match_Password.rxrec" />
-    <Element value="Check_ma_hoa_password.rxrec" />
     <Element value="Check_ma_hoa_Cofirm_Password.rxrec" />
   </Array>
   <Properties name="projectSavedData">

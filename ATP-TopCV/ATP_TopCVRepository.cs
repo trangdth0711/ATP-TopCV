@@ -282,6 +282,7 @@ namespace ATP_TopCV
             RepoItemInfo _tempcompanynameInfo;
             RepoItemInfo _somebtagInfo;
             RepoItemInfo _select2selectionarrowInfo;
+            RepoItemInfo _select2selectionarrow1Info;
 
             /// <summary>
             /// Creates a new ĐăngKyTaiKhoảnNhaTuyểnDụng  folder.
@@ -306,6 +307,7 @@ namespace ATP_TopCV
                 _tempcompanynameInfo = new RepoItemInfo(this, "TempCompanyName", ".//input[#'temp_company_name']", 30000, null, "fee9dacd-4f86-4211-b872-c85784c45163");
                 _somebtagInfo = new RepoItemInfo(this, "SomeBTag", ".//div[#'personal-info']/div[2]/div/div[9]/div//b", 30000, null, "1574c626-922b-4275-80dc-61c1edacdee8");
                 _select2selectionarrowInfo = new RepoItemInfo(this, "Select2SelectionArrow", ".//div[#'personal-info']/div[2]/div/div[9]/div/span/span[1]/span/span[2]", 30000, null, "efadaf0f-4eea-4a19-b2c6-47ffb3417057");
+                _select2selectionarrow1Info = new RepoItemInfo(this, "Select2SelectionArrow1", ".//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[2]", 30000, null, "f10eab2d-62dd-4b65-a49c-8544024e45b8");
             }
 
             /// <summary>
@@ -952,6 +954,30 @@ namespace ATP_TopCV
             }
 
             /// <summary>
+            /// The Select2SelectionArrow1 item.
+            /// </summary>
+            [RepositoryItem("f10eab2d-62dd-4b65-a49c-8544024e45b8")]
+            public virtual Ranorex.SpanTag Select2SelectionArrow1
+            {
+                get
+                {
+                    return _select2selectionarrow1Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Select2SelectionArrow1 item info.
+            /// </summary>
+            [RepositoryItemInfo("f10eab2d-62dd-4b65-a49c-8544024e45b8")]
+            public virtual RepoItemInfo Select2SelectionArrow1Info
+            {
+                get
+                {
+                    return _select2selectionarrow1Info;
+                }
+            }
+
+            /// <summary>
             /// The ColMd9 folder.
             /// </summary>
             [RepositoryFolder("b7601484-9ab3-4aec-b0df-57aefeead214")]
@@ -1157,6 +1183,7 @@ namespace ATP_TopCV
             RepoItemInfo _giamđốcInfo;
             RepoItemInfo _tổnggiamđốcInfo;
             RepoItemInfo _litagchọnvịtricongtacInfo;
+            RepoItemInfo _litaghanộiInfo;
 
             /// <summary>
             /// Creates a new Select2GenderResults  folder.
@@ -1175,6 +1202,7 @@ namespace ATP_TopCV
                 _giamđốcInfo = new RepoItemInfo(this, "GiamĐốc", "li[@innertext='Giám đốc']", 30000, null, "de0828bc-8610-4f4b-ae3f-88904550c53f");
                 _tổnggiamđốcInfo = new RepoItemInfo(this, "TổngGiamĐốc", "li[@innertext='Tổng giám đốc']", 30000, null, "d20e0f0d-eb88-4920-9059-98b4992dec88");
                 _litagchọnvịtricongtacInfo = new RepoItemInfo(this, "LiTagChọnVịTriCongTac", "li[@innertext~'^--\\ Chọn\\ vị\\ trí\\ công\\ tác\\ -']", 30000, null, "d177d073-416b-4294-9192-86b77e144396");
+                _litaghanộiInfo = new RepoItemInfo(this, "LiTagHaNội", "li[@innertext='Hà Nội']", 30000, null, "1d4ac40e-52dc-460d-914a-ebddd447fcd8");
             }
 
             /// <summary>
@@ -1462,6 +1490,30 @@ namespace ATP_TopCV
                 get
                 {
                     return _litagchọnvịtricongtacInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LiTagHaNội item.
+            /// </summary>
+            [RepositoryItem("1d4ac40e-52dc-460d-914a-ebddd447fcd8")]
+            public virtual Ranorex.LiTag LiTagHaNội
+            {
+                get
+                {
+                    return _litaghanộiInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LiTagHaNội item info.
+            /// </summary>
+            [RepositoryItemInfo("1d4ac40e-52dc-460d-914a-ebddd447fcd8")]
+            public virtual RepoItemInfo LiTagHaNộiInfo
+            {
+                get
+                {
+                    return _litaghanộiInfo;
                 }
             }
         }

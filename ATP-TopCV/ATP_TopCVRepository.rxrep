@@ -812,6 +812,16 @@ RK5CYII=
 				searchtimeout="30000ms">
 					/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext~'^--\ Ch&#7885;n\ v&#7883;\ tr&#237;\ c&#244;ng\ t&#225;c\ -']
 				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="1d4ac40e-52dc-460d-914a-ebddd447fcd8"
+				name="LiTagHaNội"
+				refimgid="016b9d26-92f0-4a58-a707-4343879e3360"
+				refpath="/dom[2]/body/span/span/span[2]/ul/li[@innertext='Hà Nội']"
+				searchtimeout="30000ms">
+					/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='H&#224; N&#7897;i']
+				</item>
 				<basepath>
 					/dom[@domain='tuyendung.topcv.vn']/body/span//ul
 				</basepath>
@@ -845,6 +855,16 @@ RK5CYII=
 			refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[9]/div/span/span[1]/span/span[2]"
 			searchtimeout="30000ms">
 				/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[9]/div/span/span[1]/span/span[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="f10eab2d-62dd-4b65-a49c-8544024e45b8"
+			name="Select2SelectionArrow1"
+			refimgid="91e9f5aa-8874-4f67-ad1d-6bd54fbfd716"
+			refpath="/dom[2]//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[2]"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[2]
 			</item>
 			<basepath>
 				/dom[@domain='tuyendung.topcv.vn']

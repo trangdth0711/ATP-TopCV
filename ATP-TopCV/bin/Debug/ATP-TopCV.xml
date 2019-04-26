@@ -284,6 +284,16 @@
             The Select2SelectionArrow item info.
             </summary>
         </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Select2SelectionArrow1">
+            <summary>
+            The Select2SelectionArrow1 item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Select2SelectionArrow1Info">
+            <summary>
+            The Select2SelectionArrow1 item info.
+            </summary>
+        </member>
         <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ColMd9">
             <summary>
             The ColMd9 folder.
@@ -659,6 +669,55 @@
         <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagChọnVịTriCongTacInfo">
             <summary>
             The LiTagChọnVịTriCongTac item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagHaNội">
+            <summary>
+            The LiTagHaNội item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagHaNộiInfo">
+            <summary>
+            The LiTagHaNội item info.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen">
+             <summary>
+            The Bo_Trong_Tinh_TP_va_Quan_Huyen recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="T:ATP_TopCV.Check_Ho_va_ten_Null">
@@ -1281,6 +1340,45 @@
             </summary>
         </member>
         <member name="P:ATP_TopCV.Email_null.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Recording1.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Recording1.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
