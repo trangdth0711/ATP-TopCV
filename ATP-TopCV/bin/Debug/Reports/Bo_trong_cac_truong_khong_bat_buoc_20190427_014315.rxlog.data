@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b6c90553cd1a600"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Trang Meo"
+		rxversion="9.0.1.0"
+		host="DESKTOP-Q1CC1KM"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1024x768"
+		timestamp="4/27/2019 1:43:18 AM"
+		timestampiso="2019-04-26T18:43:18"
+		endtime="4/27/2019 1:43:50 AM"
+		timeoutfactor="1"
+		module="Bo_trong_cac_truong_khong_bat_buoc">
+		<detail>
+			Bo_trong_cac_truong_khong_bat_buoc
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.181"
+			timeRelativeToTestModuleStartTime="00:05.183"
+			timeWallClock="01:43:23"
+			time="00:05.181"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Email' at 234;36.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'email']"
+				itempath=".//input[#'email']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email"
+				id="b14d95ceb80a4f5f8d216802d3cd4cfc"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.550"
+			timeRelativeToTestModuleStartTime="00:08.552"
+			timeWallClock="01:43:27"
+			time="00:08.550"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'a1{LShiftKey down}@{LShiftKey up}gmail.com' with focus on '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Email'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'email']"
+				itempath=".//input[#'email']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email"
+				id="b14d95ceb80a4f5f8d216802d3cd4cfc"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.300"
+			timeRelativeToTestModuleStartTime="00:10.302"
+			timeWallClock="01:43:28"
+			time="00:10.300"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Password' at 87;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'password']"
+				itempath=".//input[#'password']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Password"
+				id="158eeb4416c649d9b7c0f66e7c757f9b"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.308"
+			timeRelativeToTestModuleStartTime="00:11.310"
+			timeWallClock="01:43:29"
+			time="00:11.308"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.&#272;ongL&#7841;i1' at 177;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//div[#'modal-success']/div/div/div[2]/button[@innertext='Đóng lại']"
+				itempath=".//div[#'modal-success']/div/div/div[2]/button[@innertext='Đóng lại']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại1"
+				id="358715e9c77f4eeb9f309cedb5ea4719"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.248"
+			timeRelativeToTestModuleStartTime="00:12.250"
+			timeWallClock="01:43:30"
+			time="00:12.248"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Password' at 87;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'password']"
+				itempath=".//input[#'password']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Password"
+				id="158eeb4416c649d9b7c0f66e7c757f9b"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.277"
+			timeRelativeToTestModuleStartTime="00:13.279"
+			timeWallClock="01:43:31"
+			time="00:13.277"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Trang{LShiftKey down}{@ down}{LShiftKey up}123' with focus on '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'password']"
+				itempath=".//input[#'password']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Password"
+				id="158eeb4416c649d9b7c0f66e7c757f9b"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.602"
+			timeRelativeToTestModuleStartTime="00:14.604"
+			timeWallClock="01:43:33"
+			time="00:14.602"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.PasswordConfirmation' at 97;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'password_confirmation']"
+				itempath=".//input[#'password_confirmation']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordConfirmation"
+				id="349b6bb7b3d241c4bd43d786302862aa"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.570"
+			timeRelativeToTestModuleStartTime="00:15.572"
+			timeWallClock="01:43:34"
+			time="00:15.570"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Trang{LShiftKey down}{@ down}{LShiftKey up}123' with focus on '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.PasswordConfirmation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'password_confirmation']"
+				itempath=".//input[#'password_confirmation']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordConfirmation"
+				id="349b6bb7b3d241c4bd43d786302862aa"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.869"
+			timeRelativeToTestModuleStartTime="00:16.871"
+			timeWallClock="01:43:35"
+			time="00:16.869"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Huyen Trang' with focus on '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Fullname'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'fullname']"
+				itempath=".//input[#'fullname']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Fullname"
+				id="5f4c2c9e82c24a649c5171af32f45ac5"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.536"
+			timeRelativeToTestModuleStartTime="00:18.538"
+			timeWallClock="01:43:37"
+			time="00:18.536"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Phone' at 276;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'phone']"
+				itempath=".//input[#'phone']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Phone"
+				id="21ddb8a6eb664ef0999963f8b1114fd1"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.507"
+			timeRelativeToTestModuleStartTime="00:19.509"
+			timeWallClock="01:43:38"
+			time="00:19.507"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '1234567890' with focus on '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Phone'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'phone']"
+				itempath=".//input[#'phone']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Phone"
+				id="21ddb8a6eb664ef0999963f8b1114fd1"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.990"
+			timeRelativeToTestModuleStartTime="00:20.992"
+			timeWallClock="01:43:39"
+			time="00:20.990"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.ColMd9.Select2SelectionArrow' at 12;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[7]/div/span/span[1]/span/span[2]"
+				itempath="span/span[1]/span/span[2]"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrow"
+				id="bf41f7a91c0a4ce2af453eb3571bdcfd"
+				timeout="90000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.135"
+			timeRelativeToTestModuleStartTime="00:22.137"
+			timeWallClock="01:43:40"
+			time="00:22.135"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Select2GenderResults.LiTagNam' at 200;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Nam']"
+				itempath="li[@innertext='Nam']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagNam"
+				id="e1c93eb34ae945ceb6eb023a35e0c41a"
+				timeout="90000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="130"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.948"
+			timeRelativeToTestModuleStartTime="00:22.950"
+			timeWallClock="01:43:41"
+			time="00:22.948"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.TempCompanyName' at 109;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'temp_company_name']"
+				itempath=".//input[#'temp_company_name']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.TempCompanyName"
+				id="fee9dacd4f864211b872c85784c45163"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="134"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.954"
+			timeRelativeToTestModuleStartTime="00:23.956"
+			timeWallClock="01:43:42"
+			time="00:23.954"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Cong Ty TNHH Huyen Trang' with focus on '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.TempCompanyName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//input[#'temp_company_name']"
+				itempath=".//input[#'temp_company_name']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.TempCompanyName"
+				id="fee9dacd4f864211b872c85784c45163"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="138"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.988"
+			timeRelativeToTestModuleStartTime="00:26.990"
+			timeWallClock="01:43:45"
+			time="00:26.988"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.SomeBTag' at 2;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[9]/div//b"
+				itempath=".//div[#'personal-info']/div[2]/div/div[9]/div//b"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.SomeBTag"
+				id="1574c626922b427580dc61c1edacdee8"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="142"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.221"
+			timeRelativeToTestModuleStartTime="00:28.223"
+			timeWallClock="01:43:46"
+			time="00:28.221"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Select2GenderResults.NhanVien' at 154;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Nhân viên']"
+				itempath="li[@innertext='Nhân viên']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NhanVien"
+				id="2cd72d11aa974ebb94c32c1a66292a25"
+				timeout="90000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="146"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.070"
+			timeRelativeToTestModuleStartTime="00:29.072"
+			timeWallClock="01:43:47"
+			time="00:29.070"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.DivTagRow.Select2SelectionArrow1' at 18;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[2]"
+				itempath="div[1]/div/span/span[1]/span/span[2]"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow1"
+				id="195ffb000a9149adaa28f9fb00ab02dc"
+				timeout="90000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="150"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.517"
+			timeRelativeToTestModuleStartTime="00:30.519"
+			timeWallClock="01:43:49"
+			time="00:30.517"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Select2GenderResults.LiTagHaN&#7897;i' at 80;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Hà Nội']"
+				itempath="li[@innertext='Hà Nội']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagHaNội"
+				id="d5bebc6587da4a60b7a019f145fe7834"
+				timeout="90000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="154"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.367"
+			timeRelativeToTestModuleStartTime="00:31.369"
+			timeWallClock="01:43:49"
+			time="00:31.367"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.HoanT&#7845;t' at 42;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']//a[@innertext='Hoàn tất']"
+				itempath=".//div[#'personal-info']//a[@innertext='Hoàn tất']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất"
+				id="a2df2c053c2646388dac0946fb041b06"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="158"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

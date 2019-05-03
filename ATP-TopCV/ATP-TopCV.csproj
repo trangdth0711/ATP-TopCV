@@ -126,17 +126,29 @@
       <RepositoryCode>true</RepositoryCode>
       <id>6f9da314-11ff-43de-8da8-70541a1c0623</id>
     </Compile>
-    <Compile Include="Bo_Trong_Tinh_TP_va_Quan_Huyen.cs">
-      <BoundTo>b0c39437-31ff-4c1b-8ae6-569d34c4c1a1</BoundTo>
-      <DependentUpon>Bo_Trong_Tinh_TP_va_Quan_Huyen.rxrec</DependentUpon>
+    <Compile Include="Bo_trong_cac_truong_khong_bat_buoc.cs">
+      <BoundTo>600cdbf3-c482-4423-a336-43b1d928823d</BoundTo>
+      <DependentUpon>Bo_trong_cac_truong_khong_bat_buoc.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>249f6eb8-0088-4c66-a20c-a39ccc4e582b</id>
+      <id>65584b61-108c-4550-b895-d562f60cb6e0</id>
     </Compile>
-    <Compile Include="Bo_Trong_Tinh_TP_va_Quan_Huyen.UserCode.cs">
-      <BoundTo>b0c39437-31ff-4c1b-8ae6-569d34c4c1a1</BoundTo>
-      <DependentUpon>Bo_Trong_Tinh_TP_va_Quan_Huyen.rxrec</DependentUpon>
+    <Compile Include="Bo_trong_cac_truong_khong_bat_buoc.UserCode.cs">
+      <BoundTo>600cdbf3-c482-4423-a336-43b1d928823d</BoundTo>
+      <DependentUpon>Bo_trong_cac_truong_khong_bat_buoc.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>4be7ee2b-463b-438a-8ba9-028c409ec784</id>
+      <id>72b031cf-96c4-49d1-a10a-84902c84b4cf</id>
+    </Compile>
+    <Compile Include="Check_hien_thi_gia_tri_Quan_huyen.cs">
+      <BoundTo>a8c4e241-1a62-4de9-afe8-640343b26970</BoundTo>
+      <DependentUpon>Check_hien_thi_gia_tri_Quan_huyen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c5a42cc5-88f0-44d7-8dc1-9124a8456c1b</id>
+    </Compile>
+    <Compile Include="Check_hien_thi_gia_tri_Quan_huyen.UserCode.cs">
+      <BoundTo>a8c4e241-1a62-4de9-afe8-640343b26970</BoundTo>
+      <DependentUpon>Check_hien_thi_gia_tri_Quan_huyen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>da2c9024-ea16-4f95-93ff-ff8f4fb1ec08</id>
     </Compile>
     <Compile Include="Check_Ho_va_ten_Null.cs">
       <BoundTo>89a34107-996a-41fb-b4bd-9260463376a8</BoundTo>
@@ -258,6 +270,18 @@
       <UserCode>true</UserCode>
       <id>23d9e01a-14ad-4835-9962-63e6407d5d34</id>
     </Compile>
+    <Compile Include="Nhap_tat_ca_cac_truong.cs">
+      <BoundTo>d488e363-6668-4a27-9625-ec989c7dae70</BoundTo>
+      <DependentUpon>Nhap_tat_ca_cac_truong.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7923c87b-151c-41c1-87d7-477ab95c68c1</id>
+    </Compile>
+    <Compile Include="Nhap_tat_ca_cac_truong.UserCode.cs">
+      <BoundTo>d488e363-6668-4a27-9625-ec989c7dae70</BoundTo>
+      <DependentUpon>Nhap_tat_ca_cac_truong.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8830d6e2-e9e9-4f3b-8eeb-bcd4ab5254c6</id>
+    </Compile>
     <Compile Include="OpenBrowser.cs">
       <BoundTo>bbfb7f79-a783-407e-8e07-bb5b5311d9ac</BoundTo>
       <DependentUpon>OpenBrowser.rxrec</DependentUpon>
@@ -332,18 +356,6 @@
       <DependentUpon>Email_null.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>d84108f5-e8ca-4de1-9e85-4bbe44f1643e</id>
-    </Compile>
-    <Compile Include="Recording1.cs">
-      <BoundTo>e98ea14a-58fe-449c-9bcf-63b6167666fa</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>a2f19527-7cda-4c17-8864-50f2d7bf48bb</id>
-    </Compile>
-    <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>e98ea14a-58fe-449c-9bcf-63b6167666fa</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>de03709c-46e6-4f00-90eb-6e003835e337</id>
     </Compile>
     <Compile Include="Test_chon_gia_tri_gioi_tinh.cs">
       <BoundTo>aaa04484-9f39-4534-a10c-080bb6a3d773</BoundTo>
@@ -573,6 +585,30 @@
       <UserCode>true</UserCode>
       <id>e3394a3d-9374-4ec8-a7e3-d7d3b59cbb41</id>
     </Compile>
+    <Compile Include="Tinh_Thanhpho_Null.cs">
+      <BoundTo>51ca9613-f10b-45e7-877a-b8ca814550fd</BoundTo>
+      <DependentUpon>Tinh_Thanhpho_Null.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ce58e6f6-4f8e-47c8-97af-b8902b419ed3</id>
+    </Compile>
+    <Compile Include="Tinh_Thanhpho_Null.UserCode.cs">
+      <BoundTo>51ca9613-f10b-45e7-877a-b8ca814550fd</BoundTo>
+      <DependentUpon>Tinh_Thanhpho_Null.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4a51e41e-b696-4e24-983c-9d75a5a261d2</id>
+    </Compile>
+    <Compile Include="Uncheck_button_Toi_dong_y_DK_TOPCV.cs">
+      <BoundTo>c03beb65-d244-427d-9345-0eca5133e266</BoundTo>
+      <DependentUpon>Uncheck_button_Toi_dong_y_DK_TOPCV.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2334a1c7-542b-4bdc-a19d-6cc5cf2e5520</id>
+    </Compile>
+    <Compile Include="Uncheck_button_Toi_dong_y_DK_TOPCV.UserCode.cs">
+      <BoundTo>c03beb65-d244-427d-9345-0eca5133e266</BoundTo>
+      <DependentUpon>Uncheck_button_Toi_dong_y_DK_TOPCV.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1a3d52d1-1281-49bf-881b-b836d0b6ea25</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
@@ -589,10 +625,15 @@
       <repoid>56555126-6cbc-4f5d-80ab-7c4a19d3f06a</repoid>
       <reporootid>74fd19c5-ce83-4d38-acf1-09f47b5f1384</reporootid>
     </None>
-    <None Include="Bo_Trong_Tinh_TP_va_Quan_Huyen.rxrec">
+    <None Include="Bo_trong_cac_truong_khong_bat_buoc.rxrec">
       <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
-      <id>b0c39437-31ff-4c1b-8ae6-569d34c4c1a1</id>
-      <recordtableid>27259ae0-8849-4222-ae3e-4c8b37cd147e</recordtableid>
+      <id>600cdbf3-c482-4423-a336-43b1d928823d</id>
+      <recordtableid>bbc06564-d8ae-42b5-bd26-8020ebed47e9</recordtableid>
+    </None>
+    <None Include="Check_hien_thi_gia_tri_Quan_huyen.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>a8c4e241-1a62-4de9-afe8-640343b26970</id>
+      <recordtableid>79356054-8a76-4152-b8da-c5f527a2e21b</recordtableid>
     </None>
     <None Include="Check_Ho_va_ten_Null.rxrec">
       <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
@@ -644,6 +685,11 @@
       <id>d2eef3f9-364d-42fe-abe8-34926fc67c7a</id>
       <recordtableid>3a0bc50e-e1a7-4af0-a4ca-660d9987933c</recordtableid>
     </None>
+    <None Include="Nhap_tat_ca_cac_truong.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>d488e363-6668-4a27-9625-ec989c7dae70</id>
+      <recordtableid>982bc8e3-8f5a-4500-8a6d-5c217fc982cf</recordtableid>
+    </None>
     <None Include="OpenBrowser.rxrec">
       <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
       <id>bbfb7f79-a783-407e-8e07-bb5b5311d9ac</id>
@@ -673,11 +719,6 @@
       <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
       <id>8e312ab8-4361-4468-8535-a01809186ad0</id>
       <recordtableid>e84efb9c-796a-465e-b798-3621b6befb3d</recordtableid>
-    </None>
-    <None Include="Recording1.rxrec">
-      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
-      <id>e98ea14a-58fe-449c-9bcf-63b6167666fa</id>
-      <recordtableid>30d640bf-d7b3-4e87-b479-86c1155f81e8</recordtableid>
     </None>
     <None Include="Test_chon_gia_tri_gioi_tinh.rxrec">
       <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
@@ -773,6 +814,16 @@
       <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
       <id>51090cde-f84b-4ede-9aa9-0b98e856c77e</id>
       <recordtableid>fe0861db-b033-40db-a2d6-a60704f2c882</recordtableid>
+    </None>
+    <None Include="Tinh_Thanhpho_Null.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>51ca9613-f10b-45e7-877a-b8ca814550fd</id>
+      <recordtableid>1a99676e-b97c-44b1-8f30-d11f657c956b</recordtableid>
+    </None>
+    <None Include="Uncheck_button_Toi_dong_y_DK_TOPCV.rxrec">
+      <BoundTo>65b9251b-c635-46e5-9dcf-e2ef0d1537f4</BoundTo>
+      <id>c03beb65-d244-427d-9345-0eca5133e266</id>
+      <recordtableid>cc0bbfb4-1c1b-417b-b01f-a6b0a193ab38</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

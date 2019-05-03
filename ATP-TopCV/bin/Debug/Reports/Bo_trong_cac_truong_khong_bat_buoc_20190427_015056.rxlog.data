@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1dbf5befcbb52a8f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Trang Meo"
+		rxversion="9.0.1.0"
+		host="DESKTOP-Q1CC1KM"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1024x768"
+		timestamp="4/27/2019 1:50:59 AM"
+		timestampiso="2019-04-26T18:50:59"
+		endtime="4/27/2019 1:51:10 AM"
+		timeoutfactor="1"
+		module="Bo_trong_cac_truong_khong_bat_buoc">
+		<detail>
+			Bo_trong_cac_truong_khong_bat_buoc
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.486"
+			timeRelativeToTestModuleStartTime="00:06.488"
+			timeWallClock="01:51:06"
+			time="00:06.486"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.TaiKho&#7843;n' at 62;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//div[#'navbar']//a[@innertext='Tài khoản ']"
+				itempath=".//div[#'navbar']//a[@innertext='Tài khoản ']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.TaiKhoản"
+				id="3bc15f5606f044b799d4f278740f1dcc"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="82"
+				itemindex="27"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.190"
+			timeRelativeToTestModuleStartTime="00:09.191"
+			timeWallClock="01:51:08"
+			time="00:09.190"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse None Move item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.TaiKho&#7843;n' at 58;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//div[#'navbar']//a[@innertext='Tài khoản ']"
+				itempath=".//div[#'navbar']//a[@innertext='Tài khoản ']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.TaiKhoản"
+				id="3bc15f5606f044b799d4f278740f1dcc"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="86"
+				itemindex="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.018"
+			timeRelativeToTestModuleStartTime="00:10.019"
+			timeWallClock="01:51:09"
+			time="00:10.018"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Thoat' at 176;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='tuyendung.topcv.vn']//div[#'navbar']/ul/li[7]/ul/?/?/a[@innertext='Thoát']"
+				itempath=".//div[#'navbar']/ul/li[7]/ul/?/?/a[@innertext='Thoát']"
+				fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Thoat"
+				id="312f386b20214064bddc4fab7b4d0e7e"
+				timeout="60000"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Bo_trong_cac_truong_khong_bat_buoc.cs"
+				codeline="90"
+				itemindex="29"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

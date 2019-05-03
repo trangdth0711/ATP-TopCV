@@ -1,0 +1,690 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="152c9231ba70ffc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="3"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Trang Meo"
+		rxversion="9.0.1.0"
+		host="DESKTOP-Q1CC1KM"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1024x768"
+		timestamp="4/27/2019 2:10:13 AM"
+		timestampiso="2019-04-26T19:10:13"
+		endtime="4/27/2019 2:10:25 AM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="10.92s"
+			durationms="10916"
+			type="test-suite"
+			rid="3f12f38e34536a8"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="3"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="ATP_TopCV"
+			headertext="ATP_TopCV"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="10.88s"
+				durationms="10877"
+				type="smart-folder"
+				rid="d7ad57d059de962"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="3"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Dang_ky_khong_thanh_cong"
+				testcontainerid="5974fe44-6b69-4bac-b899-4d8fdb65c752"
+				headertext="Dang_ky_khong_thanh_cong"
+				displayName="Dang_ky_khong_thanh_cong"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="10.87s"
+					durationms="10866"
+					type="smart-folder"
+					rid="19dd7de252cd4a20"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="2"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="Dia_diem_lam_viec"
+					testcontainerid="9e588718-dfe6-4008-bd9c-3db9789b1138"
+					headertext="Dia_diem_lam_viec"
+					displayName="Dia_diem_lam_viec"
+					iteration="1"
+					activity-exectype="execute"
+					conditionstate="none">
+					<activity
+						result="Failed"
+						duration="10.86s"
+						durationms="10862"
+						type="test-case"
+						rid="2e36088030ddd8a4"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="1"
+						totalblockedtestcasecount="0"
+						childsuccesscount="2"
+						childfailedcount="1"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="TC-41_Kiem_tra_hien_thi_Quan_Huyen"
+						testcontainerid="ff0769be-b7cb-4f03-ba60-a3ed170a6e33"
+						headertext="TC-41_Kiem_tra_hien_thi_Quan_Huyen"
+						displayName="TC-41_Kiem_tra_hien_thi_Quan_Huyen"
+						iteration="1"
+						activity-exectype="execute"
+						conditionstate="none">
+						<activity
+							result="Success"
+							duration="1.07s"
+							durationms="1072"
+							type="setup-container"
+							rid="a9913a2db81d600"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="1"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0">
+							<activity
+								result="Success"
+								duration="1.03s"
+								durationms="1033"
+								type="test-module"
+								rid="5a07217e72a6c90"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesstestcasecount="0"
+								totalfailedtestcasecount="0"
+								totalblockedtestcasecount="0"
+								childsuccesscount="0"
+								childfailedcount="0"
+								childblockedcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								totalmaintenancemodecount="0"
+								modulename="OpenBrowser"
+								displayName="OpenBrowser"
+								moduleid="b5e2e94e-9907-4650-8099-974d91517512"
+								moduletype="Recording"
+								iteration="1"
+								activity-exectype="execute"
+								testentry-activity-type="testmodule">
+								<varbindings>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.536"
+									timeRelativeToTestModuleStartTime="00:00.017"
+									timeWallClock="02:10:14"
+									time="00:00.536"
+									level="Info"
+									category="Website">
+									<message>
+										Opening web site 'https://tuyendung.topcv.vn/sign-up' with browser 'chrome' in maximized mode.
+									</message>
+									<metainfo
+										itemindex="0"
+										codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\OpenBrowser.cs"
+										codeline="82"
+										loglvl="Info">
+									</metainfo>
+								</item>
+							</activity>
+						</activity>
+						<activity
+							result="Failed"
+							duration="9.68s"
+							durationms="9675"
+							type="test-module"
+							rid="9ac3f243b84f38"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="Check_hien_thi_gia_tri_Quan_huyen"
+							displayName="Check_hien_thi_gia_tri_Quan_huyen"
+							moduleid="79356054-8a76-4152-b8da-c5f527a2e21b"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<errormessage>
+								Attribute 'InnerText' of element for item 'ATP_TopCVRepository.&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.DivTagRow.Select2SelectionArrow1' does not match the specified value (actual='', expected='&#8629;Ba&#183;&#272;&#236;nh&#8629;').
+							</errormessage>
+							<varbindings>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:01.575"
+								timeRelativeToTestModuleStartTime="00:00.014"
+								timeWallClock="02:10:15"
+								time="00:01.575"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.DivTagRow.Select2SelectionArrow2' at 7;21.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[2]/div/span/span[1]/span/span[2]"
+									itempath="div[2]/div/span/span[1]/span/span[2]"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow2"
+									id="3681b5a51729439fad6f333a2fdba28e"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:04.653"
+								timeRelativeToTestModuleStartTime="00:03.092"
+								timeWallClock="02:10:18"
+								time="00:04.653"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating AttributeContains (InnerText&gt;'No results found') on item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Select2GenderResults.NoResultsFound'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='No results found']"
+									itempath="li[@innertext='No results found']"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NoResultsFound"
+									id="d55c67c214534ec3b71043786a4b6559"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="86"
+									itemindex="1"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:05.063"
+								timeRelativeToTestModuleStartTime="00:03.502"
+								timeWallClock="02:10:18"
+								time="00:05.063"
+								level="Success"
+								category="Validation">
+								<message>
+									Attribute 'InnerText' of element for item 'ATP_TopCVRepository.&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Select2GenderResults.NoResultsFound' does contain the specified value.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='No results found']"
+									itempath="li[@innertext='No results found']"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NoResultsFound"
+									id="d55c67c214534ec3b71043786a4b6559"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="87"
+									loglvl="Success"
+									itemindex="1">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:05.213"
+								timeRelativeToTestModuleStartTime="00:03.652"
+								timeWallClock="02:10:19"
+								time="00:05.213"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.DivTagRow.Select2SelectionArrow1' at 18;20.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[2]"
+									itempath="div[1]/div/span/span[1]/span/span[2]"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow1"
+									id="195ffb000a9149adaa28f9fb00ab02dc"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="90"
+									itemindex="2"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:06.698"
+								timeRelativeToTestModuleStartTime="00:05.138"
+								timeWallClock="02:10:20"
+								time="00:06.698"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Select2GenderResults.LiTagHaN&#7897;i' at 80;12.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Hà Nội']"
+									itempath="li[@innertext='Hà Nội']"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagHaNội"
+									id="d5bebc6587da4a60b7a019f145fe7834"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="94"
+									itemindex="3"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:07.576"
+								timeRelativeToTestModuleStartTime="00:06.016"
+								timeWallClock="02:10:21"
+								time="00:07.576"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.DivTagRow.Select2SelectionArrow2' at 8;30.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[2]/div/span/span[1]/span/span[2]"
+									itempath="div[2]/div/span/span[1]/span/span[2]"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow2"
+									id="3681b5a51729439fad6f333a2fdba28e"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="98"
+									itemindex="4"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:08.973"
+								timeRelativeToTestModuleStartTime="00:07.412"
+								timeWallClock="02:10:22"
+								time="00:08.973"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating AttributeEqual (InnerText='
+Ba &#272;&#236;nh
+') on item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Select2GenderResults.LiTagBa&#272;inh'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Ba Đình']"
+									itempath="li[@innertext='Ba Đình']"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagBaĐinh"
+									id="5b09977941aa4196a3548a8dddd4f073"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="102"
+									itemindex="5"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:09.126"
+								timeRelativeToTestModuleStartTime="00:07.566"
+								timeWallClock="02:10:23"
+								time="00:09.126"
+								level="Success"
+								category="Validation">
+								<message>
+									Attribute 'InnerText' of element for item 'ATP_TopCVRepository.&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Select2GenderResults.LiTagBa&#272;inh' does match the specified value.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Ba Đình']"
+									itempath="li[@innertext='Ba Đình']"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagBaĐinh"
+									id="5b09977941aa4196a3548a8dddd4f073"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="103"
+									loglvl="Success"
+									itemindex="5">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:09.269"
+								timeRelativeToTestModuleStartTime="00:07.709"
+								timeWallClock="02:10:23"
+								time="00:09.269"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating AttributeEqual (InnerText='
+Ho&#224;n Ki&#7871;m
+') on item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Select2GenderResults.LiTagHoanKi&#7871;m'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Hoàn Kiếm']"
+									itempath="li[@innertext='Hoàn Kiếm']"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagHoanKiếm"
+									id="0c99581121f343b490deaef68c09a5eb"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="106"
+									itemindex="6"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:09.406"
+								timeRelativeToTestModuleStartTime="00:07.845"
+								timeWallClock="02:10:23"
+								time="00:09.406"
+								level="Success"
+								category="Validation">
+								<message>
+									Attribute 'InnerText' of element for item 'ATP_TopCVRepository.&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Select2GenderResults.LiTagHoanKi&#7871;m' does match the specified value.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Hoàn Kiếm']"
+									itempath="li[@innertext='Hoàn Kiếm']"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagHoanKiếm"
+									id="0c99581121f343b490deaef68c09a5eb"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="107"
+									loglvl="Success"
+									itemindex="6">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:09.550"
+								timeRelativeToTestModuleStartTime="00:07.990"
+								timeWallClock="02:10:23"
+								time="00:09.550"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating AttributeEqual (InnerText='
+Hai B&#224; Tr&#432;ng
+') on item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Select2GenderResults.LiTagHaiBaTr&#432;ng'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Hai Bà Trưng']"
+									itempath="li[@innertext='Hai Bà Trưng']"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagHaiBaTrưng"
+									id="f33b9e2f77ff4cb8a395146c4c8ac821"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="110"
+									itemindex="7"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:09.679"
+								timeRelativeToTestModuleStartTime="00:08.119"
+								timeWallClock="02:10:23"
+								time="00:09.679"
+								level="Success"
+								category="Validation">
+								<message>
+									Attribute 'InnerText' of element for item 'ATP_TopCVRepository.&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Select2GenderResults.LiTagHaiBaTr&#432;ng' does match the specified value.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Hai Bà Trưng']"
+									itempath="li[@innertext='Hai Bà Trưng']"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagHaiBaTrưng"
+									id="f33b9e2f77ff4cb8a395146c4c8ac821"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="111"
+									loglvl="Success"
+									itemindex="7">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:09.823"
+								timeRelativeToTestModuleStartTime="00:08.263"
+								timeWallClock="02:10:23"
+								time="00:09.823"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.Select2GenderResults.LiTagBa&#272;inh' at 73;20.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Ba Đình']"
+									itempath="li[@innertext='Ba Đình']"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagBaĐinh"
+									id="5b09977941aa4196a3548a8dddd4f073"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="114"
+									itemindex="8"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:10.714"
+								timeRelativeToTestModuleStartTime="00:09.154"
+								timeWallClock="02:10:24"
+								time="00:10.714"
+								level="Info"
+								category="Validation"
+								errimg="images_ATP_TopC_5e820aa3\ATP_TopC_5e820aa3_895d95e8_trace.jpg"
+								errthumb="images_ATP_TopC_5e820aa3\ATP_TopC_5e820aa3_895d95e8_trace_thumb.jpg">
+								<message>
+									Validating AttributeEqual (InnerText='
+Ba &#272;&#236;nh
+') on item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.DivTagRow.Select2SelectionArrow1'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[2]"
+									itempath="div[1]/div/span/span[1]/span/span[2]"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow1"
+									id="195ffb000a9149adaa28f9fb00ab02dc"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="118"
+									itemindex="9"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:10.963"
+								timeRelativeToTestModuleStartTime="00:09.402"
+								timeWallClock="02:10:24"
+								time="00:10.963"
+								level="Failure"
+								category="Validation"
+								errimg="images_ATP_TopC_5e820aa3\ATP_TopC_5e820aa3_b2ebf049_trace.jpg"
+								errthumb="images_ATP_TopC_5e820aa3\ATP_TopC_5e820aa3_b2ebf049_trace_thumb.jpg">
+								<message>
+									Attribute 'InnerText' of element for item 'ATP_TopCVRepository.&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.DivTagRow.Select2SelectionArrow1' does not match the specified value (actual='', expected='&#8629;Ba&#183;&#272;&#236;nh&#8629;').
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[2]"
+									itempath="div[1]/div/span/span[1]/span/span[2]"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow1"
+									id="195ffb000a9149adaa28f9fb00ab02dc"
+									timeout="90000"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="119"
+									loglvl="Failure"
+									itemindex="9">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:11.010"
+								timeRelativeToTestModuleStartTime="00:09.449"
+								timeWallClock="02:10:24"
+								time="00:11.010"
+								level="Error"
+								category="Module"
+								errimg="images_ATP_TopC_5e820aa3\ATP_TopC_5e820aa3_1306b0dc_trace.jpg"
+								errthumb="images_ATP_TopC_5e820aa3\ATP_TopC_5e820aa3_1306b0dc_trace_thumb.jpg">
+								<message>
+									Module execution was aborted because a validation step has failed. Attribute 'InnerText' of element for item 'ATP_TopCVRepository.&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng.DivTagRow.Select2SelectionArrow1' does not match the specified value (actual='', expected='&#8629;Ba&#183;&#272;&#236;nh&#8629;').
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass39_0.&lt;Execute>g__attCompare|0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)&#13;&#10;   at ATP_TopCV.Check_hien_thi_gia_tri_Quan_huyen.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs:line 119&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+									codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\Check_hien_thi_gia_tri_Quan_huyen.cs"
+									codeline="119"
+									type="repoitem"
+									path="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[2]"
+									itempath="div[1]/div/span/span[1]/span/span[2]"
+									fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow1"
+									id="195ffb000a9149adaa28f9fb00ab02dc"
+									timeout="90000"
+									loglvl="Error"
+									itemindex="9">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="105ms"
+							durationms="105"
+							type="teardown-container"
+							rid="18c9be9f1546bfe9"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="1"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0">
+							<activity
+								result="Success"
+								duration="97ms"
+								durationms="97"
+								type="test-module"
+								rid="fa7cbd88e040329"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesstestcasecount="0"
+								totalfailedtestcasecount="0"
+								totalblockedtestcasecount="0"
+								childsuccesscount="0"
+								childfailedcount="0"
+								childblockedcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								totalmaintenancemodecount="0"
+								modulename="CloseBrowser"
+								displayName="CloseBrowser"
+								moduleid="00174f16-7f85-4497-a605-fe656befc972"
+								moduletype="Recording"
+								iteration="1"
+								activity-exectype="execute"
+								testentry-activity-type="testmodule">
+								<varbindings>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:11.245"
+									timeRelativeToTestModuleStartTime="00:00.003"
+									timeWallClock="02:10:25"
+									time="00:11.245"
+									level="Info"
+									category="Application">
+									<message>
+										Closing application containing item '&#272;&#259;ngKyTaiKho&#7843;nNhaTuy&#7875;nD&#7909;ng'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='tuyendung.topcv.vn']"
+										itempath="/dom[@domain='tuyendung.topcv.vn']"
+										fullname="ATP_TopCVRepository.ĐăngKyTaiKhoảnNhaTuyểnDụng.Self"
+										id="877487b5379846548f8b4321564991cc"
+										timeout="30000"
+										codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\CloseBrowser.cs"
+										codeline="82"
+										itemindex="0"
+										loglvl="Info">
+									</metainfo>
+								</item>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -9,10 +9,6 @@ rxversion="9.0">
 			ref="b5e2e94e-9907-4650-8099-974d91517512"
 			type="Recording">
 			</testmodule>
-			<teardown
-			id="00256c2c-6cb3-4eb4-b035-b377d50aaedf"
-			name="teardown">
-			</teardown>
 			<setup
 			id="002c7d3e-728a-4ba5-8f4f-509f1b626196"
 			name="setup">
@@ -62,11 +58,21 @@ rxversion="9.0">
 			name="setup">
 			</setup>
 			<testmodule
+			id="04cc8848-e002-4466-a581-e538ec1f2d51"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="053b76e0-9167-4465-9f82-260a3c402bea"
 			name="Email_invalid"
 			ref="3a0bc50e-e1a7-4af0-a4ca-660d9987933c"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="05c1ecf0-f07a-4ea2-ac5c-2885264eab47"
+			name="Toi_dong_y_voi_dieu_khoan_cua_top_cv">
+			</smartfoldernode>
 			<testmodule
 			id="05d17d5c-2e12-4312-ad25-c7f184af8ce9"
 			name="Check_ma_hoa_Cofirm_Password"
@@ -153,10 +159,6 @@ rxversion="9.0">
 			ref="b5e2e94e-9907-4650-8099-974d91517512"
 			type="Recording">
 			</testmodule>
-			<teardown
-			id="151a28e8-cd63-438a-95b3-17c49bce42bf"
-			name="teardown">
-			</teardown>
 			<testmodule
 			id="154a0ecd-cfdb-4508-9313-c745830eb678"
 			name="OpenBrowser"
@@ -173,10 +175,18 @@ rxversion="9.0">
 			id="1608e7d9-ed82-4422-b08d-4878220aef1b"
 			name="setup">
 			</setup>
-			<setup
-			id="18ba5319-19c2-4905-9050-98620bc6f979"
-			name="setup">
-			</setup>
+			<testmodule
+			id="189e4d49-6e99-479a-99ed-12b8b9ca0459"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="1b2070b9-b1fb-4751-89dd-ef5a3965c9cb"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="1cf7c09b-57b1-4571-88f0-237ecf7f17e4"
 			name="Mat_khau">
@@ -187,7 +197,7 @@ rxversion="9.0">
 			</teardown>
 			<testcase
 			id="1dfd8c19-92e5-404c-812e-fac90a7177ea"
-			name="TC-33_Vi_tri_cong_tac">
+			name="TC-33_Vi_tri_cong_tac_Null">
 			</testcase>
 			<teardown
 			id="1e8ea01b-a941-453b-bf76-1d2e8269d073"
@@ -215,6 +225,10 @@ rxversion="9.0">
 			ref="b5e2e94e-9907-4650-8099-974d91517512"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="23d3426d-0bb5-4bdd-8192-639f30b50182"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="260c2862-dd1f-4e9c-8a33-c42cd96ab1f5"
 			name="CloseBrowser"
@@ -231,8 +245,18 @@ rxversion="9.0">
 			id="2987c670-e5a4-4da5-b0b2-ae9bc70a3488"
 			name="Gioi_Tinh">
 			</smartfoldernode>
+			<testmodule
+			id="29fbcda6-229d-4103-861f-3c63beff990c"
+			name="Uncheck_button_Toi_dong_y_DK_TOPCV"
+			ref="cc0bbfb4-1c1b-417b-b01f-a6b0a193ab38"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="2d222d1d-7a8b-4007-b3af-acd9a366cbc1"
+			name="teardown">
+			</teardown>
+			<teardown
+			id="2d5464d1-ae72-4bb6-9f84-82b4fa73573d"
 			name="teardown">
 			</teardown>
 			<testmodule
@@ -271,6 +295,16 @@ rxversion="9.0">
 			ref="8c1ede25-0745-4cc5-a0f6-063f623d1c6c"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="33f83827-3221-49bf-ae9a-ee4d9025cb4e"
+			name="Check_hien_thi_gia_tri_Quan_huyen"
+			ref="79356054-8a76-4152-b8da-c5f527a2e21b"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="343d4ef0-a5cf-409b-8a44-95ea621ae409"
+			name="setup">
+			</setup>
 			<testcase
 			id="37250ccd-3dff-4208-a18a-c34d7a456809"
 			name="TC-26_Bo_trong_gioi_tinh">
@@ -305,6 +339,12 @@ rxversion="9.0">
 			id="3a0c292c-fb82-4f53-b526-00893b48d9bc"
 			name="OpenBrowser"
 			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="3aecdddd-e523-4032-9870-5bf5863884e6"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -353,6 +393,10 @@ rxversion="9.0">
 			type="Recording">
 			</testmodule>
 			<setup
+			id="431c7954-4978-43ce-bf44-ed641fd7839e"
+			name="setup">
+			</setup>
+			<setup
 			id="4393d651-7d80-4958-b70a-4260db55b484"
 			name="setup">
 			</setup>
@@ -360,6 +404,10 @@ rxversion="9.0">
 			id="43a827c4-6258-4ffc-8f52-a3fe4508e606"
 			name="teardown">
 			</teardown>
+			<testcase
+			id="457dd5dd-06d3-48bc-93b6-d71d4537b70b"
+			name="TC-40_Bo_Trong_Tinh_Thanh_Pho">
+			</testcase>
 			<teardown
 			id="470430b7-83dd-4de8-a026-67dbd90bcca0"
 			name="teardown">
@@ -368,13 +416,23 @@ rxversion="9.0">
 			id="474c7cca-02ee-4f84-bcf0-752054a60a76"
 			name="TC-03_Email_sai_dinh_dang">
 			</testcase>
+			<testcase
+			id="482e464e-b6fc-44a1-b35f-363581b4a06d"
+			name="TC-42_Bo_Trong_cac_truong_khong_bat_buoc">
+			</testcase>
 			<setup
 			id="4a3d1cfd-cc04-4eef-a7fe-d4f53983dd9e"
 			name="setup">
 			</setup>
 			<testmodule
+			id="4c21d014-1201-4a84-a081-bf4c551816ed"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			enabled="False"
-			id="4bccc8a0-fb4a-4f50-8a9b-3663aa5a0b4e"
+			id="4d21cbdb-fa65-4685-ba70-8205f3e30a7d"
 			name="CloseBrowser"
 			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
@@ -405,10 +463,6 @@ rxversion="9.0">
 			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
 			</testmodule>
-			<testcase
-			id="537186b2-e8ae-496e-9ec4-110b303f6db7"
-			name="TC-41_">
-			</testcase>
 			<setup
 			id="539d30c4-e8c6-4ab5-b446-6b55c5cd6081"
 			name="setup">
@@ -435,12 +489,18 @@ rxversion="9.0">
 			</testmodule>
 			<smartfoldernode
 			id="5974fe44-6b69-4bac-b899-4d8fdb65c752"
-			name="Dang_ki_khong_thanh_cong">
+			name="Dang_ky_khong_thanh_cong">
 			</smartfoldernode>
 			<testmodule
 			id="5a1f9152-a5bc-4222-be3f-e72db8f1fc5f"
 			name="Email_does_exist"
 			ref="87899224-51cf-44b9-b607-a99d182a1c44"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="5a3d28d9-821b-49de-b315-5292ae37301e"
+			name="Bo_trong_cac_truong_khong_bat_buoc"
+			ref="bbc06564-d8ae-42b5-bd26-8020ebed47e9"
 			type="Recording">
 			</testmodule>
 			<setup
@@ -539,16 +599,16 @@ rxversion="9.0">
 			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
 			</testmodule>
-			<setup
-			id="6cf8cc4d-ee23-412d-a7e4-4d4ea76a5086"
-			name="setup">
-			</setup>
 			<testcase
 			id="6d1df44f-544b-4b05-a667-6e145632c380"
 			name="TC-25_Kiem_tra_Trim_space_khoan_trang_dau_cuoi_SDT">
 			</testcase>
 			<setup
 			id="6ee6eda1-c902-48c0-8c3b-416f15bdc909"
+			name="setup">
+			</setup>
+			<setup
+			id="70a06c9b-f58e-4551-b5f4-52b47530a26a"
 			name="setup">
 			</setup>
 			<testmodule
@@ -560,6 +620,10 @@ rxversion="9.0">
 			<testcase
 			id="71eb118f-13c7-4f34-8159-af04f5d7f5cc"
 			name="TC-24_Kiem_tra_max_length_SDT">
+			</testcase>
+			<testcase
+			id="733cc4b7-2066-4515-bdde-2926f00dd6af"
+			name="TC-43_Nhap_Hop_le_tat_ca_cac_truong">
 			</testcase>
 			<testmodule
 			id="738dd09c-140c-47c6-9efc-6304af663eb8"
@@ -585,6 +649,10 @@ rxversion="9.0">
 			id="7776f49a-d17c-4e24-9520-6d9d50ef7a04"
 			name="TC-10_Check_Mat_khau_khong_hop_le">
 			</testcase>
+			<setup
+			id="7865c8e2-234d-4913-98e6-75e80239ca7b"
+			name="setup">
+			</setup>
 			<testmodule
 			id="7908abab-5664-448e-b097-9da8d0246a1a"
 			name="Email_null"
@@ -649,12 +717,6 @@ rxversion="9.0">
 			ref="61a3b93e-7231-4f03-849c-7e55d88c3cad"
 			type="Recording">
 			</testmodule>
-			<testmodule
-			id="892de70f-aa20-4b92-a182-c0c77627f6e6"
-			name="OpenBrowser"
-			ref="b5e2e94e-9907-4650-8099-974d91517512"
-			type="Recording">
-			</testmodule>
 			<setup
 			id="893e128b-6429-4c90-9855-9381cc42d100"
 			name="setup">
@@ -687,12 +749,6 @@ rxversion="9.0">
 			id="8f430f35-b639-42a7-b662-a8bc5b14c0c3"
 			name="CloseBrowser"
 			ref="00174f16-7f85-4497-a605-fe656befc972"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="8fada96e-e29a-4a9c-b153-aa999b3a79fb"
-			name="Bo_Trong_Tinh_TP_va_Quan_Huyen"
-			ref="27259ae0-8849-4222-ae3e-4c8b37cd147e"
 			type="Recording">
 			</testmodule>
 			<teardown
@@ -768,9 +824,9 @@ rxversion="9.0">
 			name="TC-09_Test_Max_Length">
 			</testcase>
 			<testmodule
-			id="a60244f5-438e-4178-b376-39b49030ee5e"
-			name="Recording1"
-			ref="30d640bf-d7b3-4e87-b479-86c1155f81e8"
+			id="a70f0df7-6628-4b43-95da-28cbaf5266df"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
 			</testmodule>
 			<teardown
@@ -787,12 +843,6 @@ rxversion="9.0">
 			id="aaff1bae-544c-4de2-bdd5-fbea14f7273a"
 			name="teardown">
 			</teardown>
-			<testmodule
-			id="ab09f417-480a-4140-8cae-b6738c4caf58"
-			name="OpenBrowser"
-			ref="b5e2e94e-9907-4650-8099-974d91517512"
-			type="Recording">
-			</testmodule>
 			<testmodule
 			id="acf55073-bf47-4bbd-a347-2b68edb735f8"
 			name="Test_max_length_ho_ten"
@@ -831,6 +881,10 @@ rxversion="9.0">
 			ref="00174f16-7f85-4497-a605-fe656befc972"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="b6f73698-ddcf-4d05-9e3b-a0b05d1507d2"
+			name="teardown">
+			</teardown>
 			<setup
 			id="b73f6de1-2df5-48b3-a6a7-d4fdc503f379"
 			name="setup">
@@ -871,10 +925,20 @@ rxversion="9.0">
 			id="c1d5cc8b-50c2-4103-9cdc-ce6d5f29b6e0"
 			name="teardown">
 			</teardown>
+			<teardown
+			id="c20ffda7-dbe0-4e54-91b6-86c40dc30b5a"
+			name="teardown">
+			</teardown>
 			<setup
 			id="c38bbdd1-3c37-479d-b0d0-dac63acf88f6"
 			name="setup">
 			</setup>
+			<testmodule
+			id="c52da7d9-0b0c-43ea-af32-891eb20dc13e"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="c75ff72e-b45e-495a-9212-db62d4d06ccb"
 			name="CloseBrowser"
@@ -903,6 +967,10 @@ rxversion="9.0">
 			id="cbfaf338-6def-410b-800c-66803ab2ddf1"
 			name="teardown">
 			</teardown>
+			<smartfoldernode
+			id="cc74ca36-247b-4c35-afe0-ee0c91e2196b"
+			name="Dang_ky_thanh_cong">
+			</smartfoldernode>
 			<setup
 			id="cd532c0a-acbf-4187-98da-a9b4d7dfa7d1"
 			name="setup">
@@ -925,6 +993,12 @@ rxversion="9.0">
 			id="d045d084-8322-4888-b2be-181bfbe1daca"
 			name="setup">
 			</setup>
+			<testmodule
+			id="d0885a5d-7b50-4932-a737-97ca9e8eabdd"
+			name="OpenBrowser"
+			ref="b5e2e94e-9907-4650-8099-974d91517512"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="d0d18d37-af18-4042-9d1b-9d669bc8e1e5"
 			name="TC-29_Kiem_tra_bo_trong_Ten_cong_ty">
@@ -951,6 +1025,10 @@ rxversion="9.0">
 			id="d26b2ee3-ac7e-4b29-b90a-e59b180b69fd"
 			name="TC-08_Test_Min_Length">
 			</testcase>
+			<teardown
+			id="d314ec6c-000d-4502-b5b7-02bd487b9ebc"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="d67516f9-9d0b-4527-a57f-7ae40173d607"
 			name="OpenBrowser"
@@ -967,12 +1045,6 @@ rxversion="9.0">
 			id="d9b540b8-0b8a-4edc-88cc-0af8f116ec1b"
 			name="TC-31_Kiem_tra_max_length_ten_cong_ty">
 			</testcase>
-			<testmodule
-			id="dbc863c2-4fbf-4389-ad2a-076b4f8b46b4"
-			name="CloseBrowser"
-			ref="00174f16-7f85-4497-a605-fe656befc972"
-			type="Recording">
-			</testmodule>
 			<testmodule
 			id="dc1eda7d-511a-400c-9683-ea673bceceec"
 			name="CloseBrowser"
@@ -1002,6 +1074,12 @@ rxversion="9.0">
 			name="setup">
 			</setup>
 			<testmodule
+			id="e3296286-d8e0-44ef-8b0a-388a9bdb6b0d"
+			name="Nhap_tat_ca_cac_truong"
+			ref="982bc8e3-8f5a-4500-8a6d-5c217fc982cf"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="e7dcf40a-010a-4d79-81b3-f099410da590"
 			name="Test_min_length_Ten_cong_ty"
 			ref="c8bdef12-f487-4fb6-9873-968e6273fc9d"
@@ -1019,10 +1097,6 @@ rxversion="9.0">
 			id="e9b780b1-6eea-40a5-ab83-133e5b61d990"
 			name="teardown">
 			</teardown>
-			<testcase
-			id="ebbecb14-339b-4d0d-bcfc-8a288bdcb9cd"
-			name="TC-40_Bo_trong_Tinh_TP+Quan_Huyen">
-			</testcase>
 			<testcase
 			id="ec0ee408-14c2-4afc-8809-b1e2c63077de"
 			name="TC-04_Email_da_ton_tai">
@@ -1076,6 +1150,12 @@ rxversion="9.0">
 			name="setup">
 			</setup>
 			<testmodule
+			id="f7b950b5-9c04-4208-a408-90415a84d3e3"
+			name="Tinh_Thanhpho_Null"
+			ref="1a99676e-b97c-44b1-8f30-d11f657c956b"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="f8152032-ac60-4678-bfa7-1661c336e84f"
 			name="OpenBrowser"
 			ref="b5e2e94e-9907-4650-8099-974d91517512"
@@ -1091,6 +1171,10 @@ rxversion="9.0">
 			id="fab63947-ef26-4402-81f6-ed84ca4ff9af"
 			name="Ho_va_ten">
 			</smartfoldernode>
+			<testcase
+			id="fb1c33f9-6f6f-4e4d-ad70-371c12c6d92e"
+			name="TC-42_Uncheck_Checkbox">
+			</testcase>
 			<testmodule
 			id="fc41aab8-f85a-4cd9-a77b-694f61d17f34"
 			name="OpenBrowser"
@@ -1101,6 +1185,10 @@ rxversion="9.0">
 			id="fc576428-cfa0-4aa8-86f7-07b7ba6b34c9"
 			name="teardown">
 			</teardown>
+			<setup
+			id="fc9a008d-f1aa-44aa-9082-b6cc025ab5f8"
+			name="setup">
+			</setup>
 			<testmodule
 			id="fdd587b7-d324-4018-a61c-8515a2559ce8"
 			name="Check_trim_space_Email_field"
@@ -1111,6 +1199,16 @@ rxversion="9.0">
 			id="fe785c05-b474-4dd2-9b01-399a26395647"
 			name="So_dien_thoai_ca_nhan">
 			</smartfoldernode>
+			<testmodule
+			id="feb83b43-c1c8-40af-ba24-d5224ef60a12"
+			name="CloseBrowser"
+			ref="00174f16-7f85-4497-a605-fe656befc972"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="ff0769be-b7cb-4f03-ba60-a3ed170a6e33"
+			name="TC-41_Kiem_tra_hien_thi_Quan_Huyen">
+			</testcase>
 			<testcase
 			id="ff8ed5b4-4998-4b75-9915-2256295c7e82"
 			name="TC-21_Bo_trong_SDT_ca_nhan">
@@ -1129,7 +1227,7 @@ rxversion="9.0">
 				name="ATP_TopCV">
 					<smartfoldernode
 					id="5974fe44-6b69-4bac-b899-4d8fdb65c752"
-					name="Dang_ki_khong_thanh_cong">
+					name="Dang_ky_khong_thanh_cong">
 						<testcase
 						id="f13b2769-fc12-4c03-8708-aa5021f1435c"
 						name="TC-01_Bo_trong_tat_ca_cac_truong">
@@ -1907,7 +2005,7 @@ rxversion="9.0">
 						name="Vi_tri_cong_tac">
 							<testcase
 							id="1dfd8c19-92e5-404c-812e-fac90a7177ea"
-							name="TC-33_Vi_tri_cong_tac">
+							name="TC-33_Vi_tri_cong_tac_Null">
 								<setup
 								id="4a3d1cfd-cc04-4eef-a7fe-d4f53983dd9e"
 								name="setup">
@@ -1958,54 +2056,134 @@ rxversion="9.0">
 						id="9e588718-dfe6-4008-bd9c-3db9789b1138"
 						name="Dia_diem_lam_viec">
 							<testcase
-							id="ebbecb14-339b-4d0d-bcfc-8a288bdcb9cd"
-							name="TC-40_Bo_trong_Tinh_TP+Quan_Huyen">
+							id="457dd5dd-06d3-48bc-93b6-d71d4537b70b"
+							name="TC-40_Bo_Trong_Tinh_Thanh_Pho">
 								<setup
-								id="6cf8cc4d-ee23-412d-a7e4-4d4ea76a5086"
+								id="fc9a008d-f1aa-44aa-9082-b6cc025ab5f8"
 								name="setup">
 									<testmodule
-									id="892de70f-aa20-4b92-a182-c0c77627f6e6"
+									id="189e4d49-6e99-479a-99ed-12b8b9ca0459"
 									name="OpenBrowser">
 									</testmodule>
 								</setup>
 								<testmodule
-								id="8fada96e-e29a-4a9c-b153-aa999b3a79fb"
-								name="Bo_Trong_Tinh_TP_va_Quan_Huyen">
+								id="f7b950b5-9c04-4208-a408-90415a84d3e3"
+								name="Tinh_Thanhpho_Null">
 								</testmodule>
 								<teardown
-								id="151a28e8-cd63-438a-95b3-17c49bce42bf"
+								id="c20ffda7-dbe0-4e54-91b6-86c40dc30b5a"
 								name="teardown">
 									<testmodule
-									id="dbc863c2-4fbf-4389-ad2a-076b4f8b46b4"
+									id="4c21d014-1201-4a84-a081-bf4c551816ed"
 									name="CloseBrowser">
 									</testmodule>
 								</teardown>
 							</testcase>
 							<testcase
-							id="537186b2-e8ae-496e-9ec4-110b303f6db7"
-							name="TC-41_">
+							id="ff0769be-b7cb-4f03-ba60-a3ed170a6e33"
+							name="TC-41_Kiem_tra_hien_thi_Quan_Huyen">
 								<setup
-								id="18ba5319-19c2-4905-9050-98620bc6f979"
+								id="70a06c9b-f58e-4551-b5f4-52b47530a26a"
 								name="setup">
 									<testmodule
-									id="ab09f417-480a-4140-8cae-b6738c4caf58"
+									id="04cc8848-e002-4466-a581-e538ec1f2d51"
 									name="OpenBrowser">
 									</testmodule>
 								</setup>
 								<testmodule
-								id="a60244f5-438e-4178-b376-39b49030ee5e"
-								name="Recording1">
+								id="33f83827-3221-49bf-ae9a-ee4d9025cb4e"
+								name="Check_hien_thi_gia_tri_Quan_huyen">
 								</testmodule>
 								<teardown
-								id="00256c2c-6cb3-4eb4-b035-b377d50aaedf"
+								id="2d5464d1-ae72-4bb6-9f84-82b4fa73573d"
 								name="teardown">
 									<testmodule
-									id="4bccc8a0-fb4a-4f50-8a9b-3663aa5a0b4e"
+									id="a70f0df7-6628-4b43-95da-28cbaf5266df"
 									name="CloseBrowser">
 									</testmodule>
 								</teardown>
 							</testcase>
 						</smartfoldernode>
+						<smartfoldernode
+						id="05c1ecf0-f07a-4ea2-ac5c-2885264eab47"
+						name="Toi_dong_y_voi_dieu_khoan_cua_top_cv">
+							<testcase
+							id="fb1c33f9-6f6f-4e4d-ad70-371c12c6d92e"
+							name="TC-42_Uncheck_Checkbox">
+								<setup
+								id="7865c8e2-234d-4913-98e6-75e80239ca7b"
+								name="setup">
+									<testmodule
+									id="d0885a5d-7b50-4932-a737-97ca9e8eabdd"
+									name="OpenBrowser">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="29fbcda6-229d-4103-861f-3c63beff990c"
+								name="Uncheck_button_Toi_dong_y_DK_TOPCV">
+								</testmodule>
+								<teardown
+								id="b6f73698-ddcf-4d05-9e3b-a0b05d1507d2"
+								name="teardown">
+									<testmodule
+									id="feb83b43-c1c8-40af-ba24-d5224ef60a12"
+									name="CloseBrowser">
+									</testmodule>
+								</teardown>
+							</testcase>
+						</smartfoldernode>
+					</smartfoldernode>
+					<smartfoldernode
+					id="cc74ca36-247b-4c35-afe0-ee0c91e2196b"
+					name="Dang_ky_thanh_cong">
+						<testcase
+						id="482e464e-b6fc-44a1-b35f-363581b4a06d"
+						name="TC-42_Bo_Trong_cac_truong_khong_bat_buoc">
+							<setup
+							id="431c7954-4978-43ce-bf44-ed641fd7839e"
+							name="setup">
+								<testmodule
+								id="c52da7d9-0b0c-43ea-af32-891eb20dc13e"
+								name="OpenBrowser">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="5a3d28d9-821b-49de-b315-5292ae37301e"
+							name="Bo_trong_cac_truong_khong_bat_buoc">
+							</testmodule>
+							<teardown
+							id="23d3426d-0bb5-4bdd-8192-639f30b50182"
+							name="teardown">
+								<testmodule
+								id="3aecdddd-e523-4032-9870-5bf5863884e6"
+								name="CloseBrowser">
+								</testmodule>
+							</teardown>
+						</testcase>
+						<testcase
+						id="733cc4b7-2066-4515-bdde-2926f00dd6af"
+						name="TC-43_Nhap_Hop_le_tat_ca_cac_truong">
+							<setup
+							id="343d4ef0-a5cf-409b-8a44-95ea621ae409"
+							name="setup">
+								<testmodule
+								id="1b2070b9-b1fb-4751-89dd-ef5a3965c9cb"
+								name="OpenBrowser">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="e3296286-d8e0-44ef-8b0a-388a9bdb6b0d"
+							name="Nhap_tat_ca_cac_truong">
+							</testmodule>
+							<teardown
+							id="d314ec6c-000d-4502-b5b7-02bd487b9ebc"
+							name="teardown">
+								<testmodule
+								id="4d21cbdb-fa65-4685-ba70-8205f3e30a7d"
+								name="CloseBrowser">
+								</testmodule>
+							</teardown>
+						</testcase>
 					</smartfoldernode>
 				</testcase>
 			</testsuite>
@@ -2018,16 +2196,154 @@ rxversion="9.0">
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="042edc15-8b47-400d-8e14-529b4672d0a2">
+			</testcontainer>
+			<testcontainer
+			id="05c1ecf0-f07a-4ea2-ac5c-2885264eab47">
+			</testcontainer>
+			<testcontainer
+			id="0981ab29-ec89-4b1b-b119-da24eaa51a59">
+			</testcontainer>
+			<testcontainer
+			id="0cf053c6-5967-495c-bf52-fd1281039bc4">
+			</testcontainer>
+			<testcontainer
+			id="0d6e4853-4e73-4440-a742-30206afbd2ba">
+			</testcontainer>
+			<testcontainer
+			id="106ee241-8ea9-4534-9551-2a68ba0057b9">
+			</testcontainer>
+			<testcontainer
+			id="1cf7c09b-57b1-4571-88f0-237ecf7f17e4">
+			</testcontainer>
+			<testcontainer
+			id="1dfd8c19-92e5-404c-812e-fac90a7177ea">
+			</testcontainer>
+			<testcontainer
+			id="2987c670-e5a4-4da5-b0b2-ae9bc70a3488">
+			</testcontainer>
+			<testcontainer
+			id="2e8e5578-aca5-4154-a6fd-d76c6824b8b4">
+			</testcontainer>
+			<testcontainer
+			id="2ff53530-2a11-4f08-a000-d0d1c035a00d">
+			</testcontainer>
+			<testcontainer
+			id="31a13112-6463-49f2-8486-267dfaf0a72e">
+			</testcontainer>
+			<testcontainer
+			id="37250ccd-3dff-4208-a18a-c34d7a456809">
+			</testcontainer>
+			<testcontainer
+			id="391336a7-5b57-4ecb-bf17-3f12abdac585">
+			</testcontainer>
+			<testcontainer
+			id="3f3dbe8d-6241-4f54-afa0-572ba2244779">
+			</testcontainer>
+			<testcontainer
+			id="40547b94-fca2-45f8-9ef9-9e18ba5536b3">
+			</testcontainer>
+			<testcontainer
 			id="40e20b2c-7f5b-45ad-b55e-b5e8a1072f23">
 			</testcontainer>
 			<testcontainer
-			id="537186b2-e8ae-496e-9ec4-110b303f6db7">
+			id="457dd5dd-06d3-48bc-93b6-d71d4537b70b">
+			</testcontainer>
+			<testcontainer
+			id="474c7cca-02ee-4f84-bcf0-752054a60a76">
+			</testcontainer>
+			<testcontainer
+			id="58234ca6-dbb5-4e51-9729-8d38f979d29b">
 			</testcontainer>
 			<testcontainer
 			id="5974fe44-6b69-4bac-b899-4d8fdb65c752">
 			</testcontainer>
 			<testcontainer
+			id="6d1df44f-544b-4b05-a667-6e145632c380">
+			</testcontainer>
+			<testcontainer
+			id="71eb118f-13c7-4f34-8159-af04f5d7f5cc">
+			</testcontainer>
+			<testcontainer
+			id="733cc4b7-2066-4515-bdde-2926f00dd6af">
+			</testcontainer>
+			<testcontainer
+			id="75c4ef09-efa3-45b7-b9d1-44e559bd600e">
+			</testcontainer>
+			<testcontainer
+			id="7776f49a-d17c-4e24-9520-6d9d50ef7a04">
+			</testcontainer>
+			<testcontainer
+			id="79ca79fa-728d-48af-9a2f-aff4123199e2">
+			</testcontainer>
+			<testcontainer
+			id="7aa9f59c-2061-4527-b26e-a20c012d8ecd">
+			</testcontainer>
+			<testcontainer
+			id="8245ff52-2d5d-4575-bb6c-20a3b10df3b9">
+			</testcontainer>
+			<testcontainer
+			id="95a3def6-1f4d-47e9-a86f-bbf04ff5aacb">
+			</testcontainer>
+			<testcontainer
 			id="9e588718-dfe6-4008-bd9c-3db9789b1138">
+			</testcontainer>
+			<testcontainer
+			id="9f2a5e8e-b8ac-4e09-a4fc-604f91d83f2e">
+			</testcontainer>
+			<testcontainer
+			id="a472cc0c-8163-417f-97ca-87fc817b5fd6">
+			</testcontainer>
+			<testcontainer
+			id="ad1852b1-c33a-4afe-a3d9-918a6ed92e75">
+			</testcontainer>
+			<testcontainer
+			id="b7ad91da-3c0b-4a23-b380-0159ef59408b">
+			</testcontainer>
+			<testcontainer
+			id="cc74ca36-247b-4c35-afe0-ee0c91e2196b">
+			</testcontainer>
+			<testcontainer
+			id="cdc13f6f-0c0b-4d6f-add9-646d78eac73b">
+			</testcontainer>
+			<testcontainer
+			id="ce72312a-a5ce-49fd-b56a-08e1693459da">
+			</testcontainer>
+			<testcontainer
+			id="d0d18d37-af18-4042-9d1b-9d669bc8e1e5">
+			</testcontainer>
+			<testcontainer
+			id="d26b2ee3-ac7e-4b29-b90a-e59b180b69fd">
+			</testcontainer>
+			<testcontainer
+			id="d9b540b8-0b8a-4edc-88cc-0af8f116ec1b">
+			</testcontainer>
+			<testcontainer
+			id="e8cd072f-61b7-4b13-8fe9-9c87c178439c">
+			</testcontainer>
+			<testcontainer
+			id="ec0ee408-14c2-4afc-8809-b1e2c63077de">
+			</testcontainer>
+			<testcontainer
+			id="ef165cba-9a08-4be4-b4dd-c589787aac13">
+			</testcontainer>
+			<testcontainer
+			id="f13b2769-fc12-4c03-8708-aa5021f1435c">
+			</testcontainer>
+			<testcontainer
+			id="fab63947-ef26-4402-81f6-ed84ca4ff9af">
+			</testcontainer>
+			<testcontainer
+			id="fb1c33f9-6f6f-4e4d-ad70-371c12c6d92e">
+			</testcontainer>
+			<testcontainer
+			id="fe785c05-b474-4dd2-9b01-399a26395647">
+			</testcontainer>
+			<testcontainer
+			id="ff0769be-b7cb-4f03-ba60-a3ed170a6e33">
+			</testcontainer>
+			<testcontainer
+			id="ff8ed5b4-4998-4b75-9915-2256295c7e82">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

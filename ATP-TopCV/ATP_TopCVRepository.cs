@@ -30,6 +30,8 @@ namespace ATP_TopCV
         ATP_TopCVRepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
         ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngGooglAppFolder _đăngkytaikhoảnnhatuyểndụnggoogl;
         ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder _đăngkytaikhoảnnhatuyểndụng;
+        ATP_TopCVRepositoryFolders.SavePasswordAppFolder _savepassword;
+        ATP_TopCVRepositoryFolders.DropdownAppFolder _dropdown;
 
         /// <summary>
         /// Gets the singleton class instance representing the ATP_TopCVRepository element repository.
@@ -49,6 +51,8 @@ namespace ATP_TopCV
             _applicationundertest = new ATP_TopCVRepositoryFolders.ApplicationUnderTestAppFolder(this);
             _đăngkytaikhoảnnhatuyểndụnggoogl = new ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngGooglAppFolder(this);
             _đăngkytaikhoảnnhatuyểndụng = new ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder(this);
+            _savepassword = new ATP_TopCVRepositoryFolders.SavePasswordAppFolder(this);
+            _dropdown = new ATP_TopCVRepositoryFolders.DropdownAppFolder(this);
         }
 
 #region Variables
@@ -92,6 +96,24 @@ namespace ATP_TopCV
         public virtual ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder ĐăngKyTaiKhoảnNhaTuyểnDụng
         {
             get { return _đăngkytaikhoảnnhatuyểndụng; }
+        }
+
+        /// <summary>
+        /// The SavePassword folder.
+        /// </summary>
+        [RepositoryFolder("efecb01f-bac5-4b91-9197-6e9479053fc2")]
+        public virtual ATP_TopCVRepositoryFolders.SavePasswordAppFolder SavePassword
+        {
+            get { return _savepassword; }
+        }
+
+        /// <summary>
+        /// The Dropdown folder.
+        /// </summary>
+        [RepositoryFolder("3693d967-bd3a-49ff-b378-91e2289a9c90")]
+        public virtual ATP_TopCVRepositoryFolders.DropdownAppFolder Dropdown
+        {
+            get { return _dropdown; }
         }
     }
 
@@ -267,6 +289,7 @@ namespace ATP_TopCV
         {
             ATP_TopCVRepositoryFolders.ColMd9Folder _colmd9;
             ATP_TopCVRepositoryFolders.Select2GenderResultsFolder _select2genderresults;
+            ATP_TopCVRepositoryFolders.DivTagRowFolder _divtagrow;
             RepoItemInfo _hoantấtInfo;
             RepoItemInfo _đonglạiInfo;
             PasswordInfoClass _passwordInfo;
@@ -282,7 +305,14 @@ namespace ATP_TopCV
             RepoItemInfo _tempcompanynameInfo;
             RepoItemInfo _somebtagInfo;
             RepoItemInfo _select2selectionarrowInfo;
-            RepoItemInfo _select2selectionarrow1Info;
+            RepoItemInfo _agreetermInfo;
+            RepoItemInfo _taikhoảnInfo;
+            RepoItemInfo _thoatInfo;
+            RepoItemInfo _chucmừnganhchịđađăngkithanhcongInfo;
+            RepoItemInfo _skypeInfo;
+            RepoItemInfo _searchInfo;
+            RepoItemInfo _navbarInfo;
+            RepoItemInfo _trangchủInfo;
 
             /// <summary>
             /// Creates a new ĐăngKyTaiKhoảnNhaTuyểnDụng  folder.
@@ -292,6 +322,7 @@ namespace ATP_TopCV
             {
                 _colmd9 = new ATP_TopCVRepositoryFolders.ColMd9Folder(this);
                 _select2genderresults = new ATP_TopCVRepositoryFolders.Select2GenderResultsFolder(this);
+                _divtagrow = new ATP_TopCVRepositoryFolders.DivTagRowFolder(this);
                 _hoantấtInfo = new RepoItemInfo(this, "HoanTất", ".//div[#'personal-info']//a[@innertext='Hoàn tất']", 30000, null, "a2df2c05-3c26-4638-8dac-0946fb041b06");
                 _đonglạiInfo = new RepoItemInfo(this, "ĐongLại", ".//div[#'modal-error']/div/div/div[2]/button[@innertext='Đóng lại']", 30000, null, "380835dc-4d72-4161-ac49-4dec28bbe8e6");
                 _passwordInfo = new PasswordInfoClass(this);
@@ -307,7 +338,14 @@ namespace ATP_TopCV
                 _tempcompanynameInfo = new RepoItemInfo(this, "TempCompanyName", ".//input[#'temp_company_name']", 30000, null, "fee9dacd-4f86-4211-b872-c85784c45163");
                 _somebtagInfo = new RepoItemInfo(this, "SomeBTag", ".//div[#'personal-info']/div[2]/div/div[9]/div//b", 30000, null, "1574c626-922b-4275-80dc-61c1edacdee8");
                 _select2selectionarrowInfo = new RepoItemInfo(this, "Select2SelectionArrow", ".//div[#'personal-info']/div[2]/div/div[9]/div/span/span[1]/span/span[2]", 30000, null, "efadaf0f-4eea-4a19-b2c6-47ffb3417057");
-                _select2selectionarrow1Info = new RepoItemInfo(this, "Select2SelectionArrow1", ".//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[2]", 30000, null, "f10eab2d-62dd-4b65-a49c-8544024e45b8");
+                _agreetermInfo = new RepoItemInfo(this, "AgreeTerm", ".//input[#'agree_term']", 30000, null, "95f8e1dc-104d-4c4a-890b-f6880d8cd56f");
+                _taikhoảnInfo = new RepoItemInfo(this, "TaiKhoản", ".//div[#'navbar']//a[@innertext='Tài khoản ']", 30000, null, "3bc15f56-06f0-44b7-99d4-f278740f1dcc");
+                _thoatInfo = new RepoItemInfo(this, "Thoat", ".//div[#'navbar']/ul/li[7]/ul/?/?/a[@innertext='Thoát']", 30000, null, "312f386b-2021-4064-bddc-4fab7b4d0e7e");
+                _chucmừnganhchịđađăngkithanhcongInfo = new RepoItemInfo(this, "ChucMừngAnhChịĐaĐăngKiThanhCong", "body/div[1]/div/div/div[2]/?/?/p[@innertext~'^Chúc\\ mừng\\ anh/chị\\ đã\\ đăng']", 30000, null, "34feeb44-2cec-4bd7-a54b-4d83b902661e");
+                _skypeInfo = new RepoItemInfo(this, "Skype", ".//input[#'skype']", 30000, null, "aa5e61c1-bb2e-488c-aad3-f2d542475b80");
+                _searchInfo = new RepoItemInfo(this, "Search", ".//div[#'personal-info']/div[2]/div/div[12]/div//ul/?/?/input[@type='search']", 30000, null, "2b331842-31da-4039-a61b-2ed5bb9df1aa");
+                _navbarInfo = new RepoItemInfo(this, "Navbar", ".//div[#'navbar']", 30000, null, "0a5baa93-1bcc-40ed-afdd-e10568642d47");
+                _trangchủInfo = new RepoItemInfo(this, "TrangChủ", ".//div[#'navbar']//a[@innertext='Trang chủ']", 30000, null, "308c9ffb-9fd9-4928-891e-aab654976b5d");
             }
 
             /// <summary>
@@ -954,26 +992,194 @@ namespace ATP_TopCV
             }
 
             /// <summary>
-            /// The Select2SelectionArrow1 item.
+            /// The AgreeTerm item.
             /// </summary>
-            [RepositoryItem("f10eab2d-62dd-4b65-a49c-8544024e45b8")]
-            public virtual Ranorex.SpanTag Select2SelectionArrow1
+            [RepositoryItem("95f8e1dc-104d-4c4a-890b-f6880d8cd56f")]
+            public virtual Ranorex.InputTag AgreeTerm
             {
                 get
                 {
-                    return _select2selectionarrow1Info.CreateAdapter<Ranorex.SpanTag>(true);
+                    return _agreetermInfo.CreateAdapter<Ranorex.InputTag>(true);
                 }
             }
 
             /// <summary>
-            /// The Select2SelectionArrow1 item info.
+            /// The AgreeTerm item info.
             /// </summary>
-            [RepositoryItemInfo("f10eab2d-62dd-4b65-a49c-8544024e45b8")]
-            public virtual RepoItemInfo Select2SelectionArrow1Info
+            [RepositoryItemInfo("95f8e1dc-104d-4c4a-890b-f6880d8cd56f")]
+            public virtual RepoItemInfo AgreeTermInfo
             {
                 get
                 {
-                    return _select2selectionarrow1Info;
+                    return _agreetermInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TaiKhoản item.
+            /// </summary>
+            [RepositoryItem("3bc15f56-06f0-44b7-99d4-f278740f1dcc")]
+            public virtual Ranorex.ATag TaiKhoản
+            {
+                get
+                {
+                    return _taikhoảnInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TaiKhoản item info.
+            /// </summary>
+            [RepositoryItemInfo("3bc15f56-06f0-44b7-99d4-f278740f1dcc")]
+            public virtual RepoItemInfo TaiKhoảnInfo
+            {
+                get
+                {
+                    return _taikhoảnInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Thoat item.
+            /// </summary>
+            [RepositoryItem("312f386b-2021-4064-bddc-4fab7b4d0e7e")]
+            public virtual Ranorex.ATag Thoat
+            {
+                get
+                {
+                    return _thoatInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Thoat item info.
+            /// </summary>
+            [RepositoryItemInfo("312f386b-2021-4064-bddc-4fab7b4d0e7e")]
+            public virtual RepoItemInfo ThoatInfo
+            {
+                get
+                {
+                    return _thoatInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ChucMừngAnhChịĐaĐăngKiThanhCong item.
+            /// </summary>
+            [RepositoryItem("34feeb44-2cec-4bd7-a54b-4d83b902661e")]
+            public virtual Ranorex.PTag ChucMừngAnhChịĐaĐăngKiThanhCong
+            {
+                get
+                {
+                    return _chucmừnganhchịđađăngkithanhcongInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ChucMừngAnhChịĐaĐăngKiThanhCong item info.
+            /// </summary>
+            [RepositoryItemInfo("34feeb44-2cec-4bd7-a54b-4d83b902661e")]
+            public virtual RepoItemInfo ChucMừngAnhChịĐaĐăngKiThanhCongInfo
+            {
+                get
+                {
+                    return _chucmừnganhchịđađăngkithanhcongInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Skype item.
+            /// </summary>
+            [RepositoryItem("aa5e61c1-bb2e-488c-aad3-f2d542475b80")]
+            public virtual Ranorex.InputTag Skype
+            {
+                get
+                {
+                    return _skypeInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Skype item info.
+            /// </summary>
+            [RepositoryItemInfo("aa5e61c1-bb2e-488c-aad3-f2d542475b80")]
+            public virtual RepoItemInfo SkypeInfo
+            {
+                get
+                {
+                    return _skypeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Search item.
+            /// </summary>
+            [RepositoryItem("2b331842-31da-4039-a61b-2ed5bb9df1aa")]
+            public virtual Ranorex.InputTag Search
+            {
+                get
+                {
+                    return _searchInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Search item info.
+            /// </summary>
+            [RepositoryItemInfo("2b331842-31da-4039-a61b-2ed5bb9df1aa")]
+            public virtual RepoItemInfo SearchInfo
+            {
+                get
+                {
+                    return _searchInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Navbar item.
+            /// </summary>
+            [RepositoryItem("0a5baa93-1bcc-40ed-afdd-e10568642d47")]
+            public virtual Ranorex.DivTag Navbar
+            {
+                get
+                {
+                    return _navbarInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Navbar item info.
+            /// </summary>
+            [RepositoryItemInfo("0a5baa93-1bcc-40ed-afdd-e10568642d47")]
+            public virtual RepoItemInfo NavbarInfo
+            {
+                get
+                {
+                    return _navbarInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TrangChủ item.
+            /// </summary>
+            [RepositoryItem("308c9ffb-9fd9-4928-891e-aab654976b5d")]
+            public virtual Ranorex.ATag TrangChủ
+            {
+                get
+                {
+                    return _trangchủInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TrangChủ item info.
+            /// </summary>
+            [RepositoryItemInfo("308c9ffb-9fd9-4928-891e-aab654976b5d")]
+            public virtual RepoItemInfo TrangChủInfo
+            {
+                get
+                {
+                    return _trangchủInfo;
                 }
             }
 
@@ -994,6 +1200,15 @@ namespace ATP_TopCV
             {
                 get { return _select2genderresults; }
             }
+
+            /// <summary>
+            /// The DivTagRow folder.
+            /// </summary>
+            [RepositoryFolder("e4c8f385-80ec-441f-89c5-bd2bdb3ecc5d")]
+            public virtual ATP_TopCVRepositoryFolders.DivTagRowFolder DivTagRow
+            {
+                get { return _divtagrow; }
+            }
         }
 
         /// <summary>
@@ -1007,6 +1222,7 @@ namespace ATP_TopCV
             RepoItemInfo _spantagnữInfo;
             RepoItemInfo _select2selectionarrowInfo;
             RepoItemInfo _spantagchọngiớitinhInfo;
+            RepoItemInfo _somespantagInfo;
 
             /// <summary>
             /// Creates a new ColMd9  folder.
@@ -1019,6 +1235,7 @@ namespace ATP_TopCV
                 _spantagnữInfo = new RepoItemInfo(this, "SpanTagNữ", ".//span[@title='Nữ']", 30000, null, "21af82a9-f1b6-44ea-a274-fac2e3b91fc6");
                 _select2selectionarrowInfo = new RepoItemInfo(this, "Select2SelectionArrow", "span/span[1]/span/span[2]", 30000, null, "bf41f7a9-1c0a-4ce2-af45-3eb3571bdcfd");
                 _spantagchọngiớitinhInfo = new RepoItemInfo(this, "SpanTagChọnGiớiTinh", ".//span[@title='-- Chọn giới tính --']", 30000, null, "102647fa-247d-4aef-b9bf-420555bc9963");
+                _somespantagInfo = new RepoItemInfo(this, "SomeSpanTag", "div[1]//span[@title='Hà Nội']/span[@innertext='×']", 30000, null, "8dc03eb1-6440-413f-b721-75059df62eba");
             }
 
             /// <summary>
@@ -1164,6 +1381,30 @@ namespace ATP_TopCV
                     return _spantagchọngiớitinhInfo;
                 }
             }
+
+            /// <summary>
+            /// The SomeSpanTag item.
+            /// </summary>
+            [RepositoryItem("8dc03eb1-6440-413f-b721-75059df62eba")]
+            public virtual Ranorex.SpanTag SomeSpanTag
+            {
+                get
+                {
+                    return _somespantagInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeSpanTag item info.
+            /// </summary>
+            [RepositoryItemInfo("8dc03eb1-6440-413f-b721-75059df62eba")]
+            public virtual RepoItemInfo SomeSpanTagInfo
+            {
+                get
+                {
+                    return _somespantagInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -1184,6 +1425,11 @@ namespace ATP_TopCV
             RepoItemInfo _tổnggiamđốcInfo;
             RepoItemInfo _litagchọnvịtricongtacInfo;
             RepoItemInfo _litaghanộiInfo;
+            RepoItemInfo _noresultsfoundInfo;
+            RepoItemInfo _litagbađinhInfo;
+            RepoItemInfo _litaghoankiếmInfo;
+            RepoItemInfo _litaghaibatrưngInfo;
+            RepoItemInfo _litagkinhdoanhbanhangInfo;
 
             /// <summary>
             /// Creates a new Select2GenderResults  folder.
@@ -1202,7 +1448,12 @@ namespace ATP_TopCV
                 _giamđốcInfo = new RepoItemInfo(this, "GiamĐốc", "li[@innertext='Giám đốc']", 30000, null, "de0828bc-8610-4f4b-ae3f-88904550c53f");
                 _tổnggiamđốcInfo = new RepoItemInfo(this, "TổngGiamĐốc", "li[@innertext='Tổng giám đốc']", 30000, null, "d20e0f0d-eb88-4920-9059-98b4992dec88");
                 _litagchọnvịtricongtacInfo = new RepoItemInfo(this, "LiTagChọnVịTriCongTac", "li[@innertext~'^--\\ Chọn\\ vị\\ trí\\ công\\ tác\\ -']", 30000, null, "d177d073-416b-4294-9192-86b77e144396");
-                _litaghanộiInfo = new RepoItemInfo(this, "LiTagHaNội", "li[@innertext='Hà Nội']", 30000, null, "1d4ac40e-52dc-460d-914a-ebddd447fcd8");
+                _litaghanộiInfo = new RepoItemInfo(this, "LiTagHaNội", "li[@innertext='Hà Nội']", 30000, null, "d5bebc65-87da-4a60-b7a0-19f145fe7834");
+                _noresultsfoundInfo = new RepoItemInfo(this, "NoResultsFound", "li[@innertext='No results found']", 30000, null, "d55c67c2-1453-4ec3-b710-43786a4b6559");
+                _litagbađinhInfo = new RepoItemInfo(this, "LiTagBaĐinh", "li[@innertext='Ba Đình']", 30000, null, "5b099779-41aa-4196-a354-8a8dddd4f073");
+                _litaghoankiếmInfo = new RepoItemInfo(this, "LiTagHoanKiếm", "li[@innertext='Hoàn Kiếm']", 30000, null, "0c995811-21f3-43b4-90de-aef68c09a5eb");
+                _litaghaibatrưngInfo = new RepoItemInfo(this, "LiTagHaiBaTrưng", "li[@innertext='Hai Bà Trưng']", 30000, null, "f33b9e2f-77ff-4cb8-a395-146c4c8ac821");
+                _litagkinhdoanhbanhangInfo = new RepoItemInfo(this, "LiTagKinhDoanhBanHang", "li[@innertext='Kinh doanh / Bán hàng']", 30000, null, "f2ad3d4c-2272-4bea-b332-b6207ab3f062");
             }
 
             /// <summary>
@@ -1496,7 +1747,7 @@ namespace ATP_TopCV
             /// <summary>
             /// The LiTagHaNội item.
             /// </summary>
-            [RepositoryItem("1d4ac40e-52dc-460d-914a-ebddd447fcd8")]
+            [RepositoryItem("d5bebc65-87da-4a60-b7a0-19f145fe7834")]
             public virtual Ranorex.LiTag LiTagHaNội
             {
                 get
@@ -1508,12 +1759,356 @@ namespace ATP_TopCV
             /// <summary>
             /// The LiTagHaNội item info.
             /// </summary>
-            [RepositoryItemInfo("1d4ac40e-52dc-460d-914a-ebddd447fcd8")]
+            [RepositoryItemInfo("d5bebc65-87da-4a60-b7a0-19f145fe7834")]
             public virtual RepoItemInfo LiTagHaNộiInfo
             {
                 get
                 {
                     return _litaghanộiInfo;
+                }
+            }
+
+            /// <summary>
+            /// The NoResultsFound item.
+            /// </summary>
+            [RepositoryItem("d55c67c2-1453-4ec3-b710-43786a4b6559")]
+            public virtual Ranorex.LiTag NoResultsFound
+            {
+                get
+                {
+                    return _noresultsfoundInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NoResultsFound item info.
+            /// </summary>
+            [RepositoryItemInfo("d55c67c2-1453-4ec3-b710-43786a4b6559")]
+            public virtual RepoItemInfo NoResultsFoundInfo
+            {
+                get
+                {
+                    return _noresultsfoundInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LiTagBaĐinh item.
+            /// </summary>
+            [RepositoryItem("5b099779-41aa-4196-a354-8a8dddd4f073")]
+            public virtual Ranorex.LiTag LiTagBaĐinh
+            {
+                get
+                {
+                    return _litagbađinhInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LiTagBaĐinh item info.
+            /// </summary>
+            [RepositoryItemInfo("5b099779-41aa-4196-a354-8a8dddd4f073")]
+            public virtual RepoItemInfo LiTagBaĐinhInfo
+            {
+                get
+                {
+                    return _litagbađinhInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LiTagHoanKiếm item.
+            /// </summary>
+            [RepositoryItem("0c995811-21f3-43b4-90de-aef68c09a5eb")]
+            public virtual Ranorex.LiTag LiTagHoanKiếm
+            {
+                get
+                {
+                    return _litaghoankiếmInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LiTagHoanKiếm item info.
+            /// </summary>
+            [RepositoryItemInfo("0c995811-21f3-43b4-90de-aef68c09a5eb")]
+            public virtual RepoItemInfo LiTagHoanKiếmInfo
+            {
+                get
+                {
+                    return _litaghoankiếmInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LiTagHaiBaTrưng item.
+            /// </summary>
+            [RepositoryItem("f33b9e2f-77ff-4cb8-a395-146c4c8ac821")]
+            public virtual Ranorex.LiTag LiTagHaiBaTrưng
+            {
+                get
+                {
+                    return _litaghaibatrưngInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LiTagHaiBaTrưng item info.
+            /// </summary>
+            [RepositoryItemInfo("f33b9e2f-77ff-4cb8-a395-146c4c8ac821")]
+            public virtual RepoItemInfo LiTagHaiBaTrưngInfo
+            {
+                get
+                {
+                    return _litaghaibatrưngInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LiTagKinhDoanhBanHang item.
+            /// </summary>
+            [RepositoryItem("f2ad3d4c-2272-4bea-b332-b6207ab3f062")]
+            public virtual Ranorex.LiTag LiTagKinhDoanhBanHang
+            {
+                get
+                {
+                    return _litagkinhdoanhbanhangInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LiTagKinhDoanhBanHang item info.
+            /// </summary>
+            [RepositoryItemInfo("f2ad3d4c-2272-4bea-b332-b6207ab3f062")]
+            public virtual RepoItemInfo LiTagKinhDoanhBanHangInfo
+            {
+                get
+                {
+                    return _litagkinhdoanhbanhangInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The DivTagRowFolder folder.
+        /// </summary>
+        [RepositoryFolder("e4c8f385-80ec-441f-89c5-bd2bdb3ecc5d")]
+        public partial class DivTagRowFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _select2selectionarrow1Info;
+            RepoItemInfo _somebtag1Info;
+            RepoItemInfo _select2selectionarrow2Info;
+
+            /// <summary>
+            /// Creates a new DivTagRow  folder.
+            /// </summary>
+            public DivTagRowFolder(RepoGenBaseFolder parentFolder) :
+                    base("DivTagRow", ".//div[#'personal-info']/div[2]/div/div[10]/div/div", parentFolder, 30000, null, false, "e4c8f385-80ec-441f-89c5-bd2bdb3ecc5d", "")
+            {
+                _select2selectionarrow1Info = new RepoItemInfo(this, "Select2SelectionArrow1", "div[1]/div/span/span[1]/span/span[2]", 30000, null, "195ffb00-0a91-49ad-aa28-f9fb00ab02dc");
+                _somebtag1Info = new RepoItemInfo(this, "SomeBTag1", "div[2]/div/span//b", 30000, null, "2164d584-b99e-4acb-b193-1bc67c43686e");
+                _select2selectionarrow2Info = new RepoItemInfo(this, "Select2SelectionArrow2", "div[2]/div/span/span[1]/span/span[2]", 30000, null, "3681b5a5-1729-439f-ad6f-333a2fdba28e");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("e4c8f385-80ec-441f-89c5-bd2bdb3ecc5d")]
+            public virtual Ranorex.DivTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("e4c8f385-80ec-441f-89c5-bd2bdb3ecc5d")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Select2SelectionArrow1 item.
+            /// </summary>
+            [RepositoryItem("195ffb00-0a91-49ad-aa28-f9fb00ab02dc")]
+            public virtual Ranorex.SpanTag Select2SelectionArrow1
+            {
+                get
+                {
+                    return _select2selectionarrow1Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Select2SelectionArrow1 item info.
+            /// </summary>
+            [RepositoryItemInfo("195ffb00-0a91-49ad-aa28-f9fb00ab02dc")]
+            public virtual RepoItemInfo Select2SelectionArrow1Info
+            {
+                get
+                {
+                    return _select2selectionarrow1Info;
+                }
+            }
+
+            /// <summary>
+            /// The SomeBTag1 item.
+            /// </summary>
+            [RepositoryItem("2164d584-b99e-4acb-b193-1bc67c43686e")]
+            public virtual Ranorex.BTag SomeBTag1
+            {
+                get
+                {
+                    return _somebtag1Info.CreateAdapter<Ranorex.BTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeBTag1 item info.
+            /// </summary>
+            [RepositoryItemInfo("2164d584-b99e-4acb-b193-1bc67c43686e")]
+            public virtual RepoItemInfo SomeBTag1Info
+            {
+                get
+                {
+                    return _somebtag1Info;
+                }
+            }
+
+            /// <summary>
+            /// The Select2SelectionArrow2 item.
+            /// </summary>
+            [RepositoryItem("3681b5a5-1729-439f-ad6f-333a2fdba28e")]
+            public virtual Ranorex.SpanTag Select2SelectionArrow2
+            {
+                get
+                {
+                    return _select2selectionarrow2Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Select2SelectionArrow2 item info.
+            /// </summary>
+            [RepositoryItemInfo("3681b5a5-1729-439f-ad6f-333a2fdba28e")]
+            public virtual RepoItemInfo Select2SelectionArrow2Info
+            {
+                get
+                {
+                    return _select2selectionarrow2Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The SavePasswordAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("efecb01f-bac5-4b91-9197-6e9479053fc2")]
+        public partial class SavePasswordAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _pushbuttonInfo;
+
+            /// <summary>
+            /// Creates a new SavePassword  folder.
+            /// </summary>
+            public SavePasswordAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SavePassword", "/form[@title='Save password?']", parentFolder, 30000, null, true, "efecb01f-bac5-4b91-9197-6e9479053fc2", "")
+            {
+                _pushbuttonInfo = new RepoItemInfo(this, "PushButton", "element[@accessiblename='Save password?']//button[@accessiblename='']", 30000, null, "74500ebf-a0c3-4d0d-b52e-99921a5ca842");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("efecb01f-bac5-4b91-9197-6e9479053fc2")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("efecb01f-bac5-4b91-9197-6e9479053fc2")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PushButton item.
+            /// </summary>
+            [RepositoryItem("74500ebf-a0c3-4d0d-b52e-99921a5ca842")]
+            public virtual Ranorex.Button PushButton
+            {
+                get
+                {
+                    return _pushbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PushButton item info.
+            /// </summary>
+            [RepositoryItemInfo("74500ebf-a0c3-4d0d-b52e-99921a5ca842")]
+            public virtual RepoItemInfo PushButtonInfo
+            {
+                get
+                {
+                    return _pushbuttonInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The DropdownAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("3693d967-bd3a-49ff-b378-91e2289a9c90")]
+        public partial class DropdownAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new Dropdown  folder.
+            /// </summary>
+            public DropdownAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Dropdown", "/container[@caption='dropdown']", parentFolder, 30000, null, true, "3693d967-bd3a-49ff-b378-91e2289a9c90", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("3693d967-bd3a-49ff-b378-91e2289a9c90")]
+            public virtual Ranorex.Container Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("3693d967-bd3a-49ff-b378-91e2289a9c90")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }

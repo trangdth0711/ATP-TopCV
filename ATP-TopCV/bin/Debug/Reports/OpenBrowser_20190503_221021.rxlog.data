@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1f212473d24358a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Trang Meo"
+		rxversion="9.0.1.0"
+		host="DESKTOP-Q1CC1KM"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="5/3/2019 10:10:24 PM"
+		timestampiso="2019-05-03T15:10:24"
+		endtime="5/3/2019 10:10:31 PM"
+		timeoutfactor="1"
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.284"
+			timeRelativeToTestModuleStartTime="00:07.287"
+			timeWallClock="22:10:31"
+			time="00:07.284"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tuyendung.topcv.vn/sign-up' with browser 'chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Trang Meo\Documents\Ranorex\RanorexStudio Projects\ATP-TopCV\ATP-TopCV\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

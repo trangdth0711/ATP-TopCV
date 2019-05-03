@@ -229,7 +229,7 @@ AFFFFABRRRQAUUUUANfqKbRRTAKKKKBH/9k=
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="trang1{LShiftKey down}@{LShiftKey up}gmail.com"
+		KeySequence="trangdth1{LShiftKey down}@{LShiftKey up}gmail.com"
 		duration="100ms"
 		enabled="True"
 		optional="False"

@@ -689,6 +689,16 @@ RK5CYII=
 				searchtimeout="30000ms">
 					/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[7]/div//span[@title='-- Ch&#7885;n gi&#7899;i t&#237;nh --']
 				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="8dc03eb1-6440-413f-b721-75059df62eba"
+				name="SomeSpanTag"
+				refimgid="ff3adea6-f9e9-4821-9a84-1fd29a6eed8b"
+				refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[@title='Hà Nội']/span[@innertext='×']"
+				searchtimeout="30000ms">
+					/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[7]/div/div[1]//span[@title='H&#224; N&#7897;i']/span[@innertext='&#215;']
+				</item>
 				<basepath>
 					/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[7]/div
 				</basepath>
@@ -815,12 +825,62 @@ RK5CYII=
 				<item
 				addcaps="unknown,webelement,litag"
 				capname="litag"
-				id="1d4ac40e-52dc-460d-914a-ebddd447fcd8"
+				id="d5bebc65-87da-4a60-b7a0-19f145fe7834"
 				name="LiTagHaNội"
-				refimgid="016b9d26-92f0-4a58-a707-4343879e3360"
-				refpath="/dom[2]/body/span/span/span[2]/ul/li[@innertext='Hà Nội']"
+				refimgid="cb4842ce-85e6-40b6-8f92-224be5d93661"
+				refpath="/dom[@domain='tuyendung.topcv.vn']/body/span/span/span[2]/ul/li[@innertext='Hà Nội']"
 				searchtimeout="30000ms">
 					/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='H&#224; N&#7897;i']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="d55c67c2-1453-4ec3-b710-43786a4b6559"
+				name="NoResultsFound"
+				refimgid="d742df5b-1ceb-442e-9539-913b3072db1e"
+				refpath="/dom[@domain='tuyendung.topcv.vn']/body/span/span/span[2]/ul/li[@innertext='No results found']"
+				searchtimeout="30000ms">
+					/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='No results found']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="5b099779-41aa-4196-a354-8a8dddd4f073"
+				name="LiTagBaĐinh"
+				refimgid="47e55b95-8a2c-45bf-83d3-fa8202b50d10"
+				refpath="/dom[@domain='tuyendung.topcv.vn']/body/span/span/span[2]/ul/li[@innertext='Ba Đình']"
+				searchtimeout="30000ms">
+					/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Ba &#272;&#236;nh']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="0c995811-21f3-43b4-90de-aef68c09a5eb"
+				name="LiTagHoanKiếm"
+				refimgid="0ac926da-4a3f-4501-a883-5be829570459"
+				refpath="/dom[@domain='tuyendung.topcv.vn']/body/span/span/span[2]/ul/li[@innertext='Hoàn Kiếm']"
+				searchtimeout="30000ms">
+					/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Ho&#224;n Ki&#7871;m']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="f33b9e2f-77ff-4cb8-a395-146c4c8ac821"
+				name="LiTagHaiBaTrưng"
+				refimgid="5ef0cfe9-3143-4f12-bfd0-8298c9925097"
+				refpath="/dom[@domain='tuyendung.topcv.vn']/body/span/span/span[2]/ul/li[@innertext='Hai Bà Trưng']"
+				searchtimeout="30000ms">
+					/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Hai B&#224; Tr&#432;ng']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="f2ad3d4c-2272-4bea-b332-b6207ab3f062"
+				name="LiTagKinhDoanhBanHang"
+				refimgid="f1ba20b5-71e3-42ca-9fd3-6ba64cd03044"
+				refpath="/dom[@domain='tuyendung.topcv.vn']//ul[#'select2-categories-selector-results']/li[@innertext='Kinh doanh / Bán hàng']"
+				searchtimeout="30000ms">
+					/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Kinh doanh / B&#225;n h&#224;ng']
 				</item>
 				<basepath>
 					/dom[@domain='tuyendung.topcv.vn']/body/span//ul
@@ -856,15 +916,128 @@ RK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[9]/div/span/span[1]/span/span[2]
 			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="e4c8f385-80ec-441f-89c5-bd2bdb3ecc5d"
+			isrooted="True"
+			name="DivTagRow"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="195ffb00-0a91-49ad-aa28-f9fb00ab02dc"
+				name="Select2SelectionArrow1"
+				refimgid="8f2171e5-ec47-4c41-a314-d27b000063c8"
+				refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,btag"
+				capname="btag"
+				id="2164d584-b99e-4acb-b193-1bc67c43686e"
+				name="SomeBTag1"
+				refimgid="324d2cf9-1cf9-454f-b857-070b0896e0e1"
+				refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[2]/div/span/span[1]/span/span[2]/b"
+				searchtimeout="30000ms">
+					/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[2]/div/span//b
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="3681b5a5-1729-439f-ad6f-333a2fdba28e"
+				name="Select2SelectionArrow2"
+				refimgid="ebdafeed-a806-45bf-a2b6-ec105c9780b7"
+				refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[2]/div/span/span[1]/span/span[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[2]/div/span/span[1]/span/span[2]
+				</item>
+				<basepath>
+					/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div
+				</basepath>
+			</folder>
 			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="f10eab2d-62dd-4b65-a49c-8544024e45b8"
-			name="Select2SelectionArrow1"
-			refimgid="91e9f5aa-8874-4f67-ad1d-6bd54fbfd716"
-			refpath="/dom[2]//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[2]"
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="95f8e1dc-104d-4c4a-890b-f6880d8cd56f"
+			name="AgreeTerm"
+			refimgid="b29f5768-133d-492d-904e-2e1bbdb8fd59"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//input[#'agree_term']"
 			searchtimeout="30000ms">
-				/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[1]/div/span/span[1]/span/span[2]
+				/dom[@domain='tuyendung.topcv.vn']//input[#'agree_term']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="3bc15f56-06f0-44b7-99d4-f278740f1dcc"
+			name="TaiKhoản"
+			refimgid="ebe03258-2b4d-44cc-8245-9cc6bee653e9"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'navbar']/ul/li[7]/a[@innertext='Tài khoản ']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//div[#'navbar']//a[@innertext='T&#224;i kho&#7843;n ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="312f386b-2021-4064-bddc-4fab7b4d0e7e"
+			name="Thoat"
+			refimgid="d5dde4c6-5512-45cd-ad57-9c9b7a77da2c"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'navbar']/ul/li[7]/ul/li[11]/a[@innertext='Thoát']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//div[#'navbar']/ul/li[7]/ul/?/?/a[@innertext='Tho&#225;t']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="34feeb44-2cec-4bd7-a54b-4d83b902661e"
+			name="ChucMừngAnhChịĐaĐăngKiThanhCong"
+			refimgid="27e84589-67f3-4df0-b42b-5c41679e8da2"
+			refpath="/dom[@domain='tuyendung.topcv.vn']/body/div[1]/div/div/div[2]/div/p[@innertext='Chúc mừng anh/chị đã đăng kí thành công tài khoản Nhà tuyển dụng của TOPCV. Vui lòng kiểm tra email xác nhận đăng kí và làm theo hướng dẫn trong email để tiếp tục sử dụng dịch vụ TOPCV.']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']/body/div[1]/div/div/div[2]/?/?/p[@innertext~'^Ch&#250;c\ m&#7915;ng\ anh/ch&#7883;\ &#273;&#227;\ &#273;&#259;ng']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="aa5e61c1-bb2e-488c-aad3-f2d542475b80"
+			name="Skype"
+			refimgid="e5e1b39e-ee73-4d5e-9221-ab0f95ca5433"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//input[#'skype']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//input[#'skype']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2b331842-31da-4039-a61b-2ed5bb9df1aa"
+			name="Search"
+			refimgid="2bb2d508-3189-4e98-9cbf-5f48c276b079"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[12]/div/span/span[1]/span/ul/li/input[@type='search']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[12]/div//ul/?/?/input[@type='search']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="0a5baa93-1bcc-40ed-afdd-e10568642d47"
+			name="Navbar"
+			refimgid="b322da8f-6a6e-449a-bc29-31a213ad2887"
+			refpath="/dom[@domain='tuyendung.topcv.vn' and @caption~'^Đăng\ ký\ xác\ nhận\ email\ NT']//div[#'navbar']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//div[#'navbar']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="308c9ffb-9fd9-4928-891e-aab654976b5d"
+			name="TrangChủ"
+			refimgid="3de920fb-7140-46fa-8818-677c48254487"
+			refpath="/dom[@domain='tuyendung.topcv.vn' and @caption~'^Đăng\ ký\ xác\ nhận\ email\ NT']//div[#'navbar']/ul/li[1]/a[@innertext='Trang chủ']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//div[#'navbar']//a[@innertext='Trang ch&#7911;']
 			</item>
 			<basepath>
 				/dom[@domain='tuyendung.topcv.vn']
@@ -883,6 +1056,70 @@ lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
 zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="efecb01f-bac5-4b91-9197-6e9479053fc2"
+		isrooted="True"
+		name="SavePassword"
+		refpath="/form[@title='Save password?']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="74500ebf-a0c3-4d0d-b52e-99921a5ca842"
+			name="PushButton"
+			refimgid="070869ff-dcba-4fcb-be6d-43caba8ef991"
+			refpath="/form[@title='Save password?']/element/container/container[1]/button[@accessiblename='']"
+			searchtimeout="30000ms">
+				/form[@title='Save password?']/element[@accessiblename='Save password?']//button[@accessiblename='']
+			</item>
+			<basepath>
+				/form[@title='Save password?']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container"
+		capname="container"
+		id="3693d967-bd3a-49ff-b378-91e2289a9c90"
+		isrooted="True"
+		name="Dropdown"
+		refimgid="cdb820b5-bd89-4d56-8800-fe68c3276b07"
+		refpath="/container[@caption='dropdown']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
+LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
+uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
+PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
+GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
+TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
+7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<basepath>

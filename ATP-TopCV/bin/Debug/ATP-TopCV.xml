@@ -39,6 +39,16 @@
             The ĐăngKyTaiKhoảnNhaTuyểnDụng folder.
             </summary>
         </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepository.SavePassword">
+            <summary>
+            The SavePassword folder.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepository.Dropdown">
+            <summary>
+            The Dropdown folder.
+            </summary>
+        </member>
         <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders">
             <summary>
             Inner folder classes.
@@ -284,14 +294,84 @@
             The Select2SelectionArrow item info.
             </summary>
         </member>
-        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Select2SelectionArrow1">
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.AgreeTerm">
             <summary>
-            The Select2SelectionArrow1 item.
+            The AgreeTerm item.
             </summary>
         </member>
-        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Select2SelectionArrow1Info">
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.AgreeTermInfo">
             <summary>
-            The Select2SelectionArrow1 item info.
+            The AgreeTerm item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.TaiKhoản">
+            <summary>
+            The TaiKhoản item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.TaiKhoảnInfo">
+            <summary>
+            The TaiKhoản item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Thoat">
+            <summary>
+            The Thoat item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ThoatInfo">
+            <summary>
+            The Thoat item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ChucMừngAnhChịĐaĐăngKiThanhCong">
+            <summary>
+            The ChucMừngAnhChịĐaĐăngKiThanhCong item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ChucMừngAnhChịĐaĐăngKiThanhCongInfo">
+            <summary>
+            The ChucMừngAnhChịĐaĐăngKiThanhCong item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Skype">
+            <summary>
+            The Skype item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.SkypeInfo">
+            <summary>
+            The Skype item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Search">
+            <summary>
+            The Search item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.SearchInfo">
+            <summary>
+            The Search item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Navbar">
+            <summary>
+            The Navbar item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.NavbarInfo">
+            <summary>
+            The Navbar item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.TrangChủ">
+            <summary>
+            The TrangChủ item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.TrangChủInfo">
+            <summary>
+            The TrangChủ item info.
             </summary>
         </member>
         <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ColMd9">
@@ -302,6 +382,11 @@
         <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Select2GenderResults">
             <summary>
             The Select2GenderResults folder.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.DivTagRow">
+            <summary>
+            The DivTagRow folder.
             </summary>
         </member>
         <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.PasswordInfoClass">
@@ -541,6 +626,16 @@
             The SpanTagChọnGiớiTinh item info.
             </summary>
         </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.SomeSpanTag">
+            <summary>
+            The SomeSpanTag item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ColMd9Folder.SomeSpanTagInfo">
+            <summary>
+            The SomeSpanTag item info.
+            </summary>
+        </member>
         <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder">
             <summary>
             The Select2GenderResultsFolder folder.
@@ -681,27 +776,177 @@
             The LiTagHaNội item info.
             </summary>
         </member>
-        <member name="T:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen">
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.NoResultsFound">
+            <summary>
+            The NoResultsFound item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.NoResultsFoundInfo">
+            <summary>
+            The NoResultsFound item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagBaĐinh">
+            <summary>
+            The LiTagBaĐinh item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagBaĐinhInfo">
+            <summary>
+            The LiTagBaĐinh item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagHoanKiếm">
+            <summary>
+            The LiTagHoanKiếm item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagHoanKiếmInfo">
+            <summary>
+            The LiTagHoanKiếm item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagHaiBaTrưng">
+            <summary>
+            The LiTagHaiBaTrưng item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagHaiBaTrưngInfo">
+            <summary>
+            The LiTagHaiBaTrưng item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagKinhDoanhBanHang">
+            <summary>
+            The LiTagKinhDoanhBanHang item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagKinhDoanhBanHangInfo">
+            <summary>
+            The LiTagKinhDoanhBanHang item info.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders.DivTagRowFolder">
+            <summary>
+            The DivTagRowFolder folder.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.DivTagRowFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DivTagRow  folder.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.DivTagRowFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.DivTagRowFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.DivTagRowFolder.Select2SelectionArrow1">
+            <summary>
+            The Select2SelectionArrow1 item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.DivTagRowFolder.Select2SelectionArrow1Info">
+            <summary>
+            The Select2SelectionArrow1 item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.DivTagRowFolder.SomeBTag1">
+            <summary>
+            The SomeBTag1 item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.DivTagRowFolder.SomeBTag1Info">
+            <summary>
+            The SomeBTag1 item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.DivTagRowFolder.Select2SelectionArrow2">
+            <summary>
+            The Select2SelectionArrow2 item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.DivTagRowFolder.Select2SelectionArrow2Info">
+            <summary>
+            The Select2SelectionArrow2 item info.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders.SavePasswordAppFolder">
+            <summary>
+            The SavePasswordAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.SavePasswordAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SavePassword  folder.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.SavePasswordAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.SavePasswordAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.SavePasswordAppFolder.PushButton">
+            <summary>
+            The PushButton item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.SavePasswordAppFolder.PushButtonInfo">
+            <summary>
+            The PushButton item info.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders.DropdownAppFolder">
+            <summary>
+            The DropdownAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.ATP_TopCVRepositoryFolders.DropdownAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Dropdown  folder.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.DropdownAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.DropdownAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Bo_trong_cac_truong_khong_bat_buoc">
              <summary>
-            The Bo_Trong_Tinh_TP_va_Quan_Huyen recording.
+            The Bo_trong_cac_truong_khong_bat_buoc recording.
              </summary>
         </member>
-        <member name="F:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.repo">
+        <member name="F:ATP_TopCV.Bo_trong_cac_truong_khong_bat_buoc.repo">
             <summary>
             Holds an instance of the ATP_TopCVRepository repository.
             </summary>
         </member>
-        <member name="M:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.#ctor">
+        <member name="M:ATP_TopCV.Bo_trong_cac_truong_khong_bat_buoc.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="M:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.Start">
+        <member name="M:ATP_TopCV.Bo_trong_cac_truong_khong_bat_buoc.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.Instance"/>.
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Bo_trong_cac_truong_khong_bat_buoc.Instance"/>.
             </summary>
         </member>
-        <member name="M:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:ATP_TopCV.Bo_trong_cac_truong_khong_bat_buoc.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -709,13 +954,52 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.Init">
+        <member name="M:ATP_TopCV.Bo_trong_cac_truong_khong_bat_buoc.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:ATP_TopCV.Bo_Trong_Tinh_TP_va_Quan_Huyen.Instance">
+        <member name="P:ATP_TopCV.Bo_trong_cac_truong_khong_bat_buoc.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Check_hien_thi_gia_tri_Quan_huyen">
+             <summary>
+            The Check_hien_thi_gia_tri_Quan_huyen recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Check_hien_thi_gia_tri_Quan_huyen.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Check_hien_thi_gia_tri_Quan_huyen.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Check_hien_thi_gia_tri_Quan_huyen.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Check_hien_thi_gia_tri_Quan_huyen.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Check_hien_thi_gia_tri_Quan_huyen.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Check_hien_thi_gia_tri_Quan_huyen.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Check_hien_thi_gia_tri_Quan_huyen.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
@@ -1110,6 +1394,45 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="T:ATP_TopCV.Nhap_tat_ca_cac_truong">
+             <summary>
+            The Nhap_tat_ca_cac_truong recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Nhap_tat_ca_cac_truong.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Nhap_tat_ca_cac_truong.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Nhap_tat_ca_cac_truong.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Nhap_tat_ca_cac_truong.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Nhap_tat_ca_cac_truong.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Nhap_tat_ca_cac_truong.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Nhap_tat_ca_cac_truong.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:ATP_TopCV.OpenBrowser">
              <summary>
             The OpenBrowser recording.
@@ -1340,45 +1663,6 @@
             </summary>
         </member>
         <member name="P:ATP_TopCV.Email_null.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="T:ATP_TopCV.Recording1">
-             <summary>
-            The Recording1 recording.
-             </summary>
-        </member>
-        <member name="F:ATP_TopCV.Recording1.repo">
-            <summary>
-            Holds an instance of the ATP_TopCVRepository repository.
-            </summary>
-        </member>
-        <member name="M:ATP_TopCV.Recording1.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:ATP_TopCV.Recording1.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:ATP_TopCV.Recording1.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:ATP_TopCV.Recording1.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:ATP_TopCV.Recording1.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:ATP_TopCV.Recording1.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
@@ -2120,6 +2404,84 @@
             </summary>
         </member>
         <member name="P:ATP_TopCV.Test_Vi_tri_cong_tac_Null.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Tinh_Thanhpho_Null">
+             <summary>
+            The Tinh_Thanhpho_Null recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Tinh_Thanhpho_Null.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Tinh_Thanhpho_Null.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Tinh_Thanhpho_Null.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Tinh_Thanhpho_Null.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Tinh_Thanhpho_Null.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Tinh_Thanhpho_Null.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Tinh_Thanhpho_Null.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ATP_TopCV.Uncheck_button_Toi_dong_y_DK_TOPCV">
+             <summary>
+            The Uncheck_button_Toi_dong_y_DK_TOPCV recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.Uncheck_button_Toi_dong_y_DK_TOPCV.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Uncheck_button_Toi_dong_y_DK_TOPCV.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Uncheck_button_Toi_dong_y_DK_TOPCV.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.Uncheck_button_Toi_dong_y_DK_TOPCV.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.Uncheck_button_Toi_dong_y_DK_TOPCV.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.Uncheck_button_Toi_dong_y_DK_TOPCV.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.Uncheck_button_Toi_dong_y_DK_TOPCV.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
