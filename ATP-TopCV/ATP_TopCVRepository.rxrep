@@ -882,6 +882,16 @@ RK5CYII=
 				searchtimeout="30000ms">
 					/dom[@domain='tuyendung.topcv.vn']/body/span//ul/li[@innertext='Kinh doanh / B&#225;n h&#224;ng']
 				</item>
+				<item
+				addcaps="unknown,webelement,ultag"
+				capname="ultag"
+				id="3f090a73-3d59-4511-9582-d723e8563f5b"
+				name="Select2ResultsOptions"
+				refimgid="8bd4a807-1ddf-4273-8d7f-0dcc3410b2de"
+				refpath="/dom[@domain='tuyendung.topcv.vn']/body/span/span/span[2]/ul"
+				searchtimeout="30000ms">
+					/dom[@domain='tuyendung.topcv.vn']/body/span//ul
+				</item>
 				<basepath>
 					/dom[@domain='tuyendung.topcv.vn']/body/span//ul
 				</basepath>
@@ -1038,6 +1048,16 @@ RK5CYII=
 			refpath="/dom[@domain='tuyendung.topcv.vn' and @caption~'^Đăng\ ký\ xác\ nhận\ email\ NT']//div[#'navbar']/ul/li[1]/a[@innertext='Trang chủ']"
 			searchtimeout="30000ms">
 				/dom[@domain='tuyendung.topcv.vn']//div[#'navbar']//a[@innertext='Trang ch&#7911;']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="9ca798bd-8358-4e33-b39e-37a14dc24277"
+			name="Select2PositionContainer"
+			refimgid="b1696ff5-6b40-494a-8986-04b99a28c967"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//span[#'select2-position-container']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//span[#'select2-position-container']
 			</item>
 			<basepath>
 				/dom[@domain='tuyendung.topcv.vn']

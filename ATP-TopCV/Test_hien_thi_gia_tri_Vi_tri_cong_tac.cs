@@ -79,101 +79,104 @@ namespace ATP_TopCV
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.SomeBTag' at 2;4.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.SomeBTagInfo, new RecordItemIndex(0));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.SomeBTag.Click("2;4");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NhanVien' at 154;6.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NhanVienInfo, new RecordItemIndex(1));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NhanVien.Click("154;6");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Nhân viên') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrow'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, new RecordItemIndex(2));
-            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, "InnerText", "Nhân viên");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 11;28.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(3));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow.Click("11;28");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TrưởngNhom' at 89;19.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TrưởngNhomInfo, new RecordItemIndex(4));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TrưởngNhom.Click("89;19");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Trưởng nhóm') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrow'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, new RecordItemIndex(5));
-            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, "InnerText", "Trưởng nhóm");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 6;24.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 6;24.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(0));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow.Click("6;24");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.PhoPhong' at 107;11.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.PhoPhongInfo, new RecordItemIndex(7));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.SomeBTag' at 2;4.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.SomeBTagInfo, new RecordItemIndex(1));
+            //repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.SomeBTag.Click("2;4");
+            //Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NhanVien' at 154;6.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NhanVienInfo, new RecordItemIndex(2));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NhanVien.Click("154;6");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Nhân viên') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainer'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, new RecordItemIndex(3));
+            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, "InnerText", "Nhân viên");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 11;28.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(4));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow.Click("11;28");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TrưởngNhom' at 89;19.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TrưởngNhomInfo, new RecordItemIndex(5));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TrưởngNhom.Click("89;19");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Trưởng nhóm') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainer'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, new RecordItemIndex(6));
+            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, "InnerText", "Trưởng nhóm");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 11;28.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(7));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow.Click("11;28");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.PhoPhong' at 107;11.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.PhoPhongInfo, new RecordItemIndex(8));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.PhoPhong.Click("107;11");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Phó phòng') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrow'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, new RecordItemIndex(8));
-            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, "InnerText", "Phó phòng");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Phó phòng') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainer'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, new RecordItemIndex(9));
+            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, "InnerText", "Phó phòng");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 10;22.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 10;22.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(10));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow.Click("10;22");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TrưởngPhong' at 207;5.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TrưởngPhongInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TrưởngPhong' at 207;5.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TrưởngPhongInfo, new RecordItemIndex(11));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TrưởngPhong.Click("207;5");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Trưởng phòng') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrow'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, new RecordItemIndex(11));
-            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, "InnerText", "Trưởng phòng");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Trưởng phòng') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainer'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, new RecordItemIndex(12));
+            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, "InnerText", "Trưởng phòng");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 10;34.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 10;34.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(13));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow.Click("10;34");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.PhoGiamĐốc' at 198;25.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.PhoGiamĐốcInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.PhoGiamĐốc' at 198;25.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.PhoGiamĐốcInfo, new RecordItemIndex(14));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.PhoGiamĐốc.Click("198;25");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Phó giám đốc') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrow'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, new RecordItemIndex(14));
-            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, "InnerText", "Phó giám đốc");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Phó giám đốc') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainer'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, new RecordItemIndex(15));
+            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, "InnerText", "Phó giám đốc");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 9;36.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 9;36.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(16));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow.Click("9;36");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.GiamĐốc' at 257;30.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.GiamĐốcInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.GiamĐốc' at 257;30.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.GiamĐốcInfo, new RecordItemIndex(17));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.GiamĐốc.Click("257;30");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Giám đốc') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrow'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, new RecordItemIndex(17));
-            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, "InnerText", "Giám đốc");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Giám đốc') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainer'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, new RecordItemIndex(18));
+            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, "InnerText", "Giám đốc");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 16;25.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 16;25.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(19));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow.Click("16;25");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TổngGiamĐốc' at 267;9.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TổngGiamĐốcInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TổngGiamĐốc' at 267;9.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TổngGiamĐốcInfo, new RecordItemIndex(20));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.TổngGiamĐốc.Click("267;9");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Tổng giám đốc') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrow'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, new RecordItemIndex(20));
-            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, "InnerText", "Tổng giám đốc");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Tổng giám đốc') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainer'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, new RecordItemIndex(21));
+            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, "InnerText", "Tổng giám đốc");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 14;29.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(21));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow.MoveTo("14;29");
-            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow' at 9;29.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrowInfo, new RecordItemIndex(22));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2SelectionArrow.Click("9;29");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagChọnVịTriCongTac' at 268;26.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagChọnVịTriCongTacInfo, new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagChọnVịTriCongTac' at 268;26.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagChọnVịTriCongTacInfo, new RecordItemIndex(23));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagChọnVịTriCongTac.Click("268;26");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'-- Chọn vị trí công tác --') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrow'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, new RecordItemIndex(23));
-            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.Select2SelectionArrowInfo, "InnerText", "-- Chọn vị trí công tác --");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'-- Chọn vị trí công tác --') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainer'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, new RecordItemIndex(24));
+            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2PositionContainerInfo, "InnerText", "-- Chọn vị trí công tác --");
             Delay.Milliseconds(100);
             
         }

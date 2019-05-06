@@ -1,13 +1,22 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Nhap_tat_ca_cac_truong.rxrec" />
+    <Element value="Test_hien_thi_gia_tri_Vi_tri_cong_tac.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="ATP_TopCV.rxtst" />
-    <Element value="Test_min_lenght_password.rxrec" />
-    <Element value="Password_Null.rxrec" />
     <Element value="Nhap_tat_ca_cac_truong.rxrec" />
+    <Element value="Bo_trong_cac_truong_khong_bat_buoc.rxrec" />
+    <Element value="Test_hien_thi_gia_tri_Vi_tri_cong_tac.rxrec" />
+    <Element value="ATP_TopCV.rxtst" />
+    <Element value="Test_chon_gia_tri_gioi_tinh.rxrec" />
+    <Element value="Test_ho_ten_chua_ki_tu_so.rxrec" />
+    <Element value="Confirm_PassWord_Null.rxrec" />
+    <Element value="Check_strim_space_Password.rxrec" />
+    <Element value="Password_include_space.rxrec" />
+    <Element value="Password_invalid.rxrec" />
+    <Element value="Check_Ho_va_ten_Null.rxrec" />
+    <Element value="Email_null.rxrec" />
+    <Element value="Password_Null.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

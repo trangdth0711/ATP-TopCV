@@ -83,8 +83,8 @@ namespace ATP_TopCV
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.Click("234;36");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'trang1{LShiftKey down}@{LShiftKey up}gmail.com' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(1));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.PressKeys("trang1{LShiftKey down}@{LShiftKey up}gmail.com");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'trangdth1{LShiftKey down}@{LShiftKey up}gmail.com' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(1));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.PressKeys("trangdth1{LShiftKey down}@{LShiftKey up}gmail.com");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Password' at 172;14.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo, new RecordItemIndex(2));
@@ -107,11 +107,15 @@ namespace ATP_TopCV
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất.Click("51;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=359,Height=20}) on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, new RecordItemIndex(7));
-            Validate.CompareImage(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, ModalErrorMessage_Screenshot1, ModalErrorMessage_Screenshot1_Options);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Mật khẩu phải từ 6 đến 25 ký tự.') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, new RecordItemIndex(7));
+            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, "InnerText", "Mật khẩu phải từ 6 đến 25 ký tự.");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 248;23.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(8));
+            //Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=359,Height=20}) on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, new RecordItemIndex(8));
+            //Validate.CompareImage(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, ModalErrorMessage_Screenshot1, ModalErrorMessage_Screenshot1_Options);
+            //Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 248;23.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(9));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại.Click("248;23");
             Delay.Milliseconds(200);
             

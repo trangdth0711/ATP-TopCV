@@ -313,6 +313,7 @@ namespace ATP_TopCV
             RepoItemInfo _searchInfo;
             RepoItemInfo _navbarInfo;
             RepoItemInfo _trangchủInfo;
+            RepoItemInfo _select2positioncontainerInfo;
 
             /// <summary>
             /// Creates a new ĐăngKyTaiKhoảnNhaTuyểnDụng  folder.
@@ -346,6 +347,7 @@ namespace ATP_TopCV
                 _searchInfo = new RepoItemInfo(this, "Search", ".//div[#'personal-info']/div[2]/div/div[12]/div//ul/?/?/input[@type='search']", 30000, null, "2b331842-31da-4039-a61b-2ed5bb9df1aa");
                 _navbarInfo = new RepoItemInfo(this, "Navbar", ".//div[#'navbar']", 30000, null, "0a5baa93-1bcc-40ed-afdd-e10568642d47");
                 _trangchủInfo = new RepoItemInfo(this, "TrangChủ", ".//div[#'navbar']//a[@innertext='Trang chủ']", 30000, null, "308c9ffb-9fd9-4928-891e-aab654976b5d");
+                _select2positioncontainerInfo = new RepoItemInfo(this, "Select2PositionContainer", ".//span[#'select2-position-container']", 30000, null, "9ca798bd-8358-4e33-b39e-37a14dc24277");
             }
 
             /// <summary>
@@ -1184,6 +1186,30 @@ namespace ATP_TopCV
             }
 
             /// <summary>
+            /// The Select2PositionContainer item.
+            /// </summary>
+            [RepositoryItem("9ca798bd-8358-4e33-b39e-37a14dc24277")]
+            public virtual Ranorex.SpanTag Select2PositionContainer
+            {
+                get
+                {
+                    return _select2positioncontainerInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Select2PositionContainer item info.
+            /// </summary>
+            [RepositoryItemInfo("9ca798bd-8358-4e33-b39e-37a14dc24277")]
+            public virtual RepoItemInfo Select2PositionContainerInfo
+            {
+                get
+                {
+                    return _select2positioncontainerInfo;
+                }
+            }
+
+            /// <summary>
             /// The ColMd9 folder.
             /// </summary>
             [RepositoryFolder("b7601484-9ab3-4aec-b0df-57aefeead214")]
@@ -1430,6 +1456,7 @@ namespace ATP_TopCV
             RepoItemInfo _litaghoankiếmInfo;
             RepoItemInfo _litaghaibatrưngInfo;
             RepoItemInfo _litagkinhdoanhbanhangInfo;
+            RepoItemInfo _select2resultsoptionsInfo;
 
             /// <summary>
             /// Creates a new Select2GenderResults  folder.
@@ -1454,6 +1481,7 @@ namespace ATP_TopCV
                 _litaghoankiếmInfo = new RepoItemInfo(this, "LiTagHoanKiếm", "li[@innertext='Hoàn Kiếm']", 30000, null, "0c995811-21f3-43b4-90de-aef68c09a5eb");
                 _litaghaibatrưngInfo = new RepoItemInfo(this, "LiTagHaiBaTrưng", "li[@innertext='Hai Bà Trưng']", 30000, null, "f33b9e2f-77ff-4cb8-a395-146c4c8ac821");
                 _litagkinhdoanhbanhangInfo = new RepoItemInfo(this, "LiTagKinhDoanhBanHang", "li[@innertext='Kinh doanh / Bán hàng']", 30000, null, "f2ad3d4c-2272-4bea-b332-b6207ab3f062");
+                _select2resultsoptionsInfo = new RepoItemInfo(this, "Select2ResultsOptions", "", 30000, null, "3f090a73-3d59-4511-9582-d723e8563f5b");
             }
 
             /// <summary>
@@ -1885,6 +1913,30 @@ namespace ATP_TopCV
                 get
                 {
                     return _litagkinhdoanhbanhangInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Select2ResultsOptions item.
+            /// </summary>
+            [RepositoryItem("3f090a73-3d59-4511-9582-d723e8563f5b")]
+            public virtual Ranorex.UlTag Select2ResultsOptions
+            {
+                get
+                {
+                    return _select2resultsoptionsInfo.CreateAdapter<Ranorex.UlTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Select2ResultsOptions item info.
+            /// </summary>
+            [RepositoryItemInfo("3f090a73-3d59-4511-9582-d723e8563f5b")]
+            public virtual RepoItemInfo Select2ResultsOptionsInfo
+            {
+                get
+                {
+                    return _select2resultsoptionsInfo;
                 }
             }
         }

@@ -79,47 +79,43 @@ namespace ATP_TopCV
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'aaaaaaaa' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Password'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo, new RecordItemIndex(0));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Password.PressKeys("aaaaaaaa");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Password' at 72;8.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Password' at 72;8.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo, new RecordItemIndex(0));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Password.Click("72;8");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'aaaaaaaa' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Password'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'aaaaaaaa' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Password'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo, new RecordItemIndex(1));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Password.PressKeys("aaaaaaaa");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất' at 50;20.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTấtInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất' at 50;20.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTấtInfo, new RecordItemIndex(2));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất.Click("50;20");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRa'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRaInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRa'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRaInfo, new RecordItemIndex(3));
             Validate.Exists(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRaInfo);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 210;10.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 210;10.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(4));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại.Click("210;10");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email' at 141;26.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email' at 141;26.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(5));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.Click("141;26");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '        ' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '        ' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(6));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.PressKeys("        ");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất' at 50;20.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTấtInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất' at 50;20.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTấtInfo, new RecordItemIndex(7));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất.Click("50;20");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRa'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRaInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRa'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRaInfo, new RecordItemIndex(8));
             Validate.Exists(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRaInfo);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 210;10.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 210;10.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(9));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại.Click("210;10");
             Delay.Milliseconds(200);
             

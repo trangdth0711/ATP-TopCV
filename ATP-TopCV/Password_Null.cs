@@ -119,11 +119,15 @@ namespace ATP_TopCV
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất.Click("51;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=368,Height=20}) on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, new RecordItemIndex(10));
-            Validate.CompareImage(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, ModalErrorMessage_Screenshot1, ModalErrorMessage_Screenshot1_Options);
+            //Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=368,Height=20}) on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, new RecordItemIndex(10));
+            //Validate.CompareImage(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, ModalErrorMessage_Screenshot1, ModalErrorMessage_Screenshot1_Options);
+            //Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRa'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRaInfo, new RecordItemIndex(11));
+            Validate.Exists(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐaCoLỗiXảyRaInfo);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 201;31.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 201;31.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(12));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại.Click("201;31");
             Delay.Milliseconds(200);
             

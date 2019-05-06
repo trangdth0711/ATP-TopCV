@@ -374,6 +374,16 @@
             The TrangChủ item info.
             </summary>
         </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Select2PositionContainer">
+            <summary>
+            The Select2PositionContainer item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.Select2PositionContainerInfo">
+            <summary>
+            The Select2PositionContainer item info.
+            </summary>
+        </member>
         <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ColMd9">
             <summary>
             The ColMd9 folder.
@@ -824,6 +834,16 @@
         <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.LiTagKinhDoanhBanHangInfo">
             <summary>
             The LiTagKinhDoanhBanHang item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.Select2ResultsOptions">
+            <summary>
+            The Select2ResultsOptions item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.Select2GenderResultsFolder.Select2ResultsOptionsInfo">
+            <summary>
+            The Select2ResultsOptions item info.
             </summary>
         </member>
         <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders.DivTagRowFolder">

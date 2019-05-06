@@ -83,8 +83,8 @@ namespace ATP_TopCV
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.Click("234;36");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'trang1{LShiftKey down}@{LShiftKey up}gmail.com' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(1));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.PressKeys("trang1{LShiftKey down}@{LShiftKey up}gmail.com");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'trangdth1{LShiftKey down}@{LShiftKey up}gmail.com' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(1));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.PressKeys("trangdth1{LShiftKey down}@{LShiftKey up}gmail.com");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Password' at 172;14.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo, new RecordItemIndex(2));
@@ -115,11 +115,15 @@ namespace ATP_TopCV
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất.Click("51;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, new RecordItemIndex(9));
-            Validate.NotExists(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Mật khẩu phải chứa 1 chữ hoa, 1 chữ thường, 1 số và 1 ký tự đặc biệt!') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, new RecordItemIndex(9));
+            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, "InnerText", "Mật khẩu phải chứa 1 chữ hoa, 1 chữ thường, 1 số và 1 ký tự đặc biệt!");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 210;27.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(10));
+            //Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, new RecordItemIndex(10));
+            //Validate.NotExists(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo);
+            //Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 210;27.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(11));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại.Click("210;27");
             Delay.Milliseconds(200);
             

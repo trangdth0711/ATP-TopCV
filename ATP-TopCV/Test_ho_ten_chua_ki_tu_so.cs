@@ -123,11 +123,15 @@ namespace ATP_TopCV
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất.Click("42;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'Screenshot1' with region {X=2,Y=4,Width=391,Height=172}) on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalBody'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalBodyInfo, new RecordItemIndex(11));
-            Validate.CompareImage(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalBodyInfo, ModalBody_Screenshot1, ModalBody_Screenshot1_Options);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Họ và tên không hợp lệ.') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessage'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, new RecordItemIndex(11));
+            Validate.AttributeEqual(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalErrorMessageInfo, "InnerText", "Họ và tên không hợp lệ.");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 181;14.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(12));
+            //Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'Screenshot1' with region {X=2,Y=4,Width=391,Height=172}) on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalBody'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalBodyInfo, new RecordItemIndex(12));
+            //Validate.CompareImage(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ModalBodyInfo, ModalBody_Screenshot1, ModalBody_Screenshot1_Options);
+            //Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 181;14.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(13));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại.Click("181;14");
             Delay.Milliseconds(200);
             
