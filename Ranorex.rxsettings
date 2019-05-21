@@ -417,6 +417,9 @@ rxversion="9.0">
 	<mouse.interpolation.mode>
 		Optimized
 	</mouse.interpolation.mode>
+	<mouse.disableonaction>
+		True
+	</mouse.disableonaction>
 	<plugins.win32.EnableBasicDelphiSupport>
 		True
 	</plugins.win32.EnableBasicDelphiSupport>
@@ -610,7 +613,4 @@ rxversion="9.0">
 	<plugin.webdriver.screenshotUpdate>
 		False
 	</plugin.webdriver.screenshotUpdate>
-	<mouse.disableonaction>
-		True
-	</mouse.disableonaction>
 </configuration>

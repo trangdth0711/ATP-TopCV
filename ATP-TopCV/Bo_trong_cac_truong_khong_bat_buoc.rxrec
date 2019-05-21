@@ -229,7 +229,7 @@ AFFFFABRRRQAUUUUANfqKbRRTAKKKKBH/9k=
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="a5{LShiftKey down}@{LShiftKey up}gmail.com"
+		KeySequence="a8{LShiftKey down}@{LShiftKey up}gmail.com"
 		duration="100ms"
 		enabled="True"
 		optional="False"
@@ -3882,7 +3882,7 @@ rK8Sf8g5P+uo/kaKKAOZooooAKKKKACiiigAooooAKKKKAP/2Q==
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="Cong Ty TNHH Huyền Trang"
+		KeySequence="Công ty TNHH Huyền Trang"
 		duration="100ms"
 		enabled="True"
 		optional="False"

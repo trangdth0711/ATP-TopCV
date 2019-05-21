@@ -342,6 +342,7 @@ rxversion="9.0">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="3aecdddd-e523-4032-9870-5bf5863884e6"
 			name="CloseBrowser"
 			ref="00174f16-7f85-4497-a605-fe656befc972"
@@ -418,7 +419,7 @@ rxversion="9.0">
 			</testcase>
 			<testcase
 			id="482e464e-b6fc-44a1-b35f-363581b4a06d"
-			name="TC-42_Bo_Trong_cac_truong_khong_bat_buoc">
+			name="TC-43+44+45_Bo_Trong_cac_truong_khong_bat_buoc">
 			</testcase>
 			<setup
 			id="4a3d1cfd-cc04-4eef-a7fe-d4f53983dd9e"
@@ -623,7 +624,7 @@ rxversion="9.0">
 			</testcase>
 			<testcase
 			id="733cc4b7-2066-4515-bdde-2926f00dd6af"
-			name="TC-43_Nhap_Hop_le_tat_ca_cac_truong">
+			name="TC-46_Nhap_Hop_le_tat_ca_cac_truong">
 			</testcase>
 			<testmodule
 			id="738dd09c-140c-47c6-9efc-6304af663eb8"
@@ -2138,7 +2139,7 @@ rxversion="9.0">
 					name="Dang_ky_thanh_cong">
 						<testcase
 						id="482e464e-b6fc-44a1-b35f-363581b4a06d"
-						name="TC-42_Bo_Trong_cac_truong_khong_bat_buoc">
+						name="TC-43+44+45_Bo_Trong_cac_truong_khong_bat_buoc">
 							<setup
 							id="431c7954-4978-43ce-bf44-ed641fd7839e"
 							name="setup">
@@ -2162,7 +2163,7 @@ rxversion="9.0">
 						</testcase>
 						<testcase
 						id="733cc4b7-2066-4515-bdde-2926f00dd6af"
-						name="TC-43_Nhap_Hop_le_tat_ca_cac_truong">
+						name="TC-46_Nhap_Hop_le_tat_ca_cac_truong">
 							<setup
 							id="343d4ef0-a5cf-409b-8a44-95ea621ae409"
 							name="setup">
@@ -2200,9 +2201,6 @@ rxversion="9.0">
 			</testcontainer>
 			<testcontainer
 			id="482e464e-b6fc-44a1-b35f-363581b4a06d">
-			</testcontainer>
-			<testcontainer
-			id="733cc4b7-2066-4515-bdde-2926f00dd6af">
 			</testcontainer>
 			<testcontainer
 			id="cc74ca36-247b-4c35-afe0-ee0c91e2196b">
