@@ -83,8 +83,8 @@ namespace ATP_TopCV
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.Click("234;36");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'a6{LShiftKey down}@{LShiftKey up}gmail.com' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(1));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.PressKeys("a6{LShiftKey down}@{LShiftKey up}gmail.com");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'a12{LShiftKey down}@{LShiftKey up}gmail.com' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(1));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.PressKeys("a12{LShiftKey down}@{LShiftKey up}gmail.com");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Password' at 87;16.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo, new RecordItemIndex(2));
@@ -135,8 +135,8 @@ namespace ATP_TopCV
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.TempCompanyName.Click("109;12");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Cong Ty TNHH Huyền Trang' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.TempCompanyName'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.TempCompanyNameInfo, new RecordItemIndex(14));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.TempCompanyName.PressKeys("Cong Ty TNHH Huyền Trang");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Công ty TNHH Huyền Trang' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.TempCompanyName'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.TempCompanyNameInfo, new RecordItemIndex(14));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.TempCompanyName.PressKeys("Công ty TNHH Huyền Trang");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.SomeBTag' at 2;4.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.SomeBTagInfo, new RecordItemIndex(15));

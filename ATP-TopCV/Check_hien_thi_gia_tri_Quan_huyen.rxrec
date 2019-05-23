@@ -1376,7 +1376,7 @@ ndgPnK4AA9PrVSrG8pZxMpwfMf8AktAH/9k=
 		<mouseitem
 		action="Click"
 		button="Left"
-		duration="500ms"
+		duration="100ms"
 		enabled="True"
 		loc="73;20"
 		movetime="300ms"
@@ -1559,7 +1559,128 @@ itVuA28dqrzW3nM7sB85XAAHp9aqVY3lLOJlOD5j/wAloA//2Q==
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
-		enabled="True"
+		enabled="False"
+		optional="False"
+		searchpropertyid="ae3df492-51cd-4c05-ad28-badbd0e1177e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3681b5a5-1729-439f-ad6f-333a2fdba28e"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="585,215,237,40"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						select2-selection__rendered
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						select2-district-selector-container
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;Ba &#272;&#236;nh&#10;
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						&#10;Ba &#272;&#236;nh&#10;
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='tuyendung.topcv.vn']//div[#'personal-info']/div[2]/div/div[10]/div/div/div[2]/div/span/span[1]/span/span[2]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0c9de7d0-841e-453a-bd2c-3cea569839fe">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABQASEDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigCK7JWznZSQRGxBHbisqztLq6tUm/tCZN2eMk98etal7/x43H/X
+Nv5VBo//ACC4f+Bf+hGoavIzavKzIf7Muv8AoJTfr/jR/Zl1/wBBKb9f8a06KfIh8kTM/sy6/wCg
+lN+v+NH9mXX/AEEpv1/xrToo5EHJEzP7Muv+glN+v+NH9mXX/QSm/X/GtOijkQckTM/sy6/6CU36
+/wCNH9mXX/QSm/X/ABrToo5EHJEzP7Muv+glN+v+NH9mXX/QSm/X/GtOijkQckTM/sy6/wCglN+v
++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
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				&#10;Ba &#272;&#236;nh&#10;
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="False"
 		optional="False"
 		searchpropertyid="5c6a4c0e-09af-4d35-889f-a76d0e7f48ae">
 			<comment>
@@ -1677,7 +1798,7 @@ lxdzRY5LA/8AjoqzVFD/AMTWUfT+Qq9QAUUUUAf/2Q==
 		action="Click"
 		button="Left"
 		duration="500ms"
-		enabled="True"
+		enabled="False"
 		loc="4;19"
 		movetime="300ms"
 		optional="False"
@@ -1768,7 +1889,7 @@ OOCM8ZxQBOIICzL9nQY7lBg0xVtWneIQIGTrlBz9PzpkMMgvTKybc7gSNoB5GOnJ/GntC++WRQA+
 		action="Click"
 		button="Left"
 		duration="500ms"
-		enabled="True"
+		enabled="False"
 		loc="5;20"
 		movetime="300ms"
 		optional="False"
@@ -1867,7 +1988,7 @@ NKv3n+v9BQ33k+v9DQv3n+v9BQA6iiigAqPufrUlR9z9aACiiimIKKKKACiiigD/2Q==
 		<validationitem
 		action="AttributeContains"
 		duration="100ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="f666f5c3-71fb-41e4-88b5-deb48f92ef1d">
 			<comment>

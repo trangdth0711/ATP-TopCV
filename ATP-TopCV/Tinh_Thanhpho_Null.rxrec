@@ -229,7 +229,7 @@ AFFFFABRRRQAUUUUANfqKbRRTAKKKKBH/9k=
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="trangdth1{LShiftKey down}@{LShiftKey up}gmail.com"
+		KeySequence="trang0711dth1{LShiftKey down}@{LShiftKey up}gmail.com"
 		duration="100ms"
 		enabled="True"
 		optional="False"
@@ -4700,7 +4700,7 @@ RRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		<validationitem
 		action="AttributeContains"
 		duration="100ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="53f24863-d241-4bfd-91b4-eaaeffa3f541">
 			<comment>

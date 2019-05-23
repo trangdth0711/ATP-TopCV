@@ -113,23 +113,27 @@ namespace ATP_TopCV
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagBaĐinh' at 73;20.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagBaĐinhInfo, new RecordItemIndex(8));
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.LiTagBaĐinh.Click("73;20");
-            Delay.Milliseconds(200);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\nBa Đình\n') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow1'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow1Info, new RecordItemIndex(9));
-            Validate.AttributeEqual(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow1Info, "InnerText", "\nBa Đình\n");
-            Delay.Milliseconds(100);
+            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\nBa Đình\n') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow2'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow2Info, new RecordItemIndex(9));
+            //Validate.AttributeEqual(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow2Info, "InnerText", "\nBa Đình\n");
+            //Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.SomeSpanTag' at 4;19.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.SomeSpanTagInfo, new RecordItemIndex(10));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.SomeSpanTag.Click("4;19");
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\nBa Đình\n') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow1'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow1Info, new RecordItemIndex(10));
+            //Validate.AttributeEqual(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow1Info, "InnerText", "\nBa Đình\n");
+            //Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow2' at 5;20.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow2Info, new RecordItemIndex(11));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow2.Click("5;20");
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.SomeSpanTag' at 4;19.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.SomeSpanTagInfo, new RecordItemIndex(11));
+            //repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ColMd9.SomeSpanTag.Click("4;19");
+            //Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'No results found') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NoResultsFound'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NoResultsFoundInfo, new RecordItemIndex(12));
-            Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NoResultsFoundInfo, "InnerText", "No results found");
-            Delay.Milliseconds(100);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow2' at 5;20.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow2Info, new RecordItemIndex(12));
+            //repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.DivTagRow.Select2SelectionArrow2.Click("5;20");
+            //Delay.Milliseconds(200);
+            
+            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'No results found') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NoResultsFound'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NoResultsFoundInfo, new RecordItemIndex(13));
+            //Validate.AttributeContains(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Select2GenderResults.NoResultsFoundInfo, "InnerText", "No results found");
+            //Delay.Milliseconds(100);
             
         }
 

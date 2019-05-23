@@ -114,7 +114,7 @@ namespace ATP_TopCV
         { get { return repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordConfirmationInfo.GetMa_hoa_confirm_password1(new Rectangle(0, 4, 402, 32)); } }
 
         Imaging.FindOptions PasswordConfirmation_Ma_hoa_confirm_password1_Options
-        { get { return Imaging.FindOptions.Parse("1;None;0,4,402,32;True;10000000;0ms"); } }
+        { get { return Imaging.FindOptions.Parse("0.8;None;0,4,402,32;True;10000000;0ms"); } }
 
 #endregion
     }

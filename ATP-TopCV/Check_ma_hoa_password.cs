@@ -79,16 +79,16 @@ namespace ATP_TopCV
 
             Init();
 
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email' at 141;26.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(0));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 271;19.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(0));
+            //repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại.Click("271;19");
+            //Delay.Milliseconds(200);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email' at 141;26.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(1));
             //repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.Click("141;26");
             //Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Password' at 83;23.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo, new RecordItemIndex(1));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Password' at 83;23.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo, new RecordItemIndex(2));
             //repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Password.Click("83;23");
-            //Delay.Milliseconds(200);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại' at 271;19.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLạiInfo, new RecordItemIndex(2));
-            //repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ĐongLại.Click("271;19");
             //Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Password' at 83;23.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo, new RecordItemIndex(3));
@@ -114,7 +114,7 @@ namespace ATP_TopCV
         { get { return repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo.GetMa_hoa_password1(new Rectangle(0, 0, 408, 40)); } }
 
         Imaging.FindOptions Password_Ma_hoa_password1_Options
-        { get { return Imaging.FindOptions.Parse("1;None;0,0,408,40;True;10000000;0ms"); } }
+        { get { return Imaging.FindOptions.Parse("0.9;None;0,0,408,40;True;10000000;0ms"); } }
 
 #endregion
     }
