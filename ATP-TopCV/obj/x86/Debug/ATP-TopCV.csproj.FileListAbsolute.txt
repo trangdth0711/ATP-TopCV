@@ -31,3 +31,14 @@ C:\ATP-TopCV\ATP-TopCV\ATP-TopCV\bin\Debug\Ranorex.Core.Resolver.dll
 C:\ATP-TopCV\ATP-TopCV\ATP-TopCV\obj\x86\Debug\ATP-TopCV.csprojResolveAssemblyReference.cache
 C:\ATP-TopCV\ATP-TopCV\ATP-TopCV\obj\x86\Debug\ATP-TopCV.exe
 C:\ATP-TopCV\ATP-TopCV\ATP-TopCV\obj\x86\Debug\ATP-TopCV.pdb
+C:\Users\SmartOSC\Desktop\ATP\ATP-TopCV\ATP-TopCV\bin\Debug\ATP_TopCV.rxtmg
+C:\Users\SmartOSC\Desktop\ATP\ATP-TopCV\ATP-TopCV\bin\Debug\ATP_TopCV.rxtst
+C:\Users\SmartOSC\Desktop\ATP\ATP-TopCV\ATP-TopCV\bin\Debug\RepositoryImages\ATP_TopCVRepository74fd19c5.rximgres
+C:\Users\SmartOSC\Desktop\ATP\ATP-TopCV\ATP-TopCV\bin\Debug\ATP-TopCV.exe.config
+C:\Users\SmartOSC\Desktop\ATP\ATP-TopCV\ATP-TopCV\bin\Debug\ATP-TopCV.xml
+C:\Users\SmartOSC\Desktop\ATP\ATP-TopCV\ATP-TopCV\bin\Debug\ATP-TopCV.exe
+C:\Users\SmartOSC\Desktop\ATP\ATP-TopCV\ATP-TopCV\bin\Debug\ATP-TopCV.pdb
+C:\Users\SmartOSC\Desktop\ATP\ATP-TopCV\ATP-TopCV\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\SmartOSC\Desktop\ATP\ATP-TopCV\ATP-TopCV\obj\x86\Debug\ATP-TopCV.csprojResolveAssemblyReference.cache
+C:\Users\SmartOSC\Desktop\ATP\ATP-TopCV\ATP-TopCV\obj\x86\Debug\ATP-TopCV.exe
+C:\Users\SmartOSC\Desktop\ATP\ATP-TopCV\ATP-TopCV\obj\x86\Debug\ATP-TopCV.pdb

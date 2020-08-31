@@ -83,8 +83,8 @@ namespace ATP_TopCV
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.Click("234;36");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'a11{LShiftKey down}@{LShiftKey up}gmail.com' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(1));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.PressKeys("a11{LShiftKey down}@{LShiftKey up}gmail.com");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'a40{LShiftKey down}@{LShiftKey up}gmail.com' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(1));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.PressKeys("a40{LShiftKey down}@{LShiftKey up}gmail.com");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Password' at 87;16.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo, new RecordItemIndex(2));
@@ -159,21 +159,36 @@ namespace ATP_TopCV
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.HoanTất.Click("42;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SavePassword.PushButton' at 13;11.", repo.SavePassword.PushButtonInfo, new RecordItemIndex(20));
-            repo.SavePassword.PushButton.Click("13;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SavePassword.Close' at 13;11.", repo.SavePassword.CloseInfo, new RecordItemIndex(20));
+            repo.SavePassword.Close.Click("13;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Chúc mừng anh/chị đã đăng kí thành công tài khoản Nhà tuyển dụng của TOPCV. Vui lòng kiểm tra email xác nhận đăng kí và làm theo hướng dẫn trong email để tiếp tục sử dụng dịch vụ TOPCV.') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ChucMừngAnhChịĐaĐăngKiThanhCong'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ChucMừngAnhChịĐaĐăngKiThanhCongInfo, new RecordItemIndex(21));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SavePassword.PushButton' at 13;11.", repo.SavePassword.PushButtonInfo, new RecordItemIndex(21));
+            //repo.SavePassword.PushButton.Click("13;11");
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Chúc mừng anh/chị đã đăng kí thành công tài khoản Nhà tuyển dụng của TOPCV. Vui lòng kiểm tra email xác nhận đăng kí và làm theo hướng dẫn trong email để tiếp tục sử dụng dịch vụ TOPCV.') on item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ChucMừngAnhChịĐaĐăngKiThanhCong'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ChucMừngAnhChịĐaĐăngKiThanhCongInfo, new RecordItemIndex(22));
             Validate.AttributeEqual(repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ChucMừngAnhChịĐaĐăngKiThanhCongInfo, "InnerText", "Chúc mừng anh/chị đã đăng kí thành công tài khoản Nhà tuyển dụng của TOPCV. Vui lòng kiểm tra email xác nhận đăng kí và làm theo hướng dẫn trong email để tiếp tục sử dụng dịch vụ TOPCV.");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.TaiKhoản' at 61;38.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.TaiKhoảnInfo, new RecordItemIndex(22));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.TaiKhoản.Click("61;38");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.ATagTaiKhoản' at 38;19.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ATagTaiKhoảnInfo, new RecordItemIndex(23));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ATagTaiKhoản.Click("38;19");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Thoat' at 182;11.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ThoatInfo, new RecordItemIndex(23));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Thoat.Click("182;11");
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(24));
+            Delay.Duration(100, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Thoat' at 44;13.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ThoatInfo, new RecordItemIndex(25));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Thoat.Click("44;13");
             Delay.Milliseconds(200);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.TaiKhoản' at 61;38.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.TaiKhoảnInfo, new RecordItemIndex(26));
+            //repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.TaiKhoản.Click("61;38");
+            //Delay.Milliseconds(200);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Thoat' at 182;11.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ThoatInfo, new RecordItemIndex(27));
+            //repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Thoat.Click("182;11");
+            //Delay.Milliseconds(200);
             
         }
 

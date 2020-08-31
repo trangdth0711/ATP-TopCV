@@ -314,6 +314,7 @@ namespace ATP_TopCV
             RepoItemInfo _navbarInfo;
             RepoItemInfo _trangchủInfo;
             RepoItemInfo _select2positioncontainerInfo;
+            RepoItemInfo _atagtaikhoảnInfo;
 
             /// <summary>
             /// Creates a new ĐăngKyTaiKhoảnNhaTuyểnDụng  folder.
@@ -348,6 +349,7 @@ namespace ATP_TopCV
                 _navbarInfo = new RepoItemInfo(this, "Navbar", ".//div[#'navbar']", 30000, null, "0a5baa93-1bcc-40ed-afdd-e10568642d47");
                 _trangchủInfo = new RepoItemInfo(this, "TrangChủ", ".//div[#'navbar']//a[@innertext='Trang chủ']", 30000, null, "308c9ffb-9fd9-4928-891e-aab654976b5d");
                 _select2positioncontainerInfo = new RepoItemInfo(this, "Select2PositionContainer", ".//span[#'select2-position-container']", 30000, null, "9ca798bd-8358-4e33-b39e-37a14dc24277");
+                _atagtaikhoảnInfo = new RepoItemInfo(this, "ATagTaiKhoản", ".//div[#'navbar']//a[@innertext='Tài khoản']", 30000, null, "9011d25f-8fc6-433c-9616-15158da9f8e7");
             }
 
             /// <summary>
@@ -1210,6 +1212,30 @@ namespace ATP_TopCV
             }
 
             /// <summary>
+            /// The ATagTaiKhoản item.
+            /// </summary>
+            [RepositoryItem("9011d25f-8fc6-433c-9616-15158da9f8e7")]
+            public virtual Ranorex.ATag ATagTaiKhoản
+            {
+                get
+                {
+                    return _atagtaikhoảnInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ATagTaiKhoản item info.
+            /// </summary>
+            [RepositoryItemInfo("9011d25f-8fc6-433c-9616-15158da9f8e7")]
+            public virtual RepoItemInfo ATagTaiKhoảnInfo
+            {
+                get
+                {
+                    return _atagtaikhoảnInfo;
+                }
+            }
+
+            /// <summary>
             /// The ColMd9 folder.
             /// </summary>
             [RepositoryFolder("b7601484-9ab3-4aec-b0df-57aefeead214")]
@@ -2066,6 +2092,7 @@ namespace ATP_TopCV
         public partial class SavePasswordAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _pushbuttonInfo;
+            RepoItemInfo _closeInfo;
 
             /// <summary>
             /// Creates a new SavePassword  folder.
@@ -2074,6 +2101,7 @@ namespace ATP_TopCV
                     base("SavePassword", "/form[@title='Save password?']", parentFolder, 30000, null, true, "efecb01f-bac5-4b91-9197-6e9479053fc2", "")
             {
                 _pushbuttonInfo = new RepoItemInfo(this, "PushButton", "element[@accessiblename='Save password?']//button[@accessiblename='']", 30000, null, "74500ebf-a0c3-4d0d-b52e-99921a5ca842");
+                _closeInfo = new RepoItemInfo(this, "Close", "container/container[1]/button[@accessiblename='Close']", 30000, null, "056804a9-1b82-4b2f-b190-d104354b0f82");
             }
 
             /// <summary>
@@ -2121,6 +2149,30 @@ namespace ATP_TopCV
                 get
                 {
                     return _pushbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Close item.
+            /// </summary>
+            [RepositoryItem("056804a9-1b82-4b2f-b190-d104354b0f82")]
+            public virtual Ranorex.Button Close
+            {
+                get
+                {
+                    return _closeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close item info.
+            /// </summary>
+            [RepositoryItemInfo("056804a9-1b82-4b2f-b190-d104354b0f82")]
+            public virtual RepoItemInfo CloseInfo
+            {
+                get
+                {
+                    return _closeInfo;
                 }
             }
         }

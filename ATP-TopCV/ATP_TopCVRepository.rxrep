@@ -1059,6 +1059,16 @@ RK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain='tuyendung.topcv.vn']//span[#'select2-position-container']
 			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="9011d25f-8fc6-433c-9616-15158da9f8e7"
+			name="ATagTaiKhoản"
+			refimgid="56ada0fd-4867-4770-8f69-cccadcb228a9"
+			refpath="/dom[@domain='tuyendung.topcv.vn']//div[#'navbar']/ul/li[7]/a[@innertext='Tài khoản']"
+			searchtimeout="30000ms">
+				/dom[@domain='tuyendung.topcv.vn']//div[#'navbar']//a[@innertext='T&#224;i kho&#7843;n']
+			</item>
 			<basepath>
 				/dom[@domain='tuyendung.topcv.vn']
 			</basepath>
@@ -1096,6 +1106,16 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			refpath="/form[@title='Save password?']/element/container/container[1]/button[@accessiblename='']"
 			searchtimeout="30000ms">
 				/form[@title='Save password?']/element[@accessiblename='Save password?']//button[@accessiblename='']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="056804a9-1b82-4b2f-b190-d104354b0f82"
+			name="Close"
+			refimgid="8f484c31-aa78-4e16-b5f9-ef2afa5aaea7"
+			refpath="/form[@title='Save password?']/container/container[1]/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title='Save password?']/container/container[1]/button[@accessiblename='Close']
 			</item>
 			<basepath>
 				/form[@title='Save password?']

@@ -1,40 +1,10 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="ATP_TopCV.rxtst" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="Test_max_length_ho_ten.rxrec" />
     <Element value="ATP_TopCV.rxtst" />
-    <Element value="Tinh_Thanhpho_Null.rxrec" />
-    <Element value="Check_hien_thi_gia_tri_Quan_huyen.rxrec" />
-    <Element value="Nhap_tat_ca_cac_truong.rxrec" />
-    <Element value="Bo_trong_cac_truong_khong_bat_buoc.rxrec" />
-    <Element value="Uncheck_button_Toi_dong_y_DK_TOPCV.rxrec" />
-    <Element value="Test_hien_thi_gia_tri_Vi_tri_cong_tac.rxrec" />
-    <Element value="Test_Vi_tri_cong_tac_Null.rxrec" />
-    <Element value="Test_trim_space_Ten_cong_ty.rxrec" />
-    <Element value="Test_max_length_Ten_cong_ty.rxrec" />
-    <Element value="Test_min_length_Ten_cong_ty.rxrec" />
-    <Element value="Test_Ten_cong_ty_Null.rxrec" />
-    <Element value="Test_chon_gia_tri_gioi_tinh.rxrec" />
-    <Element value="Test_gioi_tinh_Null.rxrec" />
-    <Element value="Test_trim_space_SDT.rxrec" />
-    <Element value="Test_max_length_SDT.rxrec" />
-    <Element value="Test_min_length_SDT.rxrec" />
-    <Element value="Test_SDT_invalid.rxrec" />
-    <Element value="Test_SDT_ca_nhan_null.rxrec" />
-    <Element value="Test_trim_space_Ho_ten.rxrec" />
-    <Element value="Test_ho_ten_chua_ki_tu_so.rxrec" />
-    <Element value="Test_min_length_ho_ten.rxrec" />
-    <Element value="Check_Ho_va_ten_Null.rxrec" />
-    <Element value="Confirm_PassWord_not_match_Password.rxrec" />
-    <Element value="Confirm_PassWord_Null.rxrec" />
-    <Element value="Check_strim_space_Password.rxrec" />
-    <Element value="Password_invalid.rxrec" />
-    <Element value="Test_max_length_password.rxrec" />
-    <Element value="Test_min_lenght_password.rxrec" />
-    <Element value="Password_Null.rxrec" />
-    <Element value="Nhap_tat_ca_cac_truong.cs" />
-    <Element value="OpenBrowser.rxrec" />
-    <Element value="Email_null.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

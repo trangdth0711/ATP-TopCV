@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d3631e4c735883f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SmartOSC"
+		rxversion="9.0.1.0"
+		host="DESKTOP-RDVAC2P"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="8/31/2020 3:45:47 PM"
+		timestampiso="2020-08-31T08:45:47"
+		endtime="8/31/2020 3:45:52 PM"
+		timeoutfactor="1"
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.270"
+			timeRelativeToTestModuleStartTime="00:05.270"
+			timeWallClock="15:45:52"
+			time="00:05.270"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tuyendung.topcv.vn/sign-up' with browser 'chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\SmartOSC\Desktop\ATP\ATP-TopCV\ATP-TopCV\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

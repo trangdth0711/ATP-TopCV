@@ -384,6 +384,16 @@
             The Select2PositionContainer item info.
             </summary>
         </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ATagTaiKhoản">
+            <summary>
+            The ATagTaiKhoản item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ATagTaiKhoảnInfo">
+            <summary>
+            The ATagTaiKhoản item info.
+            </summary>
+        </member>
         <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.ĐăngKyTaiKhoảnNhaTuyểnDụngAppFolder.ColMd9">
             <summary>
             The ColMd9 folder.
@@ -924,6 +934,16 @@
         <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.SavePasswordAppFolder.PushButtonInfo">
             <summary>
             The PushButton item info.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.SavePasswordAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.ATP_TopCVRepositoryFolders.SavePasswordAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
             </summary>
         </member>
         <member name="T:ATP_TopCV.ATP_TopCVRepositoryFolders.DropdownAppFolder">
