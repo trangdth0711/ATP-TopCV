@@ -83,8 +83,8 @@ namespace ATP_TopCV
             repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.Click("234;36");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'a41{LShiftKey down}@{LShiftKey up}gmail.com' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(1));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.PressKeys("a41{LShiftKey down}@{LShiftKey up}gmail.com");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'a62{LShiftKey down}@{LShiftKey up}gmail.com' with focus on 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Email'.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.EmailInfo, new RecordItemIndex(1));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Email.PressKeys("a62{LShiftKey down}@{LShiftKey up}gmail.com");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Password' at 87;16.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.PasswordInfo, new RecordItemIndex(2));
@@ -202,8 +202,8 @@ namespace ATP_TopCV
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(30));
             Delay.Duration(100, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Thoat' at 182;11.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ThoatInfo, new RecordItemIndex(31));
-            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Thoat.Click("182;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ĐăngKyTaiKhoảnNhaTuyểnDụng.Thoat' at Center.", repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.ThoatInfo, new RecordItemIndex(31));
+            repo.ĐăngKyTaiKhoảnNhaTuyểnDụng.Thoat.Click();
             Delay.Milliseconds(200);
             
         }

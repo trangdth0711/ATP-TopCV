@@ -1,0 +1,12 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "ATP_TopCV",
+    "RunConfig": "Other"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "TestSuite1",
+    "RunConfig": "TestRun1"
+  }
+]

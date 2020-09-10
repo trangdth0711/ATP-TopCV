@@ -229,7 +229,7 @@ AFFFFABRRRQAUUUUANfqKbRRTAKKKKBH/9k=
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="a41{LShiftKey down}@{LShiftKey up}gmail.com"
+		KeySequence="a62{LShiftKey down}@{LShiftKey up}gmail.com"
 		duration="100ms"
 		enabled="True"
 		optional="False"
@@ -7196,7 +7196,7 @@ iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="182;11"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="acc106a6-e07d-4290-82d3-c63f147db0b7"

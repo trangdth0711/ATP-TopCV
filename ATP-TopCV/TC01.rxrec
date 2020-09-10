@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="222df493-ffd3-45f2-a3af-da088657a093"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="TC01"
+	namespace="ATP_TopCV">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="56555126-6cbc-4f5d-80ab-7c4a19d3f06a"
+	name="ATP_TopCVRepository"
+	relativepath="ATP_TopCVRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ATP_TopCVRepository"
+		namespace="ATP_TopCV">
+		</codegen>
+		<rootfolder
+		id="74fd19c5-ce83-4d38-acf1-09f47b5f1384"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		TC01.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

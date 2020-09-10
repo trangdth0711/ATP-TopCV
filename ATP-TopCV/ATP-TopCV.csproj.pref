@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="ATP_TopCV.rxtst" />
-  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="ATP_TopCV.rxtst" />
+    <Element value="Nhap_tat_ca_cac_truong.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

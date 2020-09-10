@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="11978c1a78aba55"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Trangdth"
+		rxversion="9.0.1.0"
+		host="DESKTOP-OT0RBS6"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="9/3/2020 9:47:16 PM"
+		timestampiso="2020-09-03T14:47:16"
+		endtime="9/3/2020 9:47:20 PM"
+		timeoutfactor="1"
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.418"
+			timeRelativeToTestModuleStartTime="00:04.419"
+			timeWallClock="21:47:20"
+			time="00:04.418"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.0/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.584"
+			timeRelativeToTestModuleStartTime="00:04.585"
+			timeWallClock="21:47:20"
+			time="00:04.584"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tuyendung.topcv.vn/sign-up' with browser 'chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Trangdth\Desktop\ATP\ATP-TopCV\ATP-TopCV\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1707,6 +1707,45 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="T:ATP_TopCV.TC01">
+             <summary>
+            The TC01 recording.
+             </summary>
+        </member>
+        <member name="F:ATP_TopCV.TC01.repo">
+            <summary>
+            Holds an instance of the ATP_TopCVRepository repository.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.TC01.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.TC01.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ATP_TopCV.TC01.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ATP_TopCV.TC01.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ATP_TopCV.TC01.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ATP_TopCV.TC01.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:ATP_TopCV.Test_chon_gia_tri_gioi_tinh">
              <summary>
             The Test_chon_gia_tri_gioi_tinh recording.
